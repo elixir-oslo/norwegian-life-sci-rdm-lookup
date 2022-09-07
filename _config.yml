@@ -1,6 +1,6 @@
 title: Data Management LookUp
 
-description: > 
+description: >
   RDM guide for life scientists in Norway.
 
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.18.0
@@ -8,23 +8,21 @@ remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.18.0
 permalink: pretty
 
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
       type: "pages"
     values:
+      permalink: /:basename
       layout: "page"
+      sidebar: main
   -
     scope:
-      path: "project"
+      path: "pages/about"
       type: "pages"
     values:
+      permalink: /:basename
       sidebar: about
-  -
-    scope:
-      path: "docs"
-      type: "pages"
-    values:
-      sidebar: documentation
   -
     scope:
       path: "pages/contribute"
@@ -33,10 +31,10 @@ defaults:
       permalink: /:basename
       sidebar: contribute
 
-theme_variables: 
+theme_variables:
   theme_color: 045373
 
 plugins:
   - jemoji
   - jekyll-redirect-from
-  - jekyll-sitemap 
+  - jekyll-sitemap
