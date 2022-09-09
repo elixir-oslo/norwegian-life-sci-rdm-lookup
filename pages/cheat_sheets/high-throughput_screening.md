@@ -5,20 +5,18 @@ contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 page_id: [<!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->]
 ---
 
-## Domain Title
-<!--Example: High-Throughput Screening-->
+## High-throughput screening
 
 ### Description
 
 
 ### Type of data/experiments/methods
 #### Type 1
-- Data name and format e.g. [mzML](https://fairsharing.org/FAIRsharing.26dmba)
-- Open Format
+- [Tab-separated values (TSV)](https://fairsharing.org/bsg-s001547)
+- [Comma-separated values (CSV)](https://fairsharing.org/bsg-s001546)
 
-#### Type 2
-- Data name and format e.g. [mzML](https://fairsharing.org/FAIRsharing.26dmba)
-- Open Format
+#### multidimensional image data
+[Open Microscopy Environment - Tagged Image File Format (OME-TIFF)](https://fairsharing.org/bsg-s000537)
 
 ### Metadata Standards
 #### Standard 1
