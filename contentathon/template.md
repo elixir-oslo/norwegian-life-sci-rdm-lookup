@@ -37,6 +37,7 @@ page_id: [<!---REPLACE THIS with a shortened page name, with small letters and s
 <!--Add information about e.g. NeLS-->
 
 ### Data Deposition Repository
+<!--If relevant, make sure to mention what file formats are expected to be deposited-->
 
 #### Repository Name 1
 - Standard License
