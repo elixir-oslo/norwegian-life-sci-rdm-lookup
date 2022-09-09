@@ -5,6 +5,8 @@
 
 ## 9:15-10:00 Session 1: Exemplary DMP Cheat Sheet
 - Summarising main points from exemplary DMPs and adding relevant links
+- Note: Deadline to submit cheat sheet is 23rd of September
+
 ## 10:00-10:15 Session 1: Summary
 
 ## 10:15-10:30 Break
