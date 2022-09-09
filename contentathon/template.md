@@ -9,7 +9,7 @@ page_id: [<!---REPLACE THIS with a shortened page name, with small letters and s
 <!--Example: High-Throughput Screening-->
 
 ### Description
-
+<!--Write about th domain, its purpose/use, and 2-3 lines on data management challenge when it comes to said domain research in Norway-->
 
 ### Type of data/experiments/methods
 #### Type 1
