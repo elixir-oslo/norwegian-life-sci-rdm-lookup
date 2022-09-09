@@ -10,7 +10,7 @@
 ## 10:15-10:30 Break
 
 ## 10:30-10:45 Session 2: Introduction 
-- RDMkit (N), FAIR-Cookbook (F), and openscience.no (K)
+- RDMkit (Nazeefa), FAIR-Cookbook (Federico), and openscience.no (Korbinian)
 
 ## 10:45-11:45 Session 2: Gap Analysis
 [Here is a link to Google document to share your review/analysis](https://docs.google.com/document/d/1ELtQxinp8uFgTtFOTH6uJjjJrofpXEpe0gzro6_JTVs/edit)
