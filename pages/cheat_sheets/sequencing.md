@@ -8,7 +8,7 @@ page_id: [<!---REPLACE THIS with a shortened page name, with small letters and s
 ## High-Throughput Sequencing
 
 ### Description
-High-throughput sequencing (HTS) can range from metagenome sequencing to whole-genome sequencing and proteome sequencing, and can be performed through various applications such as short-read (Illumina) platforms and long-read (PacBio, and. nanopore) platforms. Here, we provide information on data
+High-throughput sequencing (HTS) can range from metagenome sequencing to whole-genome sequencing and proteome sequencing, and can be performed through various applications such as short-read (Illumina) platforms and long-read (PacBio, and. nanopore) platforms. Here, we provide information on data derived from various sequencing applications along with considerations for relevent standards, licensing, deposition repositories, and national policies. To make improvements to this page, we suggest to create an issue on GitHub or submit a Pull Request (PR).
 
 
 ### Type of data/experiments/methods
