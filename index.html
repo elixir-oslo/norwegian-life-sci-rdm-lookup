@@ -1,0 +1,54 @@
+---
+search_exclude: true
+layout: none
+---
+
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+    {% include topnav.html search=false %}
+    <section class="container mb-5">
+        <div class="card border border-primary text-primary text-center">
+            <div class="card-body">
+                <h5 class="card-title fs-3">This website is under construction</h5>
+                <p class="card-text">Don't hesitate to <a href="https://github.com/elixir-oslo/biomeddata/issues">open an issue</a> or to contact us through <a href="mailto:biomeddata@uib.no">mail</a> to share feedback.</p>
+            </div>
+        </div>
+    </section>
+    <div class="landingpage">
+        <section class="container mb-5">
+            <div>
+                <p class="text-center lead">The lookup is designed to helps you understand data standards, tools, and resources relevant to your life sciences research domain and therefore provides the context to help you manage data in a Findable, Accessible, Interopraable, and Resuable (FAIR) way.
+                </p>
+            </div>
+        </section>
+        <section id="search-section" class="bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="no-anchor text-center mb-3">What can we help you find?</h2>
+                    <div class="position-relative">
+                        <div class="d-flex justify-content-center">
+                            <form role="search" class="input-group">
+                                <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="search" id="search-input" class="search-input form-control form-control-lg bg-white" tabindex="0"
+                                    placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
+                            </form>
+                            <div id="search-results" class="search-results"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     </div>
+    {%- if site.theme_variables.back_to_top or site.theme_variables.back_to_top == nil %}
+    <button id="back-to-top" class="btn btn-primary" type="button" aria-hidden="true" onclick="topFunction()">
+        <i class="fa-solid fa-arrow-up"></i><span class="ms-2 d-none d-sm-inline">Back to top</span>
+    </button>
+    {%- endif %}
+    {% include footer.html %}
+    {% include cookie-popup.html %}
+</body>
+
+</html>
