@@ -6,6 +6,7 @@
 ## 9:15-10:00 Session 1: Exemplary DMP Cheat Sheet
 - Summarising main points from exemplary DMPs and adding relevant links
 - **Note: Deadline to submit cheat sheet is 23rd of September**
+- Add yuor names to contributors list: https://github.com/elixir-oslo/biomeddata/blob/main/_data/CONTRIBUTORS.yml
 
 ## 10:00-10:15 Session 1: Summary
 
