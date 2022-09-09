@@ -14,7 +14,7 @@
 
 ## 10:45-11:45 Session 2: Gap Analysis
 [Here is a link to Google document to share your review/analysis](https://docs.google.com/document/d/1ELtQxinp8uFgTtFOTH6uJjjJrofpXEpe0gzro6_JTVs/edit)
-- Identify what is missing, in a context of RDM, FAIR-Cookboo, and openscience.no
+- Identify what is missing, in a context of RDM, FAIR-Cookbook, and openscience.no
 - To better review content, think of what RI user may need in a context of e.g. national resources, etc.
 
 ## 11:45-12:00: Summary, 15 minutes
