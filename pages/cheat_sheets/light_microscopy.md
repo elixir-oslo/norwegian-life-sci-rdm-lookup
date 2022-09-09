@@ -5,33 +5,35 @@ contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 page_id: [<!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->]
 ---
 
-## Domain Title
+## Light Microscopy
 <!--Example: High-Throughput Screening-->
 
+
 ### Description
+Light microscopy technologies has been widely adopted to mordern biological and medical research projects. As the field grows, the number of imaging technique, processing method as well as the size of the data increases every day. To avoid chaos in the late stage of project period, the data management of light microscopy data need to considered, planed and executed throughout the data life cycle.
 
 
 ### Type of data/experiments/methods
-#### Type 1
-- Data name and format e.g. [mzML](https://fairsharing.org/FAIRsharing.26dmba)
-- Open Format
+#### Type 1 CZI
+- Data name and format e.g. [CZI-zeiss](https://www.zeiss.com/microscopy/en/products/software/zeiss-zen/czi-image-file-format.html)
+- Proprietary format
 
-#### Type 2
-- Data name and format e.g. [mzML](https://fairsharing.org/FAIRsharing.26dmba)
+#### Type 2 OME-tiff
+- Data name and format e.g. [OME-tiff](https://doi.org/10.25504/FAIRsharing.cq8tg2)
 - Open Format
 
 ### Metadata Standards
-#### Standard 1
+#### REMBI
 - Ontologies
 - Controlled vocabularies
-- FAIRsharing entry link
+- (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8606015/)
 
 ### Sources for Reusable Data
-#### Source name 1 
+#### IDR
 - Description e.g. reference genome assembly
 - Standard License
 - Identifiers
-- How to access
+- [How to access](https://idr.openmicroscopy.org/)
 
 ### Storage and Computing
 <!--Add information about e.g. NeLS-->
