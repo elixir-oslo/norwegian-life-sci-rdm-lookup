@@ -1,8 +1,8 @@
 ---
-title: 
+title: High-Throughput Screening Cheat Sheet
 search_exclude: true
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-page_id: [<!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->]
+contributors: [Federico Bianchini, Alexandra Gade]
+page_id: [HTS]
 ---
 
 ## High-throughput screening
@@ -22,8 +22,23 @@ page_id: [<!---REPLACE THIS with a shortened page name, with small letters and s
 [Flow Cytometry Data File Standard (FCS)](https://fairsharing.org/bsg-s000565)
 
 ### Metadata Standards
-#### EU Openscreen
+#### General
+- Ontologies:
+  - [IUPAC Chemical Identifier (InChI) for chemical structures](https://fairsharing.org/bsg-s000648)
+- Standards:
+  - [Minimum Information about Flow Cytometry (MIFlowCyt)](https://doi.org/10.25504/FAIRsharing.kcnjj2)
+  - [Minimal information for Chemosensitivity Assays (MICHA)](https://fairsharing.org/1435)
 
+#### EU Openscreen
+- Ontologies:
+  - [BioAssay Ontology for assays](https://fairsharing.org/bsg-s002687)
+  - [Cellosaurus Ontology for cell lines](https://doi.org/10.25504/FAIRsharing.hkk309)
+  - [BRENDA Tissue/Enzyme Source Ontology for tissues](https://fairsharing.org/bsg-s000063)
+  - [NCBI Taxonomy for organisms](https://fairsharing.org/bsg-s000154)
+  - [Reactome for biological pathways](https://doi.org/10.25504/FAIRsharing.tf6kj8)
+  - [Gene Ontology as basis for ChemBl drug target subset](https://fairsharing.org/bsg-s000089)
+  - [Units Ontology](https://fairsharing.org/bsg-s002611)
+  
 #### Recommended Metadata for Biological Images (REMBI)
 - Ontologies:
   - [EDAM Bioimaging Ontology (EDAM-BIOIMAGING)](https://doi.org/10.25504/FAIRsharing.g593w1)
@@ -33,11 +48,7 @@ page_id: [<!---REPLACE THIS with a shortened page name, with small letters and s
   - [Open Microscopy Environment Ontology(OME-OWL)](https://fairsharing.org/350)
 - [FAIRsharing entry link](https://fairsharing.org/bsg-s001615)
 
-#### Minimum Information about Flow Cytometry (MIFlowCyt)
-- [FAIRsharing entry link](https://doi.org/10.25504/FAIRsharing.kcnjj2)
 
-#### Minimal information for Chemosensitivity Assays (MICHA)
-- [FAIRsharing entry link](https://fairsharing.org/1435)
 
 ### Sources for Reusable Data
 #### Source name 1 
