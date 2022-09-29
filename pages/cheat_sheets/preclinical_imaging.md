@@ -14,10 +14,10 @@ The DMP exemplar for Preclinical imaging at https://elixir-no.ds-wizard.org/ cov
 
 ### Type of data/experiments/methods
 #### MR Imaging
-Digital Imaging and COmmunications in Medicine, format DICOM https://fairsharing.org/bsg-s000114
+- Digital Imaging and COmmunications in Medicine format [DICOM](https://fairsharing.org/bsg-s000114)
 
-#### type 2
-- Data name and format e.g. (https://fairsharing.org/)
+#### NMR spectroscopy
+- [Nuclear Magnetic Resonance Markup Language](https://fairsharing.org/bsg-s000563)
 
 ### Metadata Standards
 #### Standard 1
