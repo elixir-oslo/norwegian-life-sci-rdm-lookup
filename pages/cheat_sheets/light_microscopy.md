@@ -24,9 +24,12 @@ Light microscopy technologies has been widely adopted to mordern biological and 
 
 ### Metadata Standards
 #### REMBI
-- Ontologies
-- Controlled vocabularies
+- Current status of BioImaging Data Management
 - (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8606015/)
+
+#### EDAM BioImaging Ontology
+-Controlled vocabularies 
+-(https://github.com/edamontology/edam-bioimaging)
 
 ### Sources for Reusable Data
 #### IDR
