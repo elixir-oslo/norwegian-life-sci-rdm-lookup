@@ -42,9 +42,10 @@ Light microscopy technologies has been widely adopted to mordern biological and 
 <!--Add information about e.g. NeLS-->
 [Nels](https://nels.bioinfo.no/pages/user-terms.xhtml)
 
+
 ### Data Deposition Repository
 
-#### Repository Name 1
+#### IDR
 - Standard License
 - Identifiers
 - How to submit data
