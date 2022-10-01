@@ -27,8 +27,17 @@ Light microscopy technologies has been widely adopted to mordern biological and 
 - Propriertary format
 
 #### Type 4 OME-tiff
-- Data name and format e.g. [OME-tiff](https://doi.org/10.25504/FAIRsharing.cq8tg2)
+- [OME-tiff](https://doi.org/10.25504/FAIRsharing.cq8tg2)
 - Open Format
+
+#### Type 5 HDF5
+- [HDF5 Library and File format](https://www.hdfgroup.org/solutions/hdf5)
+- Open Format
+
+
+### Type 6 PNG, JPEG, TIFF
+- Lossy format
+- Not recommended for storing microscopy image
 
 ### Metadata Standards
 #### REMBI
@@ -67,6 +76,9 @@ Light microscopy technologies has been widely adopted to mordern biological and 
 
 ### Ethics and Regulations
 <!--Add information about laws and policies in Norway for relevant data types-->
+- In Norway, same rules on research data applies to the handling of imaging data.
+- [UiO Data Management Regulations](https://www.uio.no/english/for-employees/support/research/research-data-management/index.html)
+
 #### Data Type Name (e.g. Human Data) 
 - Reidentifiable
 
@@ -75,6 +87,8 @@ Light microscopy technologies has been widely adopted to mordern biological and 
 
 ### Services in Norway
 <!--Add one line description-->
+- The subproject BioMedData under [Elixir Norway](https://elixir.no/organization/biomeddata) together with [NALMIN Norway](https://nalmin.no/) provide consultation on request regards imaging data management
+- 
 #### RDM Services
 - Name
 - Description of services offered
