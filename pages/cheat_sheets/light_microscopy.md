@@ -15,10 +15,18 @@ Light microscopy technologies has been widely adopted to mordern biological and 
 
 ### Type of data/experiments/methods
 #### Type 1 CZI
-- Data name and format e.g. [CZI-zeiss](https://www.zeiss.com/microscopy/en/products/software/zeiss-zen/czi-image-file-format.html)
+- Zeiss [CZI-zeiss](https://www.zeiss.com/microscopy/en/products/software/zeiss-zen/czi-image-file-format.html)
 - Proprietary format
 
-#### Type 2 OME-tiff
+#### Type 2 LIF
+- Leica
+- Propriertary format
+
+#### Type 3 ND2
+- Nikon
+- Propriertary format
+
+#### Type 4 OME-tiff
 - Data name and format e.g. [OME-tiff](https://doi.org/10.25504/FAIRsharing.cq8tg2)
 - Open Format
 
@@ -28,8 +36,8 @@ Light microscopy technologies has been widely adopted to mordern biological and 
 - (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8606015/)
 
 #### EDAM BioImaging Ontology
--Controlled vocabularies 
--(https://github.com/edamontology/edam-bioimaging)
+- Controlled vocabularies 
+- (https://github.com/edamontology/edam-bioimaging)
 
 ### Sources for Reusable Data
 #### IDR
