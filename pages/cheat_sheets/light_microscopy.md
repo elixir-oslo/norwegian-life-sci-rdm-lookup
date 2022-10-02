@@ -80,5 +80,6 @@ Light microscopy technologies has been widely adopted to mordern biological and 
 
 ### Reference and Useful Links
 <!--Add a list of relevant external/global tools-->
+- [Global BioImaging Data Management](https://globalbioimaging.org/international-training-courses/repository/image-data)
 - [Protocal for storing correlative microscopy imaging data](https://star-protocols.cell.com/protocols/374)
 - [Electron Microscope Public Image Archive](https://www.ebi.ac.uk/empiar/)
