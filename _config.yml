@@ -17,6 +17,7 @@ theme_variables:
 exclude:
   - README.md
   - /contentathons
+  - /vendor
 
 defaults:
   -
