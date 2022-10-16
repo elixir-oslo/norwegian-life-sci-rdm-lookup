@@ -14,5 +14,5 @@ columns:
   - type: image
     image_width: 100px
     width: 1
-    src: 'images/ELIXIR_Norway_logo_469x469.svg'
+    src: 'assets/img/ELIXIR_Norway_logo_469x469.png'
     alt: ELIXIR Norway
