@@ -1,3 +1,7 @@
+<p align="center">
+<img src="assets/img/lifesci_rdm_readme.png" width="100" float="center"/>
+</p>
+
 # BioMedData
 **FAIR Life Sciences - Data Management Lookup** <br>
 Repository for website development.
