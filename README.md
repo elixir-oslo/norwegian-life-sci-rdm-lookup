@@ -1,3 +1,4 @@
+<!--Added Life Sciences RDM logo--->
 <p align="center">
 <img src="assets/img/lifesci_rdm_readme.png" width="100" float="center"/>
 </p>
