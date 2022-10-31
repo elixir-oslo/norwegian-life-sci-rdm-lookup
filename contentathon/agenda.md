@@ -5,17 +5,21 @@
 
 ## 9:15-10:00 Session 1: Exemplary DMP Cheat Sheet
 - Summarising main points from exemplary DMPs and adding relevant links
+- **Note: Deadline to submit cheat sheet is 23rd of September**
+- Add yuor names to contributors list: https://github.com/elixir-oslo/biomeddata/blob/main/_data/CONTRIBUTORS.yml
+
 ## 10:00-10:15 Session 1: Summary
 
 ## 10:15-10:30 Break
 
 ## 10:30-10:45 Session 2: Introduction 
-- RDMkit (N), FAIR-Cookbook (F), and openscience.no (K)
+- RDMkit (Nazeefa), FAIR-Cookbook (Federico), and openscience.no (Korbinian)
 
 ## 10:45-11:45 Session 2: Gap Analysis
 [Here is a link to Google document to share your review/analysis](https://docs.google.com/document/d/1ELtQxinp8uFgTtFOTH6uJjjJrofpXEpe0gzro6_JTVs/edit)
-- Identify what is missing, in a context of RDM, FAIR-Cookboo, and openscience.no
+- Identify what is missing, in a context of RDM, FAIR-Cookbook, and openscience.no
 - To better review content, think of what RI user may need in a context of e.g. national resources, etc.
+- Action points are listed in the document
 
 ## 11:45-12:00: Summary, 15 minutes
 
