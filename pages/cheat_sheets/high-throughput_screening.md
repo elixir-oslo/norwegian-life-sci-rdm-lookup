@@ -51,9 +51,21 @@ page_id: [HTS]
 
 
 ### Sources for Reusable Data
-#### Source name 1 
+#### PubChem BioAssay
 - Description e.g. reference genome assembly
 - Standard License
+- Identifiers
+- How to access
+
+#### ChEMBL
+- Description
+- License
+- Identifiers
+- How to access
+
+### European Chemical Biology Database (ECBD)
+- Description
+- License
 - Identifiers
 - How to access
 
@@ -62,16 +74,16 @@ page_id: [HTS]
 
 ### Data Deposition Repository
 
-#### Repository Name 1
+#### PubChem BioAssay
 - Standard License
 - Identifiers
-- How to submit data
-- Embargo
+- [Submit chemical structures, annotations, and bioassay results](https://pubchemdocs.ncbi.nlm.nih.gov/submissions-getting-started)
+- [Embargo for up to 1 year](https://pubchemdocs.ncbi.nlm.nih.gov/delay-publication-release)
 
-#### Repository Name 2
+#### ChEMBL
 - Standard License
 - Identifiers
-- How to submit data
+- [Submission template available on FTP server]ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLNTD/ChEMBL_Deposition_Template.tar.gz
 - Embargo
 
 ### Ethics and Regulations
