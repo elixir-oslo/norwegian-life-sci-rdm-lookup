@@ -11,7 +11,7 @@ page_id: [HTS]
 
 
 ### Type of data/experiments/methods
-#### Text files
+#### Text files, e.g. plate reader data
 - [Tab-separated values (TSV)](https://fairsharing.org/bsg-s001547)
 - [Comma-separated values (CSV)](https://fairsharing.org/bsg-s001546)
 
@@ -19,13 +19,16 @@ page_id: [HTS]
 [Open Microscopy Environment - Tagged Image File Format (OME-TIFF)](https://fairsharing.org/bsg-s000537)
 
 #### Flow Cytometry Data
-[Flow Cytometry Data File Standard (FCS)](https://fairsharing.org/bsg-s000565)
+- [Flow Cytometry Data File Standard (FCS)](https://fairsharing.org/bsg-s000565)
+- [XML-based gating definitions (Gating-ML)](https://doi.org/10.25504/FAIRsharing.qpyp5g
+
 
 
 ### Metadata Standards
 #### Standards
-- [Minimum Information about Flow Cytometry (MIFlowCyt)](https://doi.org/10.25504/FAIRsharing.kcnjj2)
 - [Minimal information for Chemosensitivity Assays (MICHA)](https://fairsharing.org/1435)
+- [Recommended Metadata for Biological Images (REMBI)](https://fairsharing.org/bsg-s001615)
+- [Minimum Information about Flow Cytometry (MIFlowCyt)](https://doi.org/10.25504/FAIRsharing.kcnjj2)
 
 #### Ontologies
 - General:
@@ -38,12 +41,15 @@ page_id: [HTS]
   - [Reactome for biological pathways](https://doi.org/10.25504/FAIRsharing.tf6kj8)
   - [Gene Ontology as basis for ChemBl drug target subset](https://fairsharing.org/bsg-s000089)
   - [Units Ontology](https://fairsharing.org/bsg-s002611)
-- [Recommended Metadata for Biological Images (REMBI)](https://fairsharing.org/bsg-s001615)
+- Imaging:
   - [EDAM Bioimaging Ontology (EDAM-BIOIMAGING)](https://doi.org/10.25504/FAIRsharing.g593w1)
   - [Experimental Factor Ontology(EFO)](https://doi.org/10.25504/FAIRsharing.1gr4tz)
   - [NCBI Taxonomy (NCBITAXON)](https://doi.org/10.25504/FAIRsharing.fj07xj)
   - [Biological Imaging methods Ontology (FBbi)](https://doi.org/10.25504/FAIRsharing.ny3z9j)
   - [Open Microscopy Environment Ontology(OME-OWL)](https://fairsharing.org/350)
+- Flow Cytometry:
+  - [Ontology for Biomedical Investigations (OBI)](https://doi.org/10.25504/FAIRsharing.284e1z)
+  - [Cell Ontology (CL) for cell types](https://doi.org/10.25504/FAIRsharing.j9y503)
 
 
 ### Sources for Reusable Data
