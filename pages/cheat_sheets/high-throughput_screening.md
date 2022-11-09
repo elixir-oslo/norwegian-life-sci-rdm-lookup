@@ -55,14 +55,14 @@ page_id: [HTS]
 - Small-molecule and RNAi screening data
 - [Citation guidelines (No usage license)](https://pubchemdocs.ncbi.nlm.nih.gov/citation-guidelines)
 - Identifiers
-- [How to access](https://pubchemdocs.ncbi.nlm.nih.gov/bioassays)
+- [How to access BioAssay data](https://pubchemdocs.ncbi.nlm.nih.gov/bioassays)
 
 #### [ChEMBL](https://www.ebi.ac.uk/chembl/)
 - Manually curated database of bioactive drug-like small molecules
 - [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
 - Identifiers:
   - Depositor unique identifier (ChEMBLID) for compounds, targets, assays, documents, tissues and cell types in ChEMBL 
-- How to access
+- Access via [web interface](https://www.ebi.ac.uk/chembl/g/#search_results/all) or [download](https://chembl.gitbook.io/chembl-interface-documentation/downloads) data directly
 
 ### [European Chemical Biology Database (ECBD)](https://ecbd.eu/)
 - Small molecule screening data generated within the [EU-OPENSCREEN](https://www.eu-openscreen.eu/) network
@@ -88,7 +88,7 @@ page_id: [HTS]
 - Identifiers
 - Submission by e-mail request to [chembl-help@ebi.ac.uk](mailto:chembl-help@ebi.ac.uk)
   - Data sets deposited in ChEMBL are incorporated into PubChem
-  - [Documentation for deposition](https://chembl.gitbook.io/chembl-loader/)
+  - [Check the ChEMBL Loader documentation if your data are suitable for deposition](https://chembl.gitbook.io/chembl-loader/)
 - Embargo unknown
 
 ### Ethics and Regulations
