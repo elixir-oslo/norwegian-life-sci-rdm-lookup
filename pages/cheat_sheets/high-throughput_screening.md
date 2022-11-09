@@ -8,20 +8,21 @@ page_id: [HTS]
 ## High-throughput screening
 
 ### Description
-
+<!--Write about the domain, its purpose/use, and 2-3 lines on data management challenge when it comes to said domain research in Norway-->
+High-throughput screening (HTS) involves automated testing of chemical and/or biological compounds against a target, typically biological. The process is automated through the use of microwell plates and/or microarrays, robotics, liquid handling, data processing, and sensitive detection systems. The detection systems are typically optical plate reader data, imaging data, or flow cytometry data.
+Screening data generated in Norway are collected using a large quantity of compounds from diverse suppliers that are tested against a variety of targets in many different assay types using various detection methods. Such heterogeneities make unifying HTS data generated in Norway an ongoing challenge.
 
 ### Type of data/experiments/methods
-#### Text files, e.g. plate reader data
+#### Plate reader data as text files
 - [Tab-separated values (TSV)](https://fairsharing.org/bsg-s001547)
 - [Comma-separated values (CSV)](https://fairsharing.org/bsg-s001546)
 
-#### Multidimensional image data
+#### Multidimensional image data (High content screening - HCS)
 [Open Microscopy Environment - Tagged Image File Format (OME-TIFF)](https://fairsharing.org/bsg-s000537)
 
 #### Flow Cytometry Data
 - [Flow Cytometry Data File Standard (FCS)](https://fairsharing.org/bsg-s000565)
 - [XML-based gating definitions (Gating-ML)](https://doi.org/10.25504/FAIRsharing.qpyp5g
-
 
 
 ### Metadata Standards
