@@ -22,7 +22,7 @@ Screening data generated in Norway are collected using a large quantity of compo
 
 #### Flow Cytometry Data
 - [Flow Cytometry Data File Standard (FCS)](https://fairsharing.org/bsg-s000565)
-- [XML-based gating definitions (Gating-ML)](https://doi.org/10.25504/FAIRsharing.qpyp5g
+- [XML-based gating definitions (Gating-ML)](https://doi.org/10.25504/FAIRsharing.qpyp5g)
 
 
 ### Metadata Standards
@@ -34,44 +34,46 @@ Screening data generated in Norway are collected using a large quantity of compo
 #### Ontologies
 - General:
   - [IUPAC Chemical Identifier (InChI) for chemical structures](https://fairsharing.org/bsg-s000648)
-- EU-Openscreen:
-  - [BioAssay Ontology for assays](https://fairsharing.org/bsg-s002687)
-  - [Cellosaurus Ontology for cell lines](https://doi.org/10.25504/FAIRsharing.hkk309)
-  - [BRENDA Tissue/Enzyme Source Ontology for tissues](https://fairsharing.org/bsg-s000063)
-  - [NCBI Taxonomy for organisms](https://fairsharing.org/bsg-s000154)
-  - [Reactome for biological pathways](https://doi.org/10.25504/FAIRsharing.tf6kj8)
-  - [Gene Ontology as basis for ChemBl drug target subset](https://fairsharing.org/bsg-s000089)
-  - [Units Ontology](https://fairsharing.org/bsg-s002611)
-- Imaging:
-  - [EDAM Bioimaging Ontology (EDAM-BIOIMAGING)](https://doi.org/10.25504/FAIRsharing.g593w1)
-  - [Experimental Factor Ontology(EFO)](https://doi.org/10.25504/FAIRsharing.1gr4tz)
+  - [Units Ontology (UO)](https://fairsharing.org/bsg-s002611)
   - [NCBI Taxonomy (NCBITAXON)](https://doi.org/10.25504/FAIRsharing.fj07xj)
+  - [Experimental Factor Ontology (EFO)](https://doi.org/10.25504/FAIRsharing.1gr4tz)
+- EU-Openscreen-specific:
+  - [BioAssay Ontology (BAO) for assays](https://fairsharing.org/bsg-s002687)
+  - [Cellosaurus Ontology for cell lines](https://doi.org/10.25504/FAIRsharing.hkk309)
+  - [BRENDA Tissue/Enzyme Source (BTO) Ontology for tissues](https://fairsharing.org/bsg-s000063)
+  - [Reactome for biological pathways](https://doi.org/10.25504/FAIRsharing.tf6kj8)
+  - [Gene Ontology (GO) as basis for ChemBl drug target subset](https://fairsharing.org/bsg-s000089)
+- Imaging-specific:
+  - [EDAM Bioimaging Ontology (EDAM-BIOIMAGING)](https://doi.org/10.25504/FAIRsharing.g593w1)
   - [Biological Imaging methods Ontology (FBbi)](https://doi.org/10.25504/FAIRsharing.ny3z9j)
   - [Open Microscopy Environment Ontology(OME-OWL)](https://fairsharing.org/350)
-- Flow Cytometry:
+- Flow Cytometry-specific:
   - [Ontology for Biomedical Investigations (OBI)](https://doi.org/10.25504/FAIRsharing.284e1z)
   - [Cell Ontology (CL) for cell types](https://doi.org/10.25504/FAIRsharing.j9y503)
 
 
 ### Sources for Reusable Data
-#### [PubChem BioAssay](https://pubchem.ncbi.nlm.nih.gov/)
+#### [PubChem](https://pubchem.ncbi.nlm.nih.gov/) BioAssay
 - Small-molecule and RNAi screening data
 - [Citation guidelines (No usage license)](https://pubchemdocs.ncbi.nlm.nih.gov/citation-guidelines)
-- Identifiers
+- Identifiers:
+  - Resource unique identifier for single chemical structures (CID), substances (SID), and assays (AID)
+  
+  - 
 - [How to access BioAssay data](https://pubchemdocs.ncbi.nlm.nih.gov/bioassays)
 
 #### [ChEMBL](https://www.ebi.ac.uk/chembl/)
 - Manually curated database of bioactive drug-like small molecules
 - [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
 - Identifiers:
-  - Depositor unique identifier (ChEMBLID) for compounds, targets, assays, documents, tissues and cell types in ChEMBL 
+  - Resource unique identifier (ChEMBLID) for compounds, targets, assays, documents, tissues and cell types in ChEMBL 
 - Access via [web interface](https://www.ebi.ac.uk/chembl/g/#search_results/all) or [download](https://chembl.gitbook.io/chembl-interface-documentation/downloads) data directly
 
-### [European Chemical Biology Database (ECBD)](https://ecbd.eu/)
+#### [European Chemical Biology Database (ECBD)](https://ecbd.eu/)
 - Small molecule screening data generated within the [EU-OPENSCREEN](https://www.eu-openscreen.eu/) network
 - [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)
 - Identifiers: 
-  - Depositor unique identifier (EOS#) for assays, compounds, and targets
+  - Resource unique identifier (EOS#) for assays, compounds, and targets
   - InChIKey as unique compound identifier
   - Additional identifiers for compounds: PubChem CID, MolPort number, and if available: ZINC, Mcule, eMolecules identifiers
 - [Search](https://ecbd.eu/assays/) the database from a web interface or [download](https://ecbd.eu/download) the data directly
@@ -84,7 +86,10 @@ Metadata for screens run in Norway will be compiled into a central database.
 ### Data Deposition Repository
 #### PubChem BioAssay
 - [Data submission policy (no license available)](https://pubchemdocs.ncbi.nlm.nih.gov/data-submission-policy)
-- Identifiers
+- Identifiers:
+  - New chemical structures are assigned a CID
+  - Data sources submit records containing annotations, each record is given a unique substance identifier (SID). Substances can be linked to one or more CIDs.
+  - Data sources submit bioactivity test results and relevant annotations describing biological assay experiments on substances (SIDs). Each experiment from each data source is assigned a unique BioAssay Identifier (AID)
 - [Submit chemical structures, annotations, and bioassay results](https://pubchemdocs.ncbi.nlm.nih.gov/submissions-getting-started)
 - [Embargo for up to 1 year](https://pubchemdocs.ncbi.nlm.nih.gov/delay-publication-release)
 
