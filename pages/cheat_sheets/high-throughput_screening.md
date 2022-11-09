@@ -77,6 +77,8 @@ page_id: [HTS]
 
 ### Storage and Computing
 <!--Add information about e.g. NeLS-->
+HTS data collected in Norway are analyzed and stored at individual screening sites in NOR-Openscreen.
+Metadata for screens run in Norway will be compiled into a central database.
 
 ### Data Deposition Repository
 #### PubChem BioAssay
@@ -120,3 +122,4 @@ page_id: [HTS]
 <!--Add a list of relevant external/global tools-->
 [NOR-Openscreen Website](https://openscreen.no)
 [UniChem tool for converting molecule identifiers](https://www.ebi.ac.uk/unichem/)
+[Create a data management plan for your HTS project](https://elixir-no.ds-wizard.org/projects/create/from-template)
