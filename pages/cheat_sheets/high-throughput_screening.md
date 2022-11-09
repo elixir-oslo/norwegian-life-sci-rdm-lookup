@@ -56,10 +56,9 @@ Screening data generated in Norway are collected using a large quantity of compo
 #### [PubChem](https://pubchem.ncbi.nlm.nih.gov/) BioAssay
 - Small-molecule and RNAi screening data
 - [Citation guidelines (No usage license)](https://pubchemdocs.ncbi.nlm.nih.gov/citation-guidelines)
-- Identifiers:
+- [Identifiers](https://pubchemdocs.ncbi.nlm.nih.gov/data-organization):
   - Resource unique identifier for single chemical structures (CID), substances (SID), and assays (AID)
-  
-  - 
+  - Targets (genes/proteins), taxonomy, pathway, patents
 - [How to access BioAssay data](https://pubchemdocs.ncbi.nlm.nih.gov/bioassays)
 
 #### [ChEMBL](https://www.ebi.ac.uk/chembl/)
