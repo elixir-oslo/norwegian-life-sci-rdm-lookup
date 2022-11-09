@@ -11,26 +11,26 @@ page_id: [HTS]
 
 
 ### Type of data/experiments/methods
-#### Type 1
+#### Text files
 - [Tab-separated values (TSV)](https://fairsharing.org/bsg-s001547)
 - [Comma-separated values (CSV)](https://fairsharing.org/bsg-s001546)
 
-#### multidimensional image data
+#### Multidimensional image data
 [Open Microscopy Environment - Tagged Image File Format (OME-TIFF)](https://fairsharing.org/bsg-s000537)
 
 #### Flow Cytometry Data
 [Flow Cytometry Data File Standard (FCS)](https://fairsharing.org/bsg-s000565)
 
-### Metadata Standards
-#### General
-- Ontologies:
-  - [IUPAC Chemical Identifier (InChI) for chemical structures](https://fairsharing.org/bsg-s000648)
-- Standards:
-  - [Minimum Information about Flow Cytometry (MIFlowCyt)](https://doi.org/10.25504/FAIRsharing.kcnjj2)
-  - [Minimal information for Chemosensitivity Assays (MICHA)](https://fairsharing.org/1435)
 
-#### EU Openscreen
-- Ontologies:
+### Metadata Standards
+#### Standards
+- [Minimum Information about Flow Cytometry (MIFlowCyt)](https://doi.org/10.25504/FAIRsharing.kcnjj2)
+- [Minimal information for Chemosensitivity Assays (MICHA)](https://fairsharing.org/1435)
+
+#### Ontologies
+- General:
+  - [IUPAC Chemical Identifier (InChI) for chemical structures](https://fairsharing.org/bsg-s000648)
+- EU-Openscreen:
   - [BioAssay Ontology for assays](https://fairsharing.org/bsg-s002687)
   - [Cellosaurus Ontology for cell lines](https://doi.org/10.25504/FAIRsharing.hkk309)
   - [BRENDA Tissue/Enzyme Source Ontology for tissues](https://fairsharing.org/bsg-s000063)
@@ -38,16 +38,12 @@ page_id: [HTS]
   - [Reactome for biological pathways](https://doi.org/10.25504/FAIRsharing.tf6kj8)
   - [Gene Ontology as basis for ChemBl drug target subset](https://fairsharing.org/bsg-s000089)
   - [Units Ontology](https://fairsharing.org/bsg-s002611)
-  
-#### Recommended Metadata for Biological Images (REMBI)
-- Ontologies:
+- [Recommended Metadata for Biological Images (REMBI)](https://fairsharing.org/bsg-s001615)
   - [EDAM Bioimaging Ontology (EDAM-BIOIMAGING)](https://doi.org/10.25504/FAIRsharing.g593w1)
   - [Experimental Factor Ontology(EFO)](https://doi.org/10.25504/FAIRsharing.1gr4tz)
   - [NCBI Taxonomy (NCBITAXON)](https://doi.org/10.25504/FAIRsharing.fj07xj)
   - [Biological Imaging methods Ontology (FBbi)](https://doi.org/10.25504/FAIRsharing.ny3z9j)
   - [Open Microscopy Environment Ontology(OME-OWL)](https://fairsharing.org/350)
-- [FAIRsharing entry link](https://fairsharing.org/bsg-s001615)
-
 
 
 ### Sources for Reusable Data
