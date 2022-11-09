@@ -51,40 +51,45 @@ page_id: [HTS]
 
 
 ### Sources for Reusable Data
-#### PubChem BioAssay
-- Description e.g. reference genome assembly
-- Standard License
+#### [PubChem BioAssay](https://pubchem.ncbi.nlm.nih.gov/)
+- Small-molecule and RNAi screening data
+- [Citation guidelines (No usage license)](https://pubchemdocs.ncbi.nlm.nih.gov/citation-guidelines)
 - Identifiers
+- [How to access](https://pubchemdocs.ncbi.nlm.nih.gov/bioassays)
+
+#### [ChEMBL](https://www.ebi.ac.uk/chembl/)
+- Manually curated database of bioactive drug-like small molecules
+- [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
+- Identifiers:
+  - Depositor unique identifier (ChEMBLID) for compounds, targets, assays, documents, tissues and cell types in ChEMBL 
 - How to access
 
-#### ChEMBL
-- Description
-- License
-- Identifiers
-- How to access
-
-### European Chemical Biology Database (ECBD)
-- Description
-- License
-- Identifiers
-- How to access
+### [European Chemical Biology Database (ECBD)](https://ecbd.eu/)
+- Small molecule screening data generated within the [EU-OPENSCREEN](https://www.eu-openscreen.eu/) network
+- [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)
+- Identifiers: 
+  - Depositor unique identifier (EOS#) for assays, compounds, and targets
+  - InChIKey as unique compound identifier
+  - Additional identifiers for compounds: PubChem CID, MolPort number, and if available: ZINC, Mcule, eMolecules identifiers
+- [Search](https://ecbd.eu/assays/) the database from a web interface or [download](https://ecbd.eu/download) the data directly
 
 ### Storage and Computing
 <!--Add information about e.g. NeLS-->
 
 ### Data Deposition Repository
-
 #### PubChem BioAssay
-- Standard License
+- [Data submission policy (no license available)](https://pubchemdocs.ncbi.nlm.nih.gov/data-submission-policy)
 - Identifiers
 - [Submit chemical structures, annotations, and bioassay results](https://pubchemdocs.ncbi.nlm.nih.gov/submissions-getting-started)
 - [Embargo for up to 1 year](https://pubchemdocs.ncbi.nlm.nih.gov/delay-publication-release)
 
 #### ChEMBL
-- Standard License
+- [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
 - Identifiers
-- [Submission template available on FTP server]ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLNTD/ChEMBL_Deposition_Template.tar.gz
-- Embargo
+- Submission by e-mail request to [chembl-help@ebi.ac.uk](mailto:chembl-help@ebi.ac.uk)
+  - Data sets deposited in ChEMBL are incorporated into PubChem
+  - [Documentation for deposition](https://chembl.gitbook.io/chembl-loader/)
+- Embargo unknown
 
 ### Ethics and Regulations
 <!--Add information about laws and policies in Norway for relevant data types-->
@@ -103,8 +108,13 @@ page_id: [HTS]
 
 #### Scientific Services
 - Name
-- Description of services offered
-- Contact Information / Website Link
+  - Description of services offered
+  - Contact Information / Website Link
+- Name
+  - Description of services offered
+  - Contact Information / Website Link
 
 ### Useful Links
 <!--Add a list of relevant external/global tools-->
+[NOR-Openscreen Website](https://openscreen.no)
+[UniChem tool for converting molecule identifiers](https://www.ebi.ac.uk/unichem/)
