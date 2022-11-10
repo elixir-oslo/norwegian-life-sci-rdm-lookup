@@ -9,7 +9,7 @@ page_id: [HTS]
 
 ### Description
 <!--Write about the domain, its purpose/use, and 2-3 lines on data management challenge when it comes to said domain research in Norway-->
-High-throughput screening (HTS) involves automated testing of chemical and/or biological compounds against a target, typically biological. The process is automated through the use of microwell plates and/or microarrays, robotics, liquid handling, data processing, and sensitive detection systems. The detection systems are typically optical plate reader data, imaging data, or flow cytometry data.
+High-throughput screening (HTS) involves automated testing of chemical and/or biological compounds against a target, typically biological. The process is automated through the use of microwell plates and/or microarrays, robotics, liquid handling, data processing, and sensitive detection systems. The detection systems are typically optical plate reader data, imaging data, or flow cytometry data.  
 Screening data generated in Norway are collected using a large quantity of compounds from diverse suppliers that are tested against a variety of targets in many different assay types using various detection methods. Such heterogeneities make unifying HTS data generated in Norway an ongoing challenge.
 
 ### Type of data/experiments/methods
@@ -57,15 +57,20 @@ Screening data generated in Norway are collected using a large quantity of compo
 - Small-molecule and RNAi screening data
 - [Citation guidelines (No usage license)](https://pubchemdocs.ncbi.nlm.nih.gov/citation-guidelines)
 - [Identifiers](https://pubchemdocs.ncbi.nlm.nih.gov/data-organization):
-  - Resource unique identifier for single chemical structures (CID), substances (SID), and assays (AID)
-  - Targets (genes/proteins), taxonomy, pathway, patents
+  - Resource unique identifiers for single chemical structures (CID), substances (SID), and assays (AID)
+  - Other identifiers:
+    - Targets (genes/proteins): NCBI Gene IDs/NCBI Protein accession IDs 
+    - Taxonomy: NCBI Taxonomy ID, the common name, or scientific name of an organism
+    - [Pathways](https://pubchem.ncbi.nlm.nih.gov/sources/#type=Pathways): integrated from various sources and identified by SOURCE:ExternalID
+    - Patents: for chemicals mentioned in a patent, unique patents identified by patent number (e.g. US5969156)
 - [How to access BioAssay data](https://pubchemdocs.ncbi.nlm.nih.gov/bioassays)
 
 #### [ChEMBL](https://www.ebi.ac.uk/chembl/)
 - Manually curated database of bioactive drug-like small molecules
 - [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
 - Identifiers:
-  - Resource unique identifier (ChEMBLID) for compounds, targets, assays, documents, tissues and cell types in ChEMBL 
+  - Resource unique identifier (ChEMBLID) for compounds, targets, assays, documents, tissues and cell types in ChEMBL
+  - ChEMBLIDs for molecules can be converted to many other identifiers via [UniChem](https://www.ebi.ac.uk/unichem/)
 - Access via [web interface](https://www.ebi.ac.uk/chembl/g/#search_results/all) or [download](https://chembl.gitbook.io/chembl-interface-documentation/downloads) data directly
 
 #### [European Chemical Biology Database (ECBD)](https://ecbd.eu/)
@@ -78,17 +83,17 @@ Screening data generated in Norway are collected using a large quantity of compo
 - [Search](https://ecbd.eu/assays/) the database from a web interface or [download](https://ecbd.eu/download) the data directly
 
 ### Storage and Computing
-<!--Add information about e.g. NeLS-->
-HTS data collected in Norway are analyzed and stored at individual screening sites in NOR-Openscreen.
+<!--Add information about e.g. NeLS, update this section when SEEK is deployed for NOR-OS metadata?-->
+HTS data collected in Norway are analyzed and stored at individual screening sites in NOR-Openscreen.  
 Metadata for screens run in Norway will be compiled into a central database.
 
 ### Data Deposition Repository
 #### PubChem BioAssay
 - [Data submission policy (no license available)](https://pubchemdocs.ncbi.nlm.nih.gov/data-submission-policy)
 - Identifiers:
-  - New chemical structures are assigned a CID
-  - Data sources submit records containing annotations, each record is given a unique substance identifier (SID). Substances can be linked to one or more CIDs.
-  - Data sources submit bioactivity test results and relevant annotations describing biological assay experiments on substances (SIDs). Each experiment from each data source is assigned a unique BioAssay Identifier (AID)
+  - CID for unique chemical structures
+  - SID assigned to each record (substance or annotation) submitted, can be associated to multiple CIDs
+  - Experiments submitted on different substances are assigned unique BioAssay identifiers (AID)
 - [Submit chemical structures, annotations, and bioassay results](https://pubchemdocs.ncbi.nlm.nih.gov/submissions-getting-started)
 - [Embargo for up to 1 year](https://pubchemdocs.ncbi.nlm.nih.gov/delay-publication-release)
 
@@ -102,11 +107,10 @@ Metadata for screens run in Norway will be compiled into a central database.
 
 ### Ethics and Regulations
 <!--Add information about laws and policies in Norway for relevant data types-->
-#### Data Type Name (e.g. Human Data) 
-- Reidentifiable
-
-#### Data Type Name (e.g. Biodiversity Data) 
-- Regulations
+#### Patient Data
+- Preapproval for medicinal/health-related research projects from the [Regional Ethics Committee](https://rekportalen.no/#hjem/home) is required
+- Projects handling personal data must apply to [NSD](https://www.nsd.no/)
+- Otherwise data must be fully anonymized - neither directly or indirectly identifiable to an individual
 
 ### Services in Norway
 <!--Add one line description-->
@@ -116,12 +120,18 @@ Metadata for screens run in Norway will be compiled into a central database.
 - Contact Information / Website Link
 
 #### Scientific Services
-- Name
-  - Description of services offered
-  - Contact Information / Website Link
-- Name
-  - Description of services offered
-  - Contact Information / Website Link
+- Chemical Biology Platform at NCMM/UiO
+  - Chemical biology and high-throughput screening services
+  - [mailto:chembio@ncmm.uio.no](chembio@ncmm.uio.no) / [Website Link](https://www.med.uio.no/english/research/core-facilities/chemical-biology-screening/)
+- Biophysics, structural biology, and screening (BiSS) at UiB
+  - Core facility for studing the interactions of small molecules with macromolecules, protein biophysics, and for crystallization.
+  - [mailto:biss@uib.no](biss@uib.no) / [Website Link](https://www.uib.no/en/rg/biss)
+- High throughput Screening at SINTEF Biotechnology and Nanomedicine
+  - High-throughput screening services specialized in microbial cultivation, enzyme evolution, and mass spectrometry
+  - [Geir Klinkenberg](geir.klinkenberg@sintef.no) / [Website Link](https://www.sintef.no/en/expertise/sintef-industry/biotechnology-and-nanomedicine/high-throughput-screening/)
+- Marine Bioprospecting (Marbio) at UiT
+  - Analytical platform for natural products
+  - [mailto:jeanette.andersen@uit.no](jeanette.andersen@uit.no) / [Website Link](https://en.uit.no/forskning/forskningsgrupper/gruppe?p_document_id=380005)
 
 ### Useful Links
 <!--Add a list of relevant external/global tools-->
