@@ -1,11 +1,16 @@
 title: Explore
 title_url: /index
 subitems:
+  - title: About
+    url: /about
   - title: Fields of Research
     subitems:
       - title: Mommoth farming
         url: 
       - title: Hot spring bathing
         url: 
-  - title: About
-    url: /about
+  - title: Contributors
+    url: /contributors
+  - title: How to contribute
+    url: /how-to-contribute
+
