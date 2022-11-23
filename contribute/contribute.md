@@ -1,14 +1,9 @@
 ---
 title: How to contribute to the Life Sciences RDM LookUp 
 ---
-
-
-<!-- ## Ways of contributing -->
+## How to contribute
 
 Everyone is welcome to contribute to the LookUp, and we recommend to use the [template](/contentathon/template.md). **If you are not familiar with Git** and want to give it a try on GitHub: follow [our step-by-step instructions](/contribute/github_way) (no technical knowledge required!).
-<!-- * **If you are happier using Google Docs**: follow [the Google Doc way](/contribute/google_doc_way).
-* **If you are familiar with Git**: fork the repo and create a pull request (see our [instructions](/contribute/working_with_git)).
-* **If you just want to make a quick suggestion**: submit your comments/suggestions using the form below. -->
 
 <!-- We also welcome contributions to our [User Stories](github link). Adding use cases, of your research project and/or organisation, can serve as a guide and inspiration for our readers on how research data is managed in other disciplines of life sciences. -->
 

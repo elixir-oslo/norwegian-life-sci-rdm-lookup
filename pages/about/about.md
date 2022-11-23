@@ -9,8 +9,8 @@ A collection of domain-focused guides and resources, compiled for life sciences 
 ## Aims of RDM LookUp
 It is designed to help Norway's life sciences community to understand data standards, tools, and resources relevant to life sciences research domain and therefore provides context that can help the community manage data in a Findable, Accessible, Interopraable, and Resuable (FAIR) way.
 
-# Funding Acknowledgement
-BY-COVID project received funding from the European Union’s Horizon Europe Research and Innovation Programme under grant agreement number 101046203. Please check our [Support page](/about/support) for further information on funding and contributing projects.
+<!-- ## Funding Acknowledgement
+The initiative received funding from the ELIXIR Norway under grant agreement number nnnnnn. Please check our [Support page](/about/support) for further information on funding and contributing projects. -->
  
 ## How to cite it
 Until we publish the story/news oof Life Sciences RDM LookUp. please refer to:

@@ -4,9 +4,9 @@ subitems:
   - title: Fields of Research
     subitems:
       - title: Biodiversity
-        url: 
+        url: /biodiversity/
       - title: Crystallography
-        url:
+        url: 
       - title: High-Throughput Screening
         url: 
       - title: Light Microscopy
@@ -20,15 +20,17 @@ subitems:
       # - title: Sequencing (Short and Long Reads)
       #   url:
       # - title: BioBanks
-      #   url:     
-  - title: Contributors
-    url: /contributors
-  - title: How to contribute
+      #   url:
+  - title: Contribute
+    url: /contribute
     subitems:
-      - title: How to contribute
-        url: contribute/index
+      # - title: Contribute
+      #   url: /contribute
       - title: Contribute via GitHub
-        url: contribute/github_way
+        url: /github_way
+      - title: Contributors
+        url: /about/contributors     
+  - title: Code of Conduct
+    url: coc
   - title: Contact
     url: /about/contact
-

@@ -1,6 +1,6 @@
 title: Main
 title_url: /index
-# subitems:
-#   - title: Biodiversity
-#     url: /contentathon/biodiversity
+subitems:
+  - title: Biodiversity
+    url: /contentathon/biodiversity
 #     image_url: /assets/img/section-icons/biodiversity.svg
