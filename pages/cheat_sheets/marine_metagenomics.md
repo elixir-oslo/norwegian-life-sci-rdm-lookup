@@ -1,7 +1,7 @@
 ---
 title: 
 search_exclude: true
-contributors:
+contributors: [Espen Åberg]
 page_id: [<!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->]
 ---
 
