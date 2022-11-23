@@ -2,7 +2,7 @@ copyright: "[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/
 extra_line: 
 columns:
   - type: image
-    image_width: 120px
+    image_width: 150px
     width: 2
     src: 'assets/img/lifesci_logo.png'
     alt: life sciences rdm logo
@@ -12,9 +12,11 @@ columns:
       - url_text: About
         url: /about
       - url_text: Contribute
-        url: /contribute/index.md
+        url: /contribute
+      - url_text: Code of Conduct
+        url: https://elixir-europe.org/events/code-of-conduct
   - type: image
-    image_width: 120px
+    image_width: 150px
     width: 1
     src: 'assets/img/BioMedData_logo.png'
     alt: logo biomeddata

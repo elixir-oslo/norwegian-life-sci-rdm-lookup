@@ -14,48 +14,48 @@ Alexandra Gade:
     git: alexgade
     email: alexandra.gade@ncmm.uio.no
     orcid: 0000-0002-
-    role: BioMedData PAL
+    role: "PAL"
     affiliation: NCMM, University of Oslo (UiO)
 Espen Åberg:
     git: Workberg
     email: espen.aberg@uit.no
     orcid: 0000-0002-
-    role: BioMedData PAL
+    role: Contributor
     affiliation: Centre for Bioinformatics, The Arctic university of Norway (UiT)
 Federico Bianchini:
     git: bianchini88
     email: fbianchini@uio.no
     orcid: 0000-0002-
-    role: BioMedData Coordinator
+    role: Contributor
     affiliation: Centre for Bioinformatics, UiO
 Michal Torma:
     git: MichalTorma
     email: 
     orcid: 0000-0002-
-    role: BioMedData PAL
+    role: Contributor
     affiliation: Natural History Museum, UiO
 Nazeefa Fatima:
     git: Nazeeefa
     email: nazeefaf@uio.no
     orcid: 0000-0001-7791-4984
-    role: BioMedData Coordinator
+    role: Lead
     affiliation: Centre for Bioinformatics, UiO
 Korbinian Bösl:
     git: 
     email: Korbinian.Bosl@uib.no
     orcid: 0000-0003-0498-4273
-    role: BioMedData Coordinator
+    role: Lead
     affiliation: University of Bergen
 Torill Sjøbakk:
     git: Torillas
     email: 
     orcid: 
-    role: BioMedData PAL
-    affiliation: NorMOLIM (Norwegian MOLecular IMaging) infrastructure
+    role: Contributor
+    affiliation: NorMOLIM (Norwegian MOLecular IMaging) infrastructure, NTNU
 Xian Hu:
     git: evildna
     email: 
     orcid: 
-    role: BioMedData PAL
-    affiliation: 
+    role: Contributor
+    affiliation: NALMIN (Norwegian Advanced Light Microscopy Imaging Network), UiO
 

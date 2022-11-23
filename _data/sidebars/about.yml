@@ -22,15 +22,12 @@ subitems:
       # - title: BioBanks
       #   url:
   - title: Contribute
-    url: /contribute
     subitems:
-      # - title: Contribute
-      #   url: /contribute
+      - title: Contribute
+        url: /contribute
       - title: Contribute via GitHub
         url: /github_way
       - title: Contributors
-        url: /about/contributors     
-  - title: Code of Conduct
-    url: coc
+        url: /contributors     
   - title: Contact
-    url: /about/contact
+    url: /contact
