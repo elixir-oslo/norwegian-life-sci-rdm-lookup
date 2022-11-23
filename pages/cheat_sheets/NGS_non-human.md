@@ -1,7 +1,7 @@
 ---
 title: NGS_non-human
 search_exclude: false
-contributors: [Federico Bianhini, Korbinian Bosl, Nazeefa Fatima]
+contributors: [Federico Bianchini, Korbinian Bosl, Nazeefa Fatima]
 page_id: [NGS_non-human]
 ---
 
@@ -27,11 +27,11 @@ page_id: [NGS_non-human]
 - FAIRsharing entry link
 
 ### Sources for Reusable Data
-#### Source name 1 
-- Description e.g. reference genome assembly
-- Standard License
-- Identifiers
-- How to access
+#### [Ensemlb](https://doi.org/10.25504/FAIRsharing.fx0mw7) 
+- Ensembl creates, integrates and distributes reference datasets and analysis tools that enable genomics.
+- Data is open-access and can be downloaded free of charge ([disclaimer](https://www.ensembl.org/info/about/legal/index.html))
+- Identifiers: [Ensembl stable ID](https://www.ensembl.org/Help/Faq?id=488)
+- How to access: account (username and password)
 
 ### Storage and Computing
 <!--Add information about e.g. NeLS-->
