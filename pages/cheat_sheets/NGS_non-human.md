@@ -1,18 +1,18 @@
 ---
-title: 
-search_exclude: true
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
+title: NGS_non-human
+search_exclude: false
+contributors: [Federico Bianhini, Korbinian Bosl, Nazeefa Fatima]
 page_id: [NGS_non-human]
 ---
 
-## Next generation sequencing
+## Next generation sequencing of non-human data
 
 ### Description
 
 ### Type of data/experiments/methods
 <!---When mentioning file format, it would be useful to mention format type -->
 
-####Sequencing data
+#### Sequencing data
 - [FASTQ format](https://fairsharing.org/bsg-s000229)
 - [Sequence Alignment Map (SAM) format](https://fairsharing.org/bsg-s000261)
 - [Binary Alignment Map (BAM) format](https://fairsharing.org/bsg-s000210)
