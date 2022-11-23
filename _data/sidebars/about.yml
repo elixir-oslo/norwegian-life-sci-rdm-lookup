@@ -1,0 +1,34 @@
+title: About
+title_url: /about/
+subitems:
+  - title: Fields of Research
+    subitems:
+      - title: Biodiversity
+        url: 
+      - title: Crystallography
+        url:
+      - title: High-Throughput Screening
+        url: 
+      - title: Light Microscopy
+        url:
+      - title: Marine Metagenomics
+        url: 
+      # - title: Pre-clinical Imaging
+      #   url:
+      # - title: Proteomics
+      #   url: 
+      # - title: Sequencing (Short and Long Reads)
+      #   url:
+      # - title: BioBanks
+      #   url:     
+  - title: Contributors
+    url: /contributors
+  - title: How to contribute
+    subitems:
+      - title: How to contribute
+        url: contribute/index
+      - title: Contribute via GitHub
+        url: contribute/github_way
+  - title: Contact
+    url: /about/contact
+
