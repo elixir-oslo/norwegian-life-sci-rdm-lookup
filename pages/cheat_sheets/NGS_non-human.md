@@ -1,5 +1,5 @@
 ---
-title: NGS_non-human
+title: Next generation sequencing of non-human data
 search_exclude: false
 contributors: [Federico Bianchini, Korbinian Bosl, Nazeefa Fatima]
 page_id: [NGS_non-human]
@@ -46,13 +46,13 @@ The minimum information about any (x) sequence (MIxS) is an overarching framewor
 ### Data Deposition Repository
 
 #### European Nucleotide Archive (ENA)
-- [Policies](https://www.ebi.ac.uk/ena/browser/about/policies)
+- License: refer to the [Policies page](https://www.ebi.ac.uk/ena/browser/about/policies)
 - Identifiers: [Accession numbers](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/accessions.html)
 - How to submit data:
   - [General guide on data submission](https://www.ebi.ac.uk/ena/browser/submit)
   - [ENA checklists](https://www.ebi.ac.uk/ena/browser/checklists) (i.e. supported metadata standards required for submission) 
 - Embargo: possible, set status to [confidential](https://ena-docs.readthedocs.io/en/latest/faq/release/data-availability-policy.html?highlight=confidential) upon submission
-- More general RDM information about ENA on RDMguide[https://rdm.elixir-belgium.org/ena] (ELIXIR BE)
+- More general RDM information about ENA on [RDMguide](https://rdm.elixir-belgium.org/ena) (ELIXIR BE)
 
 #### Repository Name 2
 - Standard License
