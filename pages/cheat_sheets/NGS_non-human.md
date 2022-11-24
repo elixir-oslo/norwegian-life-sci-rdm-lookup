@@ -21,10 +21,17 @@ page_id: [NGS_non-human]
 - [Variant Call Format (VCF)](https://fairsharing.org/bsg-s000270)
 
 ### Metadata Standards
-#### Standard 1
-- Ontologies
-- Controlled vocabularies
-- FAIRsharing entry link
+#### [Minimum Information about any (x) Sequence (MIxS)](https://doi.org/10.25504/FAIRsharing.9aa0zp)
+The minimum information about any (x) sequence (MIxS) is an overarching framework of sequence metadata
+- Ontologies:
+  - [Experimental Factor Ontology (EFO)](https://doi.org/10.25504/FAIRsharing.1gr4tz)
+  - [NCBI Taxonomy (NCBITAXON)](https://doi.org/10.25504/FAIRsharing.fj07xj)
+  - [Phenotypic QualiTy Ontology (PATO)](https://doi.org/10.25504/FAIRsharing.ezwdhz)
+  - [Disease Ontology (DOID)](https://doi.org/10.25504/FAIRsharing.8b6wfq)
+  - [Envcironment Ontology ENVO)](https://doi.org/10.25504/FAIRsharing.azqskx)
+  - [Plant Ontology (PO)](https://doi.org/10.25504/FAIRsharing.3ngg40)
+- Controlled vocabularies:
+  - [Chemical Entities of Biological Interest ChEBI)](https://doi.org/10.25504/FAIRsharing.62qk8w)
 
 ### Sources for Reusable Data
 #### [Ensemlb](https://doi.org/10.25504/FAIRsharing.fx0mw7) 
@@ -38,11 +45,14 @@ page_id: [NGS_non-human]
 
 ### Data Deposition Repository
 
-#### Repository Name 1
-- Standard License
-- Identifiers
-- How to submit data
-- Embargo
+#### European Nucleotide Archive (ENA)
+- [Policies](https://www.ebi.ac.uk/ena/browser/about/policies)
+- Identifiers: [Accession numbers](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/accessions.html)
+- How to submit data:
+  - [General guide on data submission](https://www.ebi.ac.uk/ena/browser/submit)
+  - [ENA checklists](https://www.ebi.ac.uk/ena/browser/checklists) (i.e. supported metadata standards required for submission) 
+- Embargo: possible, set status to [confidential](https://ena-docs.readthedocs.io/en/latest/faq/release/data-availability-policy.html?highlight=confidential) upon submission
+- More general RDM information about ENA on RDMguide[https://rdm.elixir-belgium.org/ena] (ELIXIR BE)
 
 #### Repository Name 2
 - Standard License
