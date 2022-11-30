@@ -1,6 +1,6 @@
 <!--Added Life Sciences RDM logo--->
 <p align="center">
-<img src="assets/img/lifesci_logo.png" width="100" float="center"/>
+<img src="assets/img/lifesci_logo.png" width="200" float="center"/>
 </p>
 
 # BioMedData
