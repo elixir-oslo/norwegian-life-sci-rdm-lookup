@@ -1,3 +1,8 @@
+<!--Added Life Sciences RDM logo--->
+<p align="center">
+<img src="assets/img/lifesci_logo.png" width="200" float="center"/>
+</p>
+
 # BioMedData
 **FAIR Life Sciences - Data Management Lookup** <br>
 Repository for website development.
