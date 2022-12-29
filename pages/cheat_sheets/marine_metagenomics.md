@@ -21,7 +21,7 @@ Collection of resources, tools and standards relevant for those interested in an
 	- [Fairsharing](https://fairsharing.org/FAIRsharing.rz4vfg)
  	- Open Format
 
-####Legacy formats
+#### Legacy formats
 [Binary Base Call](BCL)
 	- Illumina
 
@@ -38,7 +38,7 @@ Collection of resources, tools and standards relevant for those interested in an
 [Fast5](https://bioinformatics.cvr.ac.uk/exploring-the-fast5-format/)
    - ONT
 
-####Alignment formats
+#### Alignment formats
 [Sequence Alignment Map
 (SAM)](http://samtools.github.io/hts-specs/SAMv1.pdf)
 	- [Fairsharing](https://fairsharing.org/FAIRsharing.k97xzh)
@@ -53,7 +53,7 @@ Collection of resources, tools and standards relevant for those interested in an
 	- [Fairsharing](https://fairsharing.org/FAIRsharing.f846bd)
 	- Open Format
 
-####Annotation formats
+#### Annotation formats
 [GenBank Sequence Format (GB, GBK)](https://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html)
 	- [Fairsharing](https://fairsharing.org/FAIRsharing.rg2vmt)
 	- Open Format
@@ -103,7 +103,7 @@ Collection of resources, tools and standards relevant for those interested in an
 (Micro B3)](http://www.ebi.ac.uk/ena/submit/microb3-checklist)
    - [FAIRsharing](https://doi.org/10.25504/FAIRsharing.2b3at8)
 
-####Ontologies
+#### Ontologies
 
 [Environment Ontology (ENVO)](http://environmentontology.org/)
 	- [FAIRsharing](https://fairsharing.org/919)
@@ -116,7 +116,7 @@ Collection of resources, tools and standards relevant for those interested in an
 (GO)](http://www.geneontology.org)
 	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.6xq0ee)
 
-####Controlled vocabularies
+#### Controlled vocabularies
 
 
 
@@ -130,7 +130,7 @@ Collection of resources, tools and standards relevant for those interested in an
 	- [Homepage](https://www.ebi.ac.uk/metagenomics/)
 	- [FAIRsharing entry link](https://fairsharing.org/FAIRsharing.dxj07r)
 
-####MAR databases
+#### MAR databases
 
 - **Description:** The MAR databases is a collection of manually curated marine microbial contextual and sequence databases, based at the Marine Metagenomics Portal. This was developed as a part of the ELIXIR EXCELERATE project in 2017 and is maintained by The Center for Bioinformatics (SfB) at the UiT The Arctic University of Norway. SfB is hosting the UiT node of ELIXIR Norway. The MarRef, MarDb, MarFun and MarCat contextual databases are built by compiling data from a number of public available sequence, taxonomy and literature databases in a semi-automatic fashion.
 - **identifiers.org:** [MarRef](https://registry.identifiers.org/registry/mmp.ref#!), [MarDB](https://registry.identifiers.org/registry/mmp.db#!), [MarFun](https://registry.identifiers.org/registry/mmp.fun#!), [MarCat](https://registry.identifiers.org/registry/mmp.cat#!)
@@ -138,7 +138,7 @@ Collection of resources, tools and standards relevant for those interested in an
 	- [Homepage](https://mmp2.sfb.uit.no/databases/)
 	- [FAIRsharing entry link](https://doi.org/10.25504/FAIRsharing.SnTbUa)
 
-####IMG/VR
+#### IMG/VR
 (Integrated Microbial Genomes and Microbiomes - Viral Resources)
 
 - **Description:** Since 2016, the IMG/VR database has provided access to the largest collection of viral sequences obtained from (meta)genomes. The 3rd version of IMG/VR (Sept 2020) is composed of 18,373 cultivated and 2,314,329 uncultivated viral genomes (UViGs), nearly tripling the total number of sequences compared to the previous version. UViGs in IMG/VR are reported as single viral contigs, integrated proviruses, or genome bins, and are annotated with a new standardized pipeline including genome quality estimation using CheckV, taxonomic classification reflecting the latest ICTV update, and expanded host taxonomy prediction. The new IMG/VR interface enables users to efficiently browse, search, and select UViGs based on genome features and/or sequence similarity.
@@ -186,19 +186,19 @@ Collection of resources, tools and standards relevant for those interested in an
 	- [Elixir Norway - Tromsø Node](https://elixir.no/organization/organisation/elixir-uit)
 	- [Website Link](https://mmp2.sfb.uit.no/metapipe/)
 
-####Data management planning:
+#### Data management planning:
 - Data Stewardship Wizard.  
 The ELIXIR-NO instance of the [Data Stewardship Wizard](https://elixir-no.ds-wizard.org/) provides support for data management planning for marine metagenomics in Norway. An exemplary Data Management Plan model for marine metagenomics in Norway is available [here](https://elixir-no.ds-wizard.org/projects/create/custom?selected=elixir.no:marinemetagenomics-elixir-norway:0.0.2).	
 
-####Data storage
+#### Data storage
 - The Norwegian e-infrastructure for life sciences (NeLS)
 - ELIXIR Norway offers an infrastructure for storage of scientific data, intended for scientific research projects with larger sets of data (minimum 1TB) for mid-term storage. We currently offer free storage of data up to 10TB. For larger projects, please [contact us at ](mailto:contact@bioinfo.no).
 - Contact information
 	- [NeLS](https://nels.bioinfo.no)	
 	- [Elixir Norway](https://elixir.no)
 
-####Bioinformatics
-- Elixir Norway offers 	general advice and experimental design consultancy, programming and scripting assistance and support for data analysis on marine metagenomics in Norway.
+#### Bioinformatics
+- ELIXIR Norway offers 	general advice and experimental design consultancy, programming and scripting assistance and support for data analysis on marine metagenomics in Norway.
 - Contact information
 	- [Elixir Norway - Helpdesk](mailto:contact@bioinfo.no)
 
