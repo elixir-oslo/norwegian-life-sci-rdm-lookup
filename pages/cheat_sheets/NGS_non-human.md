@@ -13,12 +13,12 @@ page_id: [NGS_non-human]
 <!---When mentioning file format, it would be useful to mention format type -->
 
 #### Sequencing data
-- [FASTQ format](https://fairsharing.org/bsg-s000229)
-- [Sequence Alignment Map (SAM) format](https://fairsharing.org/bsg-s000261)
-- [Binary Alignment Map (BAM) format](https://fairsharing.org/bsg-s000210)
+- [FASTQ format](https://doi.org/10.25504/FAIRsharing.r2ts5t)
+- [Sequence Alignment Map (SAM) format](https://doi.org/10.25504/FAIRsharing.k97xzh)
+- [Binary Alignment Map (BAM) format](https://doi.org/10.25504/FAIRsharing.hza1ec)
 
 #### Variation data
-- [Variant Call Format (VCF)](https://fairsharing.org/bsg-s000270)
+- [Variant Call Format (VCF)](https://doi.org/10.25504/FAIRsharing.cfzz0h)
 
 ### Metadata Standards
 #### [Minimum Information about any (x) Sequence (MIxS)](https://doi.org/10.25504/FAIRsharing.9aa0zp)
