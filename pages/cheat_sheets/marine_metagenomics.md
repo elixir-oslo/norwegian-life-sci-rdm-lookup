@@ -32,11 +32,10 @@ Collection of resources, tools and standards relevant for those interested in an
 [PacBio Alignment File Format (cmp.h5)](https://pacbiofileformats.readthedocs.io/en/11.0/legacy/CmpH5Spec.html)
 
 [POD5 File Format](https://github.com/nanoporetech/pod5-file-format) 
-	- [Fairsharing]()
 	- ONT
 
 [Fast5](https://bioinformatics.cvr.ac.uk/exploring-the-fast5-format/)
-   - ONT
+   	- ONT
 
 #### Alignment formats
 [Sequence Alignment Map
