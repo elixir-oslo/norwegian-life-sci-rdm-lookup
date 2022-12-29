@@ -15,10 +15,10 @@ Collection of resources, tools and standards relevant for those interested in an
 ### File formats
 #### Bioinformatic file formats
 [FASTQ Sequence and Sequence Quality Format](https://fairsharing.org/bsg-s000229)
- - Open Format
+ 	- Open Format
 
 [FASTA](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp)
-	- [Fairsharing](https://fairsharing.org/FAIRsharing.rz4vfg)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.rz4vfg)
  	- Open Format
 
 #### Legacy formats
@@ -40,36 +40,36 @@ Collection of resources, tools and standards relevant for those interested in an
 #### Alignment formats
 [Sequence Alignment Map
 (SAM)](http://samtools.github.io/hts-specs/SAMv1.pdf)
-	- [Fairsharing](https://fairsharing.org/FAIRsharing.k97xzh)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.k97xzh)
 	- Open Format
 
 [Binary Alignment Map Format
 (BAM)](https://genome.ucsc.edu/FAQ/FAQformat.html#format1)
-	- [Fairsharing](https://fairsharing.org/FAIRsharing.hza1ec)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.hza1ec)
  	- Open Format
 
 [Compressed Reference-oriented Alignment Map (CRAM)](https://www.sanger.ac.uk/tool/cram/)
-	- [Fairsharing](https://fairsharing.org/FAIRsharing.f846bd)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.f846bd)
 	- Open Format
 
 #### Annotation formats
 [GenBank Sequence Format (GB, GBK)](https://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html)
-	- [Fairsharing](https://fairsharing.org/FAIRsharing.rg2vmt)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.rg2vmt)
 	- Open Format
 
 [ENA Sequence Flat File Format (formerly EMBL Sequence Flat File Format)]()
-	- [Fairsharing](https://fairsharing.org/FAIRsharing.q9nh66) - Open format
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.q9nh66) - Open format
 	
-[Browser Extensible Data Format (BED)](http://genome.cse.ucsc.edu/FAQ/FAQformat.html#format1) - [Fairsharing](https://fairsharing.org/FAIRsharing.mwmbpq) - Open format
+[Browser Extensible Data Format (BED)](http://genome.cse.ucsc.edu/FAQ/FAQformat.html#format1) - [FAIRsharing](https://fairsharing.org/FAIRsharing.mwmbpq) - Open format
 	
 [Generic Feature Format Version 3 (GFF3)](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md)
-	- [Fairsharing](https://doi.org/10.25504/FAIRsharing.dnk0f6) - Open format
+	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.dnk0f6) - Open format
 
 [Gene Transfer Format (GTF)](http://mblab.wustl.edu/GTF22.html)
-	- [Fairsharing](https://doi.org/10.25504/FAIRsharing.sggb1n) - Open format
+	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.sggb1n) - Open format
 
 [Variant Call Format (VCF)](https://samtools.github.io/hts-specs/VCFv4.3.pdf)
-	- [Fairsharing](https://doi.org/10.25504/FAIRsharing.cfzz0h) - Open format
+	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.cfzz0h) - Open format
 
  
  
@@ -100,7 +100,7 @@ Collection of resources, tools and standards relevant for those interested in an
 
 [Marine Microbial Biodiversity, Bioinformatics, Biotechnology Checklist
 (Micro B3)](http://www.ebi.ac.uk/ena/submit/microb3-checklist)
-   - [FAIRsharing](https://doi.org/10.25504/FAIRsharing.2b3at8)
+   	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.2b3at8)
 
 #### Ontologies
 
