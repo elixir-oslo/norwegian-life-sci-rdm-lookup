@@ -42,7 +42,11 @@ The minimum information about any (x) sequence (MIxS) is an overarching framewor
 
 ### Storage and Computing
 <!--Add information about e.g. NeLS-->
-
+- [The Norwegian e-infrastructure for life sciences (NeLS)](https://nels.bioinfo.no) --
+[ELIXIR Norway]((https://elixir.no))
+  - Free of charge allocation of 1--10 TB disk space
+  - Intended for sharing and storing active research data
+  
 ### Data Deposition Repository
 
 #### European Nucleotide Archive (ENA)
