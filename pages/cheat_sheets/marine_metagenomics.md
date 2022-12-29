@@ -177,13 +177,13 @@ Collection of resources, tools and standards relevant for those interested in an
 
 - The Marine Metagenomics Portal provides access to high-quality curated and freely accessible marine microbial genomics and metagenomics resources. It includes the MAR databases, a collection of richly annotated and manually curated contextual and sequence databases, and MetaPipe, a complete workflow for the analysis of marine metagenomic data.
 - Contact information 
-	- [Elixir Norway - Tromsø Node](https://elixir.no/organization/organisation/elixir-uit)
+	- [ELIXIR Norway - Tromsø Node](https://elixir.no/organization/organisation/elixir-uit)
 	- [Website Link](https://mmp2.sfb.uit.no)
 
 #### Metapipe
 - META-pipe is a complete workflow for the analysis of marine metagenomic data. It provides assembly of high-throughput sequence data, functional annotation of predicted genes, and taxonomic profiling.
 - Contact information 
-	- [Elixir Norway - Tromsø Node](https://elixir.no/organization/organisation/elixir-uit)
+	- [ELIXIR Norway - Tromsø Node](https://elixir.no/organization/organisation/elixir-uit)
 	- [Website Link](https://mmp2.sfb.uit.no/metapipe/)
 
 #### Data management planning:
@@ -195,12 +195,12 @@ The ELIXIR-NO instance of the [Data Stewardship Wizard](https://elixir-no.ds-wiz
 - ELIXIR Norway offers an infrastructure for storage of scientific data, intended for scientific research projects with larger sets of data (minimum 1TB) for mid-term storage. We currently offer free storage of data up to 10TB. For larger projects, please [contact us at ](mailto:contact@bioinfo.no).
 - Contact information
 	- [NeLS](https://nels.bioinfo.no)	
-	- [Elixir Norway](https://elixir.no)
+	- [ELIXIR Norway](https://elixir.no)
 
 #### Bioinformatics
 - ELIXIR Norway offers 	general advice and experimental design consultancy, programming and scripting assistance and support for data analysis on marine metagenomics in Norway.
 - Contact information
-	- [Elixir Norway - Helpdesk](mailto:contact@bioinfo.no)
+	- [ELIXIR Norway - Helpdesk](mailto:contact@bioinfo.no)
 
 ## Useful Links
 [Norwegian tool assembly for marine metagenomics data management](https://rdmkit.elixir-europe.org/marine_metagenomics_assembly.html)
