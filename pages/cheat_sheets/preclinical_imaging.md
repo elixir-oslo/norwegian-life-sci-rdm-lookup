@@ -45,9 +45,9 @@ Work involving genetically modified microorganisms (including bacteria, virus an
 
 ### Services in Norway
 <!--Add one line description-->
-An overview of the data management resources in Norway is to be found at https://rdmkit.elixir-europe.org/no_resources.
 
 #### RDM Services
+An overview of the data management resources in Norway is to be found at https://rdmkit.elixir-europe.org/no_resources.
 
 #### Scientific Services
 - NORMOLIM [Contact Information / Website Link](https://normolim.w.uib.no/)
