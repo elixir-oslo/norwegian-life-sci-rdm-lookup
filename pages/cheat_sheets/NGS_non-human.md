@@ -41,10 +41,11 @@ The minimum information about any (x) sequence (MIxS) is an overarching framewor
 - How to access: account (username and password)
 
 ### Storage and Computing
-#### The [ELIXIR Norway](https://elixir.no) infrastructures
+#### [ELIXIR Norway](https://elixir.no) infrastructures
 - [The Norwegian e-infrastructure for life sciences (NeLS)](https://nels.bioinfo.no)
   - Free of charge allocation of 1--10 TB disk space
-  - Intended for sharing and storing active research data
+  - Storing active research data for analysing and processing
+  - Granular data sharing with collaborators
 - [National instance of Galaxy](https://usegalaxy.no/)
   - Provides ~2000 tools data processing and analyses
   - Create, customise and reuse workflows
@@ -54,7 +55,6 @@ The minimum information about any (x) sequence (MIxS) is an overarching framewor
   - Access through the [NeLS portal]((https://nels.bioinfo.no))
   - Long term (until the end of a project) storage of non-active data
   - Store up to 10 GB of data free of charge
-    - Get in touch with the helpdesk for customisable options
     
 If your data is produced by the [NorSeq core facilities](https://www.norseq.org/),
 direct upload to the ELIXIR Norway storage infrastructures is possible. Non-sensitive data 
@@ -62,7 +62,16 @@ will be uploaded on [NeLS](https://nels.bioinfo.no) following
 [these procedures](https://elixir.no/Services-bak/data_produced_NorSeq).
 If your data has been produced by another sequence provider,
 follow [these instructions](https://elixir.no/Services-bak/non-norseq-data) to request a project on NeLS.
-
+#### [Sigma2](https://www.sigma2.no/) ([Sikt](https://sikt.no/)) infrastructures
+- [High-performance computing](https://www.sigma2.no/high-performance-computing) 
+  - [Overview](https://documentation.sigma2.no/hpc_machines/hardware_overview.html) of available machines 
+- [NIRD data storage](https://www.sigma2.no/data-storage)
+  - Storage of active data for processing and analysis
+  - Granular data sharing with collaborators
+- [NIRD Service Platform](https://www.sigma2.no/nird-service-platform)
+  - Run cloud services including tools for processing and visualisation. 
+  - The services can be used to consume data without moving it from the NIRD storage location.
+  
 ### Data Deposition Repository
 
 #### European Nucleotide Archive (ENA)
