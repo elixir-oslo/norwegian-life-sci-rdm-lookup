@@ -33,6 +33,8 @@ The minimum information about any (x) sequence (MIxS) is an overarching framewor
 - Controlled vocabularies:
   - [Chemical Entities of Biological Interest ChEBI)](https://doi.org/10.25504/FAIRsharing.62qk8w)
 
+#### [European Variation Archive metadata template](https://www.ebi.ac.uk/eva/files/EVA_Submission_template.V1.1.4.xlsx)
+
 ### Sources for Reusable Data
 #### [Ensemlb](https://doi.org/10.25504/FAIRsharing.fx0mw7) 
 - Ensembl creates, integrates and distributes reference datasets and analysis tools that enable genomics.
@@ -73,21 +75,26 @@ follow [these instructions](https://elixir.no/Services-bak/non-norseq-data) to r
   - The services can be used to consume data without moving it from the NIRD storage location.
   
 ### Data Deposition Repository
-
 #### European Nucleotide Archive (ENA)
+- [Homepage](https://www.ebi.ac.uk/ena/browser/) -- [DOI](https://doi.org/10.25504/FAIRsharing.dj8nt8)
 - License: refer to the [Policies page](https://www.ebi.ac.uk/ena/browser/about/policies)
 - Identifiers: [Accession numbers](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/accessions.html)
 - How to submit data:
   - [General guide on data submission](https://www.ebi.ac.uk/ena/browser/submit)
   - [ENA checklists](https://www.ebi.ac.uk/ena/browser/checklists) (i.e. supported metadata standards required for submission) 
 - Embargo: possible, set status to [confidential](https://ena-docs.readthedocs.io/en/latest/faq/release/data-availability-policy.html?highlight=confidential) upon submission
-- More general RDM information about ENA on [RDMguide](https://rdm.elixir-belgium.org/ena) (ELIXIR BE)
+- More general RDM information about ENA on [RDMguide](https://rdm.elixir-belgium.org/ena) (ELIXIR Belgium)
 
-#### Repository Name 2
-- Standard License
-- Identifiers
-- How to submit data
-- Embargo
+#### European Variation Archive (EVA)
+- [Homepage](https://www.ebi.ac.uk/eva/) -- [DOI](https://doi.org/10.25504/FAIRsharing.6824pv)
+- License: [EMBL-EBI terms of use](https://www.ebi.ac.uk/about/terms-of-use)
+- Identifiers: accession numbers
+- [Submit data](https://www.ebi.ac.uk/eva/?Submit-Data)
+  - [Metadata template](https://www.ebi.ac.uk/eva/files/EVA_Submission_template.V1.1.4.xlsx)
+- Embargo: Data submitted to the EVA can be held privately for up to two years.
+The date of publication is set by the submitter using the "Hold Date" field of the 
+[EVA metadata template](https://www.ebi.ac.uk/eva/files/EVA_Submission_template.V1.1.4.xlsx)
+  (see the [help page](https://www.ebi.ac.uk/eva/?Help#submitted-data-held-privately)).
 
 ### Ethics and Regulations
 <!--Add information about laws and policies in Norway for relevant data types-->
