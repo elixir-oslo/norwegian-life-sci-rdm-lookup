@@ -34,6 +34,7 @@ The minimum information about any (x) sequence (MIxS) is an overarching framewor
   - [Chemical Entities of Biological Interest ChEBI)](https://doi.org/10.25504/FAIRsharing.62qk8w)
 
 #### [European Variation Archive metadata template](https://www.ebi.ac.uk/eva/files/EVA_Submission_template.V1.1.4.xlsx)
+This standard is required for submission of variation data on [EVA](https://www.ebi.ac.uk/eva/)
 
 ### Sources for Reusable Data
 #### [Ensemlb](https://doi.org/10.25504/FAIRsharing.fx0mw7) 
