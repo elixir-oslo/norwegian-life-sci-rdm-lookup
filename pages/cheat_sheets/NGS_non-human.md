@@ -98,14 +98,14 @@ The date of publication is set by the submitter using the "Hold Date" field of t
 
 ### Ethics and Regulations
 <!--Add information about laws and policies in Norway for relevant data types-->
-#### Data Type Name (e.g. Human Data) 
-- Reidentifiable
-
-#### Data Type Name (e.g. Biodiversity Data) 
-- Regulations
+- [General guidance for research ethics](https://www.forskningsetikk.no/en/guidelines/general-guidelines/)
+- [Guidelines for Research Ethics in Science and Technology](
+https://www.forskningsetikk.no/en/guidelines/science-and-technology/guidelines-for-research-ethics-in-science-and-technology/)
+- [Institutional guidelines](https://rdmkit.elixir-europe.org/no_resources#institutional-policies-on-research-data)
 
 ### Services in Norway
 <!--Add one line description-->
+
 #### RDM Services
 - Name
 - Description of services offered
