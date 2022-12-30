@@ -77,7 +77,8 @@ follow [these instructions](https://elixir.no/Services-bak/non-norseq-data) to r
   
 ### Data Deposition Repository
 #### European Nucleotide Archive (ENA)
-- [Homepage](https://www.ebi.ac.uk/ena/browser/) — [DOI](https://doi.org/10.25504/FAIRsharing.dj8nt8)
+- [Homepage](https://www.ebi.ac.uk/ena/browser/)
+- [DOI](FAIRsharing)(https://doi.org/10.25504/FAIRsharing.dj8nt8)
 - License: refer to the [Policies page](https://www.ebi.ac.uk/ena/browser/about/policies)
 - Identifiers: [Accession numbers](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/accessions.html)
 - How to submit data:
@@ -87,7 +88,8 @@ follow [these instructions](https://elixir.no/Services-bak/non-norseq-data) to r
 - More general RDM information about ENA on [RDMguide](https://rdm.elixir-belgium.org/ena) (ELIXIR Belgium)
 
 #### European Variation Archive (EVA)
-- [Homepage](https://www.ebi.ac.uk/eva/) — [DOI](https://doi.org/10.25504/FAIRsharing.6824pv)
+- [Homepage](https://www.ebi.ac.uk/eva/)
+- [DOI](FAIRsharing)(https://doi.org/10.25504/FAIRsharing.6824pv)
 - License: [EMBL-EBI terms of use](https://www.ebi.ac.uk/about/terms-of-use)
 - Identifiers: accession numbers
 - [Submit data](https://www.ebi.ac.uk/eva/?Submit-Data)
