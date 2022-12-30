@@ -107,14 +107,30 @@ https://www.forskningsetikk.no/en/guidelines/science-and-technology/guidelines-f
 <!--Add one line description-->
 
 #### RDM Services
-- Name
-- Description of services offered
-- Contact Information / Website Link
+- [ELIXIR helpdesk](https://elixir.no/helpdesk)
+  - Provides assistance with:
+    - Data management planning
+    - Storage and computing
+    - Metadata standards
+    - Data deposition to [ELIXIR databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases) 
+  - Contact: ELIXIR helpdesk
+
+- Data Stewardship Wizard (DSW)
+  - Data management planning:
+  - The ELIXIR Norway instance of the [Data Stewardship Wizard](
+https://elixir-no.ds-wizard.org/)
+provides exemplary DMPs for projects generating NGS data.
+    - [Start from exemplary DMP](https://elixir-no.ds-wizard.org/projects/create/from-template?selected=5363b48a-83a0-4153-bca8-311408e33e97)
+    - [Start from scratch](https://elixir-no.ds-wizard.org/projects/create/custom?selected=elixir.no:lifesciences-elixir-norway:latest)
+  - Contact: ELIXIR helpdesk
+- Institutional research data teams (listed on the [RDMkit national page](https://rdmkit.elixir-europe.org/no_resources#support-services))
 
 #### Scientific Services
-- Name
-- Description of services offered
-- Contact Information / Website Link
-
-### Useful Links
-<!--Add a list of relevant external/global tools-->
+- [The National Consortium for Sequencing and Personalized Medicine (NorSeq)](https://www.norseq.org/) 
+  - [Equipment and Services](https://www.norseq.org/services/)
+  - Contact: get in touch directly with the NorSeq site that best suits your requirements:
+    - [NorSeq-Oslo, Oslo University Hospital and University of Oslo](https://www.sequencing.uio.no/)
+    - [NorSeq-Cancer, Oslo University Hospital](http://oslo.genomics.no/)
+    - [NorSeq-Bergen, University of Bergen and Haukeland University Hospital](https://www.uib.no/en/clin2/genomics)
+    - [NorSeq-Trondheim, Norwegian University of Science and Technology (NTNU) and St.Olav's Hospital](https://www.ntnu.edu/mh/gcf)
+    - [NorSeq-Tromsø, UiT - The Arctic University of Norway and University Hospital of Northern Norway](https://uit.no/prosjekter/prosjekt?p_document_id=468291)
