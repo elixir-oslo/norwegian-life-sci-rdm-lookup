@@ -41,12 +41,28 @@ The minimum information about any (x) sequence (MIxS) is an overarching framewor
 - How to access: account (username and password)
 
 ### Storage and Computing
-<!--Add information about e.g. NeLS-->
-- [The Norwegian e-infrastructure for life sciences (NeLS)](https://nels.bioinfo.no) --
-[ELIXIR Norway]((https://elixir.no))
+#### The [ELIXIR Norway](https://elixir.no) infrastructures
+- [The Norwegian e-infrastructure for life sciences (NeLS)](https://nels.bioinfo.no)
   - Free of charge allocation of 1--10 TB disk space
   - Intended for sharing and storing active research data
-  
+- [National instance of Galaxy](https://usegalaxy.no/)
+  - Provides ~2000 tools data processing and analyses
+  - Create, customise and reuse workflows
+  - Data stored in NeLS is readily available for processing on Galaxy 
+    - Data redundancy is avoided
+- StoreBioInfo
+  - Access through the [NeLS portal]((https://nels.bioinfo.no))
+  - Long term (until the end of a project) storage of non-active data
+  - Store up to 10 GB of data free of charge
+    - Get in touch with the helpdesk for customisable options
+    
+If your data is produced by the [NorSeq core facilities](https://www.norseq.org/),
+direct upload to the ELIXIR Norway storage infrastructures is possible. Non-sensitive data 
+will be uploaded on [NeLS](https://nels.bioinfo.no) following 
+[these procedures](https://elixir.no/Services-bak/data_produced_NorSeq).
+If your data has been produced by another sequence provider,
+follow [these instructions](https://elixir.no/Services-bak/non-norseq-data) to request a project on NeLS.
+
 ### Data Deposition Repository
 
 #### European Nucleotide Archive (ENA)
