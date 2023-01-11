@@ -1,18 +1,27 @@
 copyright: "[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) BioMedData by [ELIXIR Norway](https://elixir.no/organization/biomeddata) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), except where otherwise noted."
 extra_line: 
 columns:
+  - type: image
+    image_width: 150px
+    width: 2
+    src: 'assets/img/lifesci_logo.png'
+    alt: life sciences rdm logo
   - type: links
     width: 3
     children: 
       - url_text: About
         url: /about
+      - url_text: Contribute
+        url: /contribute
+      - url_text: Code of Conduct
+        url: https://elixir-europe.org/events/code-of-conduct
   - type: image
-    image_width: 120px
-    width: 2
-    src: ''
+    image_width: 150px
+    width: 1
+    src: 'assets/img/BioMedData_logo.png'
     alt: logo biomeddata
   - type: image
     image_width: 100px
     width: 1
-    src: 'assets/img/ELIXIR_Norway_logo_469x469.png'
+    src: 'assets/img/elixir-norway-logo-white.png'
     alt: ELIXIR Norway

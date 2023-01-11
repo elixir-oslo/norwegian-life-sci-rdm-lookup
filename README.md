@@ -4,7 +4,7 @@
 </p>
 
 # BioMedData
-**FAIR Life Sciences - Data Management Lookup** <br>
+**Norway's Life Sciences RDM Lookup** <br>
 Repository for website development.
 
 ## Attribution
