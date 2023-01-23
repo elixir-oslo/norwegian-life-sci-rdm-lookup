@@ -1,15 +1,20 @@
 ---
-title: 
+layout: page
+type: cheat_sheet
+title: NMR
 search_exclude: true
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-page_id: [<!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->]
+contributors: [Torill Sjøbakk]
+page_id: nmr
+description: Data from Nuclear magnetic resonance spectroscopy
+affiliations:
+sidebar: cheat_sheets
 ---
 
 ## Domain Title
 <!--Example: High-Throughput Screening-->
 
 ### Description
-<!--Write about th domain, its purpose/use, and 2-3 lines on data management challenge when it comes to said domain research in Norway-->
+
 
 ### Type of data/experiments/methods
 #### Type 1
@@ -27,7 +32,7 @@ page_id: [<!---REPLACE THIS with a shortened page name, with small letters and s
 - FAIRsharing entry link
 
 ### Sources for Reusable Data
-#### Source name 1 
+#### Source name 1
 - Description e.g. reference genome assembly
 - Standard License
 - Identifiers
@@ -37,7 +42,6 @@ page_id: [<!---REPLACE THIS with a shortened page name, with small letters and s
 <!--Add information about e.g. NeLS-->
 
 ### Data Deposition Repository
-<!--If relevant, make sure to mention what file formats are expected to be deposited-->
 
 #### Repository Name 1
 - Standard License
@@ -53,10 +57,10 @@ page_id: [<!---REPLACE THIS with a shortened page name, with small letters and s
 
 ### Ethics and Regulations
 <!--Add information about laws and policies in Norway for relevant data types-->
-#### Data Type Name (e.g. Human Data) 
+#### Data Type Name (e.g. Human Data)
 - Reidentifiable
 
-#### Data Type Name (e.g. Biodiversity Data) 
+#### Data Type Name (e.g. Biodiversity Data)
 - Regulations
 
 ### Services in Norway

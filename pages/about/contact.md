@@ -2,4 +2,6 @@
 title: Contact
 ---
 
-For questions and general enquiries, you can contact us at contact@bioinfo.no
+For feedback and/or any query, please don't hesitate to:
+* [open an issue on GitHub](https://github.com//elixir-oslo/biomeddata/issues) or
+* you can also contact us by mail via [contact@bioinfo.no](mailto:contact@bioinfo.no)

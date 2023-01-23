@@ -1,9 +1,15 @@
 ---
-title: 
-search_exclude: true
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-page_id: [<!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->]
+layout: page
+title: Protein Crystallography
+type: cheat_sheet
+search_exclude: false
+contributors: [Korbinian Bösl]
+page_id: crystallography
+description: Data from x-ray diffraction of protein crystals
+affiliations:
+sidebar: cheat_sheets
 ---
+
 
 ## Domain Title
 <!--Example: High-Throughput Screening-->
@@ -27,7 +33,7 @@ page_id: [<!---REPLACE THIS with a shortened page name, with small letters and s
 - FAIRsharing entry link
 
 ### Sources for Reusable Data
-#### Source name 1 
+#### Source name 1
 - Description e.g. reference genome assembly
 - Standard License
 - Identifiers
@@ -52,10 +58,10 @@ page_id: [<!---REPLACE THIS with a shortened page name, with small letters and s
 
 ### Ethics and Regulations
 <!--Add information about laws and policies in Norway for relevant data types-->
-#### Data Type Name (e.g. Human Data) 
+#### Data Type Name (e.g. Human Data)
 - Reidentifiable
 
-#### Data Type Name (e.g. Biodiversity Data) 
+#### Data Type Name (e.g. Biodiversity Data)
 - Regulations
 
 ### Services in Norway

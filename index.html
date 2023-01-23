@@ -23,10 +23,10 @@ layout: none
     <div class="landingpage">
         <section class="container mb-5">
             <div>
-                <p class="text-center lead">BioMedData (Life Sciences) LookUp is an initiative that aims to 
-                    aid your research data management. It is designed to help you understand data standards, tools, 
-                    and resources relevant to your life sciences research domain and therefore provides context that can help you manage data in a Findable, Accessible, Interopraable, and Resuable (FAIR)
-                    way. Our primary audience is a community of current and future life scientists in Norway. 
+                <p class="text-center lead"> Life Science RDM LookUp is a resource aiming to
+                    support your life science research on data management in Norway. It acts as a waypost to help you to find data standards, tools,
+                    support services and policies relevant to your life sciences research domain. We guide you to the relevant knowledge that can help you manage data in a Findable, Accessible, Interoperable, and Resuable (FAIR)
+                    way. Our primary audience are life scientists in Norway.
                 </p>
             </div>
         </section>
@@ -50,31 +50,84 @@ layout: none
                 </div>
             </div>
         </section>
-        <!-- <section class="bg-light pb-5">
+  <section class="bg-light pb-5">
             <div class="container">
-                <h2 class="no-anchor text-center mb-3">Browse all topics by</h2>
-                {%- assign sidebar = site.data.sidebars[page.sidebar] %}
+                <h2 class="no-anchor text-center mb-3">Resources: </h2>
+                <!-- {%- assign sidebar = site.data.sidebars[page.sidebar] %} -->
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
-                    {%- for folder in sidebar.subitems %}
+
+                    <!-- RDMKIT -->
                     <div class="col">
                         <div class="card border bg-white h-100">
-                            {%- if folder.image_url%}
-                            <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-5 mx-auto"
-                                alt="{{folder.title}} icon">
-                            {%- endif %}
+                            <img src="assets/img/section-icons/RDMkit_logo.svg" class="card-img-top h-icon-5 mx-auto"
+                                alt="RDMkit logo">
                             <div class="card-body text-center">
-                                <a href="{{ folder.url | relative_url }}" class="stretched-link">
-                                    <h3 class="card-title no-anchor text-primary">{{folder.title}}</h3>
+                                <a href="https://rdmkit.elixir-europe.org/" target="_blank" class="stretched-link">
+                                    <h3 class="card-title no-anchor text-primary"> RDMkit</h3>
                                 </a>
-                                <p class="card-text">{{folder.description}}</p>
+                                <p class="card-text"> General life science best practices and guidelines from ELIXIR. Recommended by RCN, ERC and Horizion Europe</p>
                             </div>
                         </div>
-                        </a>
                     </div>
-                    {%- endfor %}
+                    <!-- RDMkit NO pages -->
+                    <div class="col">
+                        <div class="card border bg-white h-100">
+                            <img src="assets/img/section-icons/flag_no.svg" class="card-img-top h-icon-5 mx-auto"
+                                alt="norwegian flag with RDMkit logo">
+                            <div class="card-body text-center">
+                                <a href="https://rdmkit.elixir-europe.org/no_resources" target="_blank" class="stretched-link">
+                                    <h3 class="card-title no-anchor text-primary"> Norwegian resources in RDMkit</h3>
+                                </a>
+                                <p class="card-text"> National resources, policies and laws relevant for life science data management in RDMkit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- cheatsheets -->
+                    <div class="col">
+                        <div class="card border bg-white h-100">
+                            <img src="assets/img/section-icons/cheat_sheets.svg" class="card-img-top h-icon-5 mx-auto"
+                                alt="cheat sheet icon">
+                            <div class="card-body text-center">
+                                <a href="cheat_sheets" class="stretched-link">
+                                    <h3 class="card-title no-anchor text-primary"> Cheat sheets</h3>
+                                </a>
+                                <p class="card-text"> Data management cheat sheets from Norwegian life science research infrastructures</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- NeLS tool assembly -->
+                    <div class="col">
+                        <div class="card border bg-white h-100">
+                            <img src="assets/img/section-icons/NeLS_toolkit.svg" class="card-img-top h-icon-5 mx-auto"
+                                alt="cheatsheet icon">
+                            <div class="card-body text-center">
+                                <a href="https://rdmkit.elixir-europe.org/nels_assembly" target="_blank" class="stretched-link">
+                                    <h3 class="card-title no-anchor text-primary"> NeLS data management tool assembly</h3>
+                                </a>
+                                <p class="card-text"> The Norwegian e-Infrastructure for Life Sciences (NeLS), RDM infrastructure provided by ELIXIR Norway.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TSD assembly? -->
+                    <!-- NFEGA? -->
+                    <!-- DSW-NO? -->
+                    <!-- FAIRDOM Hub? -->
+                    <!-- openscience.no -->
+                    <div class="col">
+                        <div class="card border bg-white h-100">
+                            <img src="assets/img/section-icons/openscience_no.svg" class="card-img-top h-icon-5 mx-auto"
+                                alt="openscience logo">
+                            <div class="card-body text-center">
+                                <a href="https://www.openscience.no/" target="_blank" class="stretched-link">
+                                    <h3 class="card-title no-anchor text-primary"> openscience.no</h3>
+                                </a>
+                                <p class="card-text"> General, generic information on open science and open data (in Norway), maintained by SIKT</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <section class="py-5">
             <div class="container">
                 <div class="row">
@@ -84,9 +137,9 @@ layout: none
                     </div>
                     <div class="col-lg-7">
                         <h2>Welcome with your contributions!</h2>
-                        <p>This project is only possible, thanks to <a
+                        <p>This project is only possible, thanks to the <a
                                 href="{{ '/about/contributors' | relative_url }}"><b>BioMedData coordinators
-                                and Project Area Liasions (PALs)</b></a>. Norway's Life Sciences Data Management LookUp is an open community
+                                and Project Area Liasions (PALs)</b></a>, the involved life science research infrastructures and funding from the Norwegian Research Council under project 295932. RDM Life Sciences Data Management LookUp is an open community
                             project, and you are welcome to join us!
                         </p>
                     </div>

@@ -1,8 +1,13 @@
 ---
-title: 
-search_exclude: true
+layout: page
+title: Biodiversity
+type: cheat_sheet
+search_exclude: false
 contributors: [Michal Torma]
-page_id: [biodiversity]
+page_id: biodiversity
+description: Biodiversity data is about species recorded in space and time.
+affiliations:
+sidebar: cheat_sheets
 ---
 
 ## Biodiversity data
@@ -43,7 +48,7 @@ file formats supported by IPT are:
 #### GBIF Norway IPT
 - [Contact us](mailto:helpdesk@gbif.no) to get user credentials
 - [IPT url](https://ipt.gbif.no)
-- Post on the [GBIF Norway github issue list](https://github.com/gbif-norway/helpdesk/issues) for general questions about data publication. You can also see questions others have posted here. 
+- Post on the [GBIF Norway github issue list](https://github.com/gbif-norway/helpdesk/issues) for general questions about data publication. You can also see questions others have posted here.
 
 ### Useful Links
 <!--Add a list of relevant external/global tools-->

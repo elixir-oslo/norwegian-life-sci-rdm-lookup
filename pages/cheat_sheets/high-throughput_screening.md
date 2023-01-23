@@ -1,9 +1,15 @@
 ---
+layout: page
+type: cheat_sheet
 title: High-Throughput Screening Cheat Sheet
-search_exclude: true
+search_exclude: false
 contributors: [Federico Bianchini, Alexandra Gade]
-page_id: [HTS]
+page_id: HTS
+description: Data from automated testing of chemical and/or biological compounds against targets
+affiliations:
+sidebar: cheat_sheets
 ---
+
 
 ## High-throughput screening
 
@@ -11,7 +17,7 @@ page_id: [HTS]
 <!--Write about the domain, its purpose/use, and 2-3 lines on data management challenge when it comes to said domain research in Norway-->
 High-throughput screening (HTS) involves automated testing of chemical and/or biological compounds against a target, typically biological. The process is automated through the use of microwell plates and/or microarrays, robotics, liquid handling, data processing, and sensitive detection systems. The detection systems are typically optical plate reader data, imaging data, or flow cytometry data.  
 Screening data generated in Norway are collected using a large quantity of compounds from diverse suppliers that are tested against a variety of targets in many different assay types using various detection methods. Such heterogeneities make unifying HTS data generated in Norway an ongoing challenge.
-  
+
 ### Type of data/experiments/methods
 #### Plate reader data as text files
 - [Tab-separated values (TSV)](https://fairsharing.org/bsg-s001547)
@@ -23,7 +29,7 @@ Screening data generated in Norway are collected using a large quantity of compo
 #### Flow Cytometry Data
 - [Flow Cytometry Data File Standard (FCS)](https://fairsharing.org/bsg-s000565)
 - [XML-based gating definitions (Gating-ML)](https://doi.org/10.25504/FAIRsharing.qpyp5g)
-  
+
 
 ### Metadata Standards
 #### Standards
@@ -50,7 +56,7 @@ Screening data generated in Norway are collected using a large quantity of compo
 - Flow Cytometry-specific:
   - [Ontology for Biomedical Investigations (OBI)](https://doi.org/10.25504/FAIRsharing.284e1z)
   - [Cell Ontology (CL) for cell types](https://doi.org/10.25504/FAIRsharing.j9y503)
-  
+
 
 ### Sources for Reusable Data
 #### [PubChem](https://pubchem.ncbi.nlm.nih.gov/) BioAssay
@@ -59,7 +65,7 @@ Screening data generated in Norway are collected using a large quantity of compo
 - [Identifiers](https://pubchemdocs.ncbi.nlm.nih.gov/data-organization):
   - Resource unique identifiers for single chemical structures (CID), substances (SID), and assays (AID)
   - Other identifiers:
-    - Targets (genes/proteins): NCBI Gene IDs/NCBI Protein accession IDs 
+    - Targets (genes/proteins): NCBI Gene IDs/NCBI Protein accession IDs
     - Taxonomy: NCBI Taxonomy ID, the common name, or scientific name of an organism
     - [Pathways](https://pubchem.ncbi.nlm.nih.gov/sources/#type=Pathways): integrated from various sources and identified by SOURCE:ExternalID
     - Patents: for chemicals mentioned in a patent, unique patents identified by patent number (e.g. US5969156)
@@ -76,17 +82,17 @@ Screening data generated in Norway are collected using a large quantity of compo
 #### [European Chemical Biology Database (ECBD)](https://ecbd.eu/)
 - Small molecule screening data generated within the [EU-OPENSCREEN](https://www.eu-openscreen.eu/) network
 - [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)
-- Identifiers: 
+- Identifiers:
   - Resource unique identifier (EOS#) for assays, compounds, and targets
   - InChIKey as unique compound identifier
   - Additional identifiers for compounds: PubChem CID, MolPort number, and if available: ZINC, Mcule, eMolecules identifiers
 - [Search](https://ecbd.eu/assays/) the database from a web interface or [download](https://ecbd.eu/download) the data directly
-  
+
 ### Storage and Computing
 <!--Add information about e.g. NeLS, update this section when SEEK is deployed for NOR-OS metadata?-->
 HTS data collected in Norway are analyzed and stored at individual screening sites in NOR-Openscreen.  
 Metadata for screens run in Norway will be compiled into a central database.
-  
+
 ### Data Deposition Repository
 #### [PubChem](https://pubchem.ncbi.nlm.nih.gov/) BioAssay
 - [Data submission policy (no license available)](https://pubchemdocs.ncbi.nlm.nih.gov/data-submission-policy)
@@ -106,7 +112,7 @@ Metadata for screens run in Norway will be compiled into a central database.
   - Data sets deposited in ChEMBL are incorporated into PubChem
   - [Check the ChEMBL Loader documentation if your data are suitable for deposition](https://chembl.gitbook.io/chembl-loader/)
 - Embargo unknown
-  
+
 ### Ethics and Regulations
 <!--Add information about laws and policies in Norway for relevant data types-->
 #### Patient Data
@@ -123,7 +129,7 @@ Research data is managed at individual sites and coordinated at the RI-level.
 - For help with management of high-throughput screening data please contact [alexandra.gade@ncmm.uio.no](mailto:alexandra.gade@ncmm.uio.no)
 - Description of services offered
 - Contact Information / Website Link
-  
+
 #### Scientific Services
 - Chemical Biology Platform at NCMM/UiO
   - Chemical biology and high-throughput screening services

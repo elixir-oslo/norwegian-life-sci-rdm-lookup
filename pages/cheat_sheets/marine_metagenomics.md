@@ -1,29 +1,35 @@
 ---
-title: 
-search_exclude: true
-contributors: [Espen]
-page_id: [<!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->]
+layout: page
+type: cheat_sheet
+title: Marine Metagenomics
+search_exclude: false
+contributors: [Espen Åberg]
+page_id: marine_metagenomics
+description: Data from marine (meta-) genomics
+affiliations:
+sidebar: cheat_sheets
 ---
 
 # Marine Metagenomics
 <!--Example: High-Throughput Screening-->
 
 ## Description
-Collection of resources, tools and standards relevant for those interested in analysing marine datasets (e.g. genomes, metagenomes, and transcriptomes.
+Collection of resources, tools and standards relevant for those interested in analysing marine (meta-) genomic datasets (e.g. genomes, metagenomes, and transcriptomes).
 
 ## Type of data/experiments/methods
 ### File formats
-#### Bioinformatic file formats
+#### Mostly used raw file formats
 [FASTQ Sequence and Sequence Quality Format](https://fairsharing.org/bsg-s000229)
  	- Open Format
 
-[FASTA](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp)
-	- [FAIRsharing](https://fairsharing.org/FAIRsharing.rz4vfg)
+[FASTA](https://fairsharing.org/FAIRsharing.rz4vfg)
+	- [FAIRsharing](
  	- Open Format
 
-#### Legacy formats
-[Binary Base Call](BCL)
-	- Illumina
+
+
+#### Other relevant raw formats
+[Illumina Binary Base Call](https://www.illumina.com/informatics/sequencing-data-analysis/sequence-file-formats.html)
 
 [FASTQ Original Read Archive (ORA)](https://support-docs.illumina.com/SW/ORA_Format_Specification/Content/SW/ORA/ORAFormatSpecification.htm)
 
@@ -31,11 +37,12 @@ Collection of resources, tools and standards relevant for those interested in an
 
 [PacBio Alignment File Format (cmp.h5)](https://pacbiofileformats.readthedocs.io/en/11.0/legacy/CmpH5Spec.html)
 
-[POD5 File Format](https://github.com/nanoporetech/pod5-file-format) 
-	- ONT
+[POD5 File Format](https://github.com/nanoporetech/pod5-file-format)
+- ONT
 
 [Fast5](https://bioinformatics.cvr.ac.uk/exploring-the-fast5-format/)
-   	- ONT
+- for ONT
+
 
 #### Alignment formats
 [Sequence Alignment Map
@@ -58,21 +65,27 @@ Collection of resources, tools and standards relevant for those interested in an
 	- Open Format
 
 [ENA Sequence Flat File Format (formerly EMBL Sequence Flat File Format)]()
-	- [FAIRsharing](https://fairsharing.org/FAIRsharing.q9nh66) - Open format
-	
-[Browser Extensible Data Format (BED)](http://genome.cse.ucsc.edu/FAQ/FAQformat.html#format1) - [FAIRsharing](https://fairsharing.org/FAIRsharing.mwmbpq) - Open format
-	
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.q9nh66)
+  - Open format
+
+[Browser Extensible Data Format (BED)](http://genome.cse.ucsc.edu/FAQ/FAQformat.html#format1)
+- [FAIRsharing](https://fairsharing.org/FAIRsharing.mwmbpq)
+- Open format
+
 [Generic Feature Format Version 3 (GFF3)](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md)
-	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.dnk0f6) - Open format
+	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.dnk0f6)
+  - Open format
 
 [Gene Transfer Format (GTF)](http://mblab.wustl.edu/GTF22.html)
-	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.sggb1n) - Open format
+	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.sggb1n)
+  - Open format
 
 [Variant Call Format (VCF)](https://samtools.github.io/hts-specs/VCFv4.3.pdf)
-	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.cfzz0h) - Open format
+	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.cfzz0h)
+  - Open format
 
- 
- 
+
+
 ## Metadata Standards
 #### Standards
 [Minimum Information about any (x) Sequence](https://github.com/GenomicsStandardsConsortium/mixs/)
@@ -107,25 +120,20 @@ Collection of resources, tools and standards relevant for those interested in an
 [Environment Ontology (ENVO)](http://environmentontology.org/)
 	- [FAIRsharing](https://fairsharing.org/919)
 
-[Metagenome/Microbes Environmental Ontology
-(MEO)](https://bioportal.bioontology.org/ontologies/MEO)
+[Metagenome/Microbes Environmental Ontology (MEO)](https://bioportal.bioontology.org/ontologies/MEO)
 	- [FAIRsharing](https://fairsharing.org/bsg-s002785)
 
-[Gene Ontology
-(GO)](http://www.geneontology.org)
+[Gene Ontology (GO)](http://www.geneontology.org)
 	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.6xq0ee)
-
-#### Controlled vocabularies
-
 
 
 ## Sources for Reusable Data
 #### MGnify
- 
+
 - **Description:** EBI Metagenomics has changed its name to MGnify to reflect a change in scope. This is a free-to-use resource aiming at supporting all metagenomics researchers. The service is an automated pipeline for the analysis and archiving of metagenomic data that aims to provide insights into the phylogenetic diversity as well as the functional and metabolic potential of a sample. You can freely browse all the public data in the repository.
 - **Standard License:** [EMBL-EBI Terms of Use](https://www.ebi.ac.uk/about/terms-of-use)
 - **identifiers.org:** [MGnify Sample](https://registry.identifiers.org/registry/mgnify.samp#!), [MGnify Project](https://registry.identifiers.org/registry/mgnify.proj#!)
-- **How to access:** 
+- **How to access:**
 	- [Homepage](https://www.ebi.ac.uk/metagenomics/)
 	- [FAIRsharing entry link](https://fairsharing.org/FAIRsharing.dxj07r)
 
@@ -142,17 +150,17 @@ Collection of resources, tools and standards relevant for those interested in an
 
 - **Description:** Since 2016, the IMG/VR database has provided access to the largest collection of viral sequences obtained from (meta)genomes. The 3rd version of IMG/VR (Sept 2020) is composed of 18,373 cultivated and 2,314,329 uncultivated viral genomes (UViGs), nearly tripling the total number of sequences compared to the previous version. UViGs in IMG/VR are reported as single viral contigs, integrated proviruses, or genome bins, and are annotated with a new standardized pipeline including genome quality estimation using CheckV, taxonomic classification reflecting the latest ICTV update, and expanded host taxonomy prediction. The new IMG/VR interface enables users to efficiently browse, search, and select UViGs based on genome features and/or sequence similarity.
 - **identifiers.org:** [Integrated Microbial Genomes Taxon](https://registry.identifiers.org/registry/img.taxon#!), [Integrated Microbial Genomes Gene](https://registry.identifiers.org/registry/img.gene#!)
-- **How to access:** 
+- **How to access:**
 	- [Homepage](https://img.jgi.doe.gov/vr/)
 	- [FAIRsharing entry link](https://doi.org/10.25504/FAIRsharing.2KIa7T)
 
 ## Storage and Computing
 <!--Add information about e.g. NeLS-->
 
-### Data Deposition Repository
+### Data Deposition Repositories
 
 #### European Nucleotide Archive [(ENA)](https://www.ebi.ac.uk/ena/browser/home)
-- [Standard License](https://www.ebi.ac.uk/ena/browser/about/policies) 
+- [Standard License](https://www.ebi.ac.uk/ena/browser/about/policies)
 - [identifiers.org](https://registry.identifiers.org/registry/ena.embl#!)
 - [How to submit data](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html)
 - [Embargo](https://ena-docs.readthedocs.io/en/latest/faq/release.html)
@@ -163,37 +171,30 @@ Collection of resources, tools and standards relevant for those interested in an
 - [identifiers.org](https://registry.identifiers.org/registry/worms#!)
 - How to submit data: [Through WoRMS contributing databases](https://www.marinespecies.org/about.php#partners)
 
-### Ethics and Regulations
-<!--Add information about laws and policies in Norway for relevant data types-->
-#### Marine Metagenomic Data 
-- [General guidelines for research ethics](https://www.forskningsetikk.no/en/guidelines/general-guidelines/)
-- [Guidelines for Research Ethics in Science and Technology](https://www.forskningsetikk.no/en/guidelines/science-and-technology/guidelines-for-research-ethics-in-science-and-technology/)
-
-
 ### Services in Norway
 <!--Add one line description-->
 #### The Marine Metagenomics Portal (MMP)
 
 - The Marine Metagenomics Portal provides access to high-quality curated and freely accessible marine microbial genomics and metagenomics resources. It includes the MAR databases, a collection of richly annotated and manually curated contextual and sequence databases, and MetaPipe, a complete workflow for the analysis of marine metagenomic data.
-- Contact information 
+- Contact information
 	- [ELIXIR Norway - Tromsø Node](https://elixir.no/organization/organisation/elixir-uit)
 	- [Website Link](https://mmp2.sfb.uit.no)
 
 #### Metapipe
 - META-pipe is a complete workflow for the analysis of marine metagenomic data. It provides assembly of high-throughput sequence data, functional annotation of predicted genes, and taxonomic profiling.
-- Contact information 
+- Contact information
 	- [ELIXIR Norway - Tromsø Node](https://elixir.no/organization/organisation/elixir-uit)
 	- [Website Link](https://mmp2.sfb.uit.no/metapipe/)
 
 #### Data management planning:
 - Data Stewardship Wizard.  
-The ELIXIR-NO instance of the [Data Stewardship Wizard](https://elixir-no.ds-wizard.org/) provides support for data management planning for marine metagenomics in Norway. An exemplary Data Management Plan model for marine metagenomics in Norway is available [here](https://elixir-no.ds-wizard.org/projects/create/custom?selected=elixir.no:marinemetagenomics-elixir-norway:0.0.2).	
+The ELIXIR-NO instance of the [Data Stewardship Wizard](https://elixir-no.ds-wizard.org/) provides support for data management planning for marine metagenomics in Norway. An exemplary Data Management Plan model for marine metagenomics in Norway is available [here](https://elixir-no.ds-wizard.org/projects/create/custom?selected=elixir.no:marinemetagenomics-elixir-norway:0.0.2).
 
 #### Data storage
 - The Norwegian e-infrastructure for life sciences (NeLS)
 - ELIXIR Norway offers an infrastructure for storage of scientific data, intended for scientific research projects with larger sets of data (minimum 1TB) for mid-term storage. We currently offer free storage of data up to 10TB. For larger projects, please [contact us at ](mailto:contact@bioinfo.no).
 - Contact information
-	- [NeLS](https://nels.bioinfo.no)	
+	- [NeLS](https://nels.bioinfo.no)
 	- [ELIXIR Norway](https://elixir.no)
 
 #### Bioinformatics

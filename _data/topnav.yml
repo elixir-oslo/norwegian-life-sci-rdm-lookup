@@ -1,7 +1,9 @@
 subitems:
   - title: Main
     url: /index
-  - title: Explore
+  - title: Cheat Sheets
+    url: /cheat_sheets
+  - title: About
     url: /about
   # - title: Contribute
   #   url: /contribute

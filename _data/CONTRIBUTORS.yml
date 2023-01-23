@@ -13,25 +13,31 @@
 Alexandra Gade:
     git: alexgade
     email: alexandra.gade@ncmm.uio.no
-    orcid: 0000-0002-
+    orcid: 0000-0002-8650-5354
     role: "PAL"
     affiliation: NCMM, University of Oslo (UiO)
+Even Birkeland:
+    git:
+    email: Even.Birkeland@uib.no
+    orcid: Even.Birkeland@fhi.no
+    role: "PAL"
+    affiliation: University of Bergen; Norwegian Institute of Public Health
 Espen Åberg:
     git: Workberg
     email: espen.aberg@uit.no
-    orcid: 0000-0002-
+    orcid: 0000-0002-2280-7978
     role: Contributor
     affiliation: Centre for Bioinformatics, The Arctic university of Norway (UiT)
 Federico Bianchini:
     git: bianchini88
     email: fbianchini@uio.no
-    orcid: 0000-0002-
+    orcid: 0000-0002-9016-4820
     role: Contributor
     affiliation: Centre for Bioinformatics, UiO
 Michal Torma:
     git: MichalTorma
-    email: 
-    orcid: 0000-0002-
+    email: michal.torma@nhm.uio.no
+    orcid: 0000-0002-2690-9509
     role: Contributor
     affiliation: Natural History Museum, UiO
 Nazeefa Fatima:
@@ -41,21 +47,20 @@ Nazeefa Fatima:
     role: Lead
     affiliation: Centre for Bioinformatics, UiO
 Korbinian Bösl:
-    git: 
+    git: korbinib
     email: Korbinian.Bosl@uib.no
     orcid: 0000-0003-0498-4273
     role: Lead
-    affiliation: University of Bergen
+    affiliation: Computational Biology Unit, University of Bergen
 Torill Sjøbakk:
     git: Torillas
-    email: 
-    orcid: 
+    email: torill.sjobakk@ntnu.no
+    orcid: 0000-0003-0961-6234
     role: Contributor
     affiliation: NorMOLIM (Norwegian MOLecular IMaging) infrastructure, NTNU
 Xian Hu:
     git: evildna
-    email: 
-    orcid: 
+    email: xian.hu@ibv.uio.no
+    orcid: 0000-0002-3381-7514
     role: Contributor
     affiliation: NALMIN (Norwegian Advanced Light Microscopy Imaging Network), UiO
-

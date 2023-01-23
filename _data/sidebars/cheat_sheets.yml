@@ -1,0 +1,23 @@
+title: Cheat Sheets
+title_url: /cheat_sheets
+subitems:
+  - title: Biobanks
+    url: /biobanks
+  - title: Biodiversity
+    url: /biodiversity
+  - title: Protein Crystallography
+    url: /crystallography
+  - title: High-Throughput Screening
+    url: /high-throughput_screening
+  - title: Light Microscopy
+    url: /light_microscopy
+  - title: Marine Metagenomics
+    url: /marine_metagenomics
+  - title: NMR
+    url: /nmr
+  - title: Pre-clinical Imaging
+    url: /preclinical_imaging
+  - title: Proteomics
+    url: /proteomics
+  - title: Sequencing (Short and Long Reads)
+    url: /sequencing

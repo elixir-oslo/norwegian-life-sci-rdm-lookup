@@ -1,14 +1,14 @@
-copyright: "[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) BioMedData by [ELIXIR Norway](https://elixir.no/organization/biomeddata) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), except where otherwise noted."
-extra_line: 
+copyright: "[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Life Science RDM Lookup by [ELIXIR Norway](https://elixir.no/organization/biomeddata) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), except where otherwise noted."
+extra_line: Deliverable 4.2 of <a href="https://elixir.no/organization/biomeddata">BioMedData</a> funded under project <a href="https://prosjektbanken.forskningsradet.no/project/FORISS/295932"> 295932</a> by the Research Council of Norway
 columns:
   - type: image
-    image_width: 150px
+    image_width: 80%
     width: 2
-    src: 'assets/img/lifesci_logo.png'
-    alt: life sciences rdm logo
+    src: 'assets/img/ELIXIR-NO_dark.svg'
+    alt: ELIXIR Norway
   - type: links
     width: 3
-    children: 
+    children:
       - url_text: About
         url: /about
       - url_text: Contribute
@@ -16,12 +16,12 @@ columns:
       - url_text: Code of Conduct
         url: https://elixir-europe.org/events/code-of-conduct
   - type: image
-    image_width: 150px
-    width: 1
-    src: 'assets/img/BioMedData_logo.png'
+    image_width: 100%
+    width: 3
+    src: 'assets/img/BioMedData_white.svg'
     alt: logo biomeddata
   - type: image
-    image_width: 100px
-    width: 1
-    src: 'assets/img/elixir-norway-logo-white.png'
-    alt: ELIXIR Norway
+    image_width: 100%
+    width: 2
+    src: 'assets/img/Stottet_av_Forskningsradet_logo_Engelsk_01_Waals_CMYK.svg'
+    alt: logo funded by RCN
