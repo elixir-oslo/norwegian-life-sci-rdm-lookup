@@ -1,0 +1,66 @@
+- name: Norwegian Macromolecular Crystallography Consortium (NORCRYST)
+  image_url: /images/infrastructures/norcryst_logo.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://site.uit.no/norcryst/
+- name: National network of Advanced Proteomics Infrastructure (NAPI)
+  image_url: /images/infrastructures/napi-logo-grey.svg
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://www.napi.uio.no/
+- name: Norwegian advanced light microscopy imaging network (NALMIN)
+  image_url: /images/infrastructures/NALMIN.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: http://nalmin.no/
+- name: Norwegian molecular imaging infrastructure (NORMOLIM)
+  image_url: /images/infrastructures/NORMOLIM2.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://normolim.w.uib.no/
+- name: Biobank Norway (BBMRI-NO)
+  image_url: /images/infrastructures/biobank_NO.svg
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://bbmri.no/
+- name: NOR-Openscreen
+  image_url: /images/infrastructures/NOR-openscreen.svg
+  pid:
+  expose: true
+  type: infrastructure
+  url: http://www.openscreen.no/
+- name: Norwegian node of the Global Biodiversity Information Facility (GBIF-NO)
+  image_url: /images/infrastructures/gbif_no.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://www.gbif.no/
+- name: Norwegian mother and child cohort study (MoBa)
+  image_url: /images/infrastructures/moba-logo.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://www.fhi.no/en/studies/moba/
+- name: ELIXIR Norway
+  image_url: /images/infrastructures/ELIXIR-NO.svg
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://elixir.no/
+- name: Norwegian NMR Platform (NNP)
+  image_url: /images/infrastructures/NNP-logo-v1-04.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://nmr.h.uib.no/
+- name: Norwegian consortium for sequencing and personalized medicine (NorSeq)
+  image_url: /images/infrastructures/NorSeqLogo.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://www.norseq.org/

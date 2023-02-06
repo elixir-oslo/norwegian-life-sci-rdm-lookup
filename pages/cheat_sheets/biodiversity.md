@@ -5,9 +5,12 @@ type: cheat_sheet
 search_exclude: false
 contributors: [Michal Torma]
 page_id: biodiversity
-description: Biodiversity data is about species recorded in space and time.
-affiliations:
+description: Biodiversity data about species recorded in space and time.
+affiliations: ["Norwegian node of the Global Biodiversity Information Facility (GBIF-NO)"]
 sidebar: cheat_sheets
+dsw:
+- name: "Bio occurrence data"
+  uuid: 8201e668-3b6e-499d-b279-82932d5510c7
 ---
 
 ## Biodiversity data

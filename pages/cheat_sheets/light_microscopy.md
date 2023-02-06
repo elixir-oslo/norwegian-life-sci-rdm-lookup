@@ -1,13 +1,16 @@
 ---
 layout: page
 type: cheat_sheet
-title: High-Throughput Screening Cheat Sheet
+title: Light microscopy
 search_exclude: false
 contributors: [Xian Hu, Korbinian Bösl]
 page_id: HTS
 description: Data from different light microscopy technologies
-affiliations:
+affiliations: ["Norwegian advanced light microscopy imaging network (NALMIN)"]
 sidebar: cheat_sheets
+dsw:
+- name: "Light microscopy"
+  uuid: d8594508-6684-4032-ae7e-07ead4ff078d
 ---
 
 ## Optical Light Microscopy
@@ -19,8 +22,8 @@ Light microscopy technologies has been widely adopted to mordern biological and 
 
 
 ### Type of data/experiments/methods
-#### CZI
-- Zeiss [CZI-zeiss](https://www.zeiss.com/microscopy/en/products/software/zeiss-zen/czi-image-file-format.html)
+#### [CZI-zeiss](https://www.zeiss.com/microscopy/en/products/software/zeiss-zen/czi-image-file-format.html)
+- Zeiss
 - Proprietary format
 
 #### LIF
@@ -89,7 +92,7 @@ Light microscopy technologies has been widely adopted to mordern biological and 
 #### BioImageArchive
 - A public repository for imaging datasets. Research community can submit search and access the raw datasets.
 - Identifiers
-- [How to submit to BioImageArchive ](https://www.ebi.ac.uk/bioimage-archive/)
+- [How to submit to BioImageArchive](https://www.ebi.ac.uk/bioimage-archive/)
 
 ### Ethics and Regulations
 <!--Add information about laws and policies in Norway for relevant data types-->

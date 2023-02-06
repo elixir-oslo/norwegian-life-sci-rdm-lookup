@@ -8,6 +8,9 @@ page_id: marine_metagenomics
 description: Data from marine (meta-) genomics
 affiliations:
 sidebar: cheat_sheets
+dsw:
+- name: "Marine Metagenomics"
+  uuid: e4397aab-67e8-4aec-814a-eeb1399ef492
 ---
 
 # Marine Metagenomics

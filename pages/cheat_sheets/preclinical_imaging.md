@@ -6,8 +6,11 @@ search_exclude: true
 contributors: [Torill Sjøbakk]
 page_id: pic
 description: Data produced on research animals using imaging techniques like MR, PET/MR, PET/CT.
-affiliations:
+affiliations: ["Norwegian molecular imaging infrastructure (NORMOLIM)"]
 sidebar: cheat_sheets
+dsw:
+- name: "Preclinical Imaging"
+  uuid: d94e47a5-9e26-402a-a32c-5aef4665a569
 ---
 
 ## Preclinical Imaging
