@@ -6,7 +6,7 @@ search_exclude: true
 contributors: [Torill Sjøbakk]
 page_id: nmr
 description: Data from Nuclear magnetic resonance spectroscopy
-affiliations:
+affiliations: ["Norwegian NMR Platform (NNP)"]
 sidebar: cheat_sheets
 ---
 

@@ -6,8 +6,11 @@ search_exclude: false
 contributors: [Federico Bianchini, Alexandra Gade]
 page_id: HTS
 description: Data from automated testing of chemical and/or biological compounds against targets
-affiliations:
+affiliations: ["NOR-Openscreen"]
 sidebar: cheat_sheets
+dsw:
+- name: "High-Throughput Screening"
+  uuid: b4cf33a3-ad5e-4dde-a66a-4b914d2171fe
 ---
 
 

@@ -6,8 +6,11 @@ search_exclude: true
 contributors: [Korbinian Bösl]
 description: Some text
 page_id: biobanks
-affiliations:
+affiliations: ["Norwegian mother and child cohort study (MoBa)", "Biobank Norway (BBMRI-NO)"]
 sidebar: cheat_sheets
+dsw:
+- name: ""
+  uuid:
 ---
 
 ## Biobanks
