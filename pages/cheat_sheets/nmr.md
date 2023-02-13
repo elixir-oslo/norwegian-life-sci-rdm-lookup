@@ -1,7 +1,7 @@
 ---
 layout: page
 type: cheat_sheet
-title: NMR
+title: Nuclear Magnetic Resonance
 search_exclude: true
 contributors: [Torill Sjøbakk]
 page_id: nmr
