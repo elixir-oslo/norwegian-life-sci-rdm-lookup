@@ -1,10 +1,10 @@
 <!--Added Life Sciences RDM logo--->
 <p align="center">
-<img src="assets/img/lifesci_logo.png" width="200" float="center"/>
+<img src="assets/img/main_logo.svg" width="600" float="center"/>
 </p>
 
 # BioMedData
-**Norway's Life Sciences RDM Lookup** <br>
+**Norwegian Life Sciences RDM Lookup** <br>
 Repository for website development.
 
 ## Attribution
