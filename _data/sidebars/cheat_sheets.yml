@@ -1,8 +1,8 @@
 title: Cheat Sheets
 title_url: /cheat_sheets
 subitems:
-  - title: Biobanks
-    url: /biobanks
+#  - title: Biobanks
+#    url: /biobanks
   - title: Biodiversity
     url: /biodiversity
   - title: Protein Crystallography
@@ -13,11 +13,11 @@ subitems:
     url: /light_microscopy
   - title: Marine Metagenomics
     url: /marine_metagenomics
-  - title: Nuclear Magnetic Resonance
-    url: /nmr
+#  - title: Nuclear Magnetic Resonance
+#    url: /nmr
   - title: Pre-clinical Imaging
     url: /preclinical_imaging
   - title: Proteomics
     url: /proteomics
-  - title: Sequencing (Short and Long Reads)
+  - title: Sequencing
     url: /sequencing

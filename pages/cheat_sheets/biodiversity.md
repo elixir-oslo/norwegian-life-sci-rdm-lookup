@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Biodiversity
+title: Species occurrence data
 type: cheat_sheet
 search_exclude: false
 contributors: [Michal Torma]
@@ -12,8 +12,6 @@ dsw:
 - name: "Bio occurrence data"
   uuid: 8201e668-3b6e-499d-b279-82932d5510c7
 ---
-
-## Biodiversity data
 
 ### Description
 Biodiversity data is data about species recorded in space and time. Such data is useful for the modeling of future species distribution, impact of climate change etc. Many natural studies inadvertently collect biodiversity data in different shape and form therefore it is often challenging to reshape the data into standardised form.
@@ -35,16 +33,32 @@ This standard supports the following data structures:
 #### EML
 Metadata standard used is [EML](https://eml.ecoinformatics.org/). To create metadata for your dataset, you will fill in a form during the IPT dataset publication process.
 
+#### Ontologies
+EML accepts various vocabularies, some examples include:
+- [ECSO (Ecosystem Ontology)](https://doi.org/10.25504/FAIRsharing.a4ww64)
+- [EnvO (Environment Ontology)](https://doi.org/10.25504/FAIRsharing.azqskx)
+- [NCBI Taxonomy](https://doi.org/10.25504/FAIRsharing.fj07xj)
+- [OBOE (The Extensible Observation Ontology)](https://doi.org/10.25504/FAIRsharing.5970hq)
+- [ROR (Research Organization Registry)](https://doi.org/10.25504/FAIRsharing.1jKfji)
+
 ### Sources for Reusable Data
-#### GBIF
-All published biodiversity data (from different sources) is available through [GBIF](https://gbif.org) portal. Filtered datasets are provided with unique DOIs for tracking data use. It's also possible to use the [GBIF API](https://www.gbif.org/developer/summary) with [R](https://cran.r-project.org/web/packages/rgbif/index.html) or [python](https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client) to retrieve data.
+#### [GBIF](https://gbif.org)
+- All published biodiversity data (from different sources) is available through [GBIF](https://gbif.org) portal.  
+- [Data user guidelines](https://www.gbif.org/terms/data-user)
+- Identifiers:
+  - Filtered datasets are provided with unique DOIs for tracking data use.
+- Access via [web interface](https://gbif.org), it's also possible to use the [GBIF API](https://www.gbif.org/developer/summary) with [R](https://cran.r-project.org/web/packages/rgbif/index.html) or [python](https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client) to retrieve data.
+
 
 ### Storage and Computing
 Storage is provided by individual IPT (Integrated Publishing Toolkit) providers.
 
 ### Data Deposition Repository
 file formats supported by IPT are:
-- CSV and plain text formats
+- Plain text formats
+  - [Tab-separated values (TSV)](https://doi.org/10.25504/FAIRsharing.a978c9)
+  - [Comma-separated values (CSV)](https://doi.org/10.25504/FAIRsharing.1943d4)
+  - Open formats
 - XLSX and XLS
 - SQL databases (e.g. Mariadb, Postgres)
 

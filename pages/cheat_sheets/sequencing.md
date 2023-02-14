@@ -15,14 +15,12 @@ dsw:
   uuid: 27a7fdf2-4b40-4f13-af6f-227b8eb94b48  
 ---
 
-## Next generation sequencing of non-human data
-
 ### Description
 
 ### Type of data/experiments/methods
 <!---When mentioning file format, it would be useful to mention format type -->
 
-#### Sequencing data
+#### Sequencing data and alignment data
 - [FASTQ format](https://doi.org/10.25504/FAIRsharing.r2ts5t)
 - [Sequence Alignment Map (SAM) format](https://doi.org/10.25504/FAIRsharing.k97xzh)
 - [Binary Alignment Map (BAM) format](https://doi.org/10.25504/FAIRsharing.hza1ec)
@@ -38,7 +36,7 @@ The minimum information about any (x) sequence (MIxS) is an overarching framewor
   - [NCBI Taxonomy (NCBITAXON)](https://doi.org/10.25504/FAIRsharing.fj07xj)
   - [Phenotypic QualiTy Ontology (PATO)](https://doi.org/10.25504/FAIRsharing.ezwdhz)
   - [Disease Ontology (DOID)](https://doi.org/10.25504/FAIRsharing.8b6wfq)
-  - [Envcironment Ontology ENVO)](https://doi.org/10.25504/FAIRsharing.azqskx)
+  - [Environment Ontology ENVO)](https://doi.org/10.25504/FAIRsharing.azqskx)
   - [Plant Ontology (PO)](https://doi.org/10.25504/FAIRsharing.3ngg40)
 - Controlled vocabularies:
   - [Chemical Entities of Biological Interest ChEBI)](https://doi.org/10.25504/FAIRsharing.62qk8w)
@@ -47,11 +45,11 @@ The minimum information about any (x) sequence (MIxS) is an overarching framewor
 This standard is required for submission of variation data on [EVA](https://www.ebi.ac.uk/eva/)
 
 ### Sources for Reusable Data
-#### [Ensemlb](https://doi.org/10.25504/FAIRsharing.fx0mw7)
+#### [Ensembl](https://doi.org/10.25504/FAIRsharing.fx0mw7)
 - Ensembl creates, integrates and distributes reference datasets and analysis tools that enable genomics.
 - Data is open-access and can be downloaded free of charge ([disclaimer](https://www.ensembl.org/info/about/legal/index.html))
 - Identifiers: [Ensembl stable ID](https://www.ensembl.org/Help/Faq?id=488)
-- How to access: account (username and password)
+- Free to access, more features with account (username and password)
 
 ### Storage and Computing
 #### [ELIXIR Norway](https://elixir.no) infrastructures
@@ -127,16 +125,6 @@ https://www.forskningsetikk.no/en/guidelines/science-and-technology/guidelines-f
     - Metadata standards
     - Data deposition to [ELIXIR databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
   - Contact: ELIXIR helpdesk
-
-- Data Stewardship Wizard (DSW)
-  - Data management planning:
-  - The ELIXIR Norway instance of the [Data Stewardship Wizard](
-https://elixir-no.ds-wizard.org/)
-provides exemplary DMPs for projects generating NGS data.
-    - [Start from exemplary DMP](https://elixir-no.ds-wizard.org/projects/create/from-template?selected=5363b48a-83a0-4153-bca8-311408e33e97)
-    - [Start from scratch](https://elixir-no.ds-wizard.org/projects/create/custom?selected=elixir.no:lifesciences-elixir-norway:latest)
-  - Contact: ELIXIR helpdesk
-- Institutional research data teams (listed on the [RDMkit national page](https://rdmkit.elixir-europe.org/no_resources#support-services))
 
 #### Scientific Services
 - [The National Consortium for Sequencing and Personalized Medicine (NorSeq)](https://www.norseq.org/)

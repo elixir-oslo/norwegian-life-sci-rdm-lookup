@@ -8,7 +8,6 @@ page_id: crystallography
 description: Data from X-ray diffraction of biological macromolecules crystals
 affiliations: ["Norwegian Macromolecular Crystallography Consortium (NORCRYST)"]
 sidebar: cheat_sheets
-tooltable: false
 dsw:
 - name: "Biological macromolecular crystallography"
   uuid: d01cb268-f0d9-4b2b-a033-d7461946ffd0
@@ -20,16 +19,22 @@ dsw:
 Data on three-dimensional structures of biological macromolecules including proteins and nucleic acids, determined from electro density distribution from X-ray diffraction patterns.
 
 ### Type of data/experiments/methods
-#### [Tagged Image File Format](https://doi.org/10.25504/FAIRsharing.h1drng)
-- For diffraction patterns
+#### Diffraction patterns
+- [Tagged Image File Format](https://doi.org/10.25504/FAIRsharing.h1drng)
 - Open Format
 
-#### [macromolecular Crystallographic Information File](https://doi.org/10.25504/FAIRsharing.fd28en)
-- PDBx/mmCIF is a dictionary of data archiving macromolecule crystallographic experiments and their results.
+#### Archiving format for macromolecule crystallographic experiments and results
+- [macromolecular Crystallographic Information File (PDBx/mmCIF)](https://doi.org/10.25504/FAIRsharing.fd28en)
 - Open Format
 
 ### Metadata Standards
 #### [Crystallographic Information Framework](https://doi.org/10.25504/FAIRsharing.zr52g5)
+
+#### Dictionaries
+- [Core mmcif Dictionary](http://mmcif.pdb.org/dictionaries/mmcif_std.dic/Index/index.html)
+- [PDB mmCIF Extension (PDBX) Dictionary](http://mmcif.pdb.org/dictionaries/mmcif_pdbx.dic/Index/index.html)
+- [3D EM Extension Dictionary](http://mmcif.pdb.org/dictionaries/mmcif_em.dic/Index/index.html)  to describe structures and experimental data produced by 3D Electron Microscopy experiments
+
 
 ### Sources for Reusable Data
 #### [Protein Data Bank in Europe](https://www.ebi.ac.uk/pdbe/)
@@ -73,3 +78,4 @@ Data on three-dimensional structures of biological macromolecules including prot
 
 ### Useful Links
 <!--Add a list of relevant external/global tools-->
+- [NORCRYST website](https://site.uit.no/norcryst/)
