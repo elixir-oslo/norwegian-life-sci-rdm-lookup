@@ -53,7 +53,7 @@ This standard is required for submission of variation data on [EVA](https://www.
 
 ### Storage and Computing
 #### [ELIXIR Norway](https://elixir.no) infrastructures
-- [The Norwegian e-infrastructure for life sciences (NeLS)](https://nels.bioinfo.no)
+- [The Norwegian e-infrastructure for Life Sciences (NeLS)](https://nels.bioinfo.no)
   - Free of charge allocation of 1–10 TB disk space
   - Storing active research data for analysing and processing
   - Granular data sharing with collaborators
@@ -92,12 +92,14 @@ follow [these instructions](https://elixir.no/Services-bak/non-norseq-data) to r
 - How to submit data:
   - [General guide on data submission](https://www.ebi.ac.uk/ena/browser/submit)
   - [ENA checklists](https://www.ebi.ac.uk/ena/browser/checklists) (i.e. supported metadata standards required for submission)
+  - [Data submission as a broker](https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html)
+  - [General information how data brokering works](https://rdmkit.elixir-europe.org/data_brokering)  
 - Embargo: possible, set status to [confidential](https://ena-docs.readthedocs.io/en/latest/faq/release/data-availability-policy.html?highlight=confidential) upon submission
-- More general RDM information about ENA on [RDMguide](https://rdm.elixir-belgium.org/ena) (ELIXIR Belgium)
+- More general information about ENA on [RDM Guide](https://rdm.elixir-belgium.org/ena) (by ELIXIR Belgium)
 
 #### European Variation Archive (EVA)
 - [Homepage](https://www.ebi.ac.uk/eva/)
-- [DOI(FAIRsharing)](https://doi.org/10.25504/FAIRsharing.6824pv)
+- [DOI (FAIRsharing)](https://doi.org/10.25504/FAIRsharing.6824pv)
 - License: [EMBL-EBI terms of use](https://www.ebi.ac.uk/about/terms-of-use)
 - Identifiers: accession numbers
 - [Submit data](https://www.ebi.ac.uk/eva/?Submit-Data)
@@ -107,7 +109,7 @@ The date of publication is set by the submitter using the "Hold Date" field of t
 [EVA metadata template](https://www.ebi.ac.uk/eva/files/EVA_Submission_template.V1.1.4.xlsx)
   (see the [help page](https://www.ebi.ac.uk/eva/?Help#submitted-data-held-privately)).
 
-### Ethics and Regulations
+### Ethics and Regulations in Norway
 <!--Add information about laws and policies in Norway for relevant data types-->
 - [General guidance for research ethics](https://www.forskningsetikk.no/en/guidelines/general-guidelines/)
 - [Guidelines for Research Ethics in Science and Technology](
@@ -118,13 +120,11 @@ https://www.forskningsetikk.no/en/guidelines/science-and-technology/guidelines-f
 <!--Add one line description-->
 
 #### RDM Services
-- [ELIXIR helpdesk](https://elixir.no/helpdesk)
-  - Provides assistance with:
-    - Data management planning
-    - Storage and computing
-    - Metadata standards
-    - Data deposition to [ELIXIR databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
-  - Contact: ELIXIR helpdesk
+[ELIXIR Norway's HelpDesk](https://elixir.no/helpdesk) can assist you with guidance on:
+  - Data management planning
+  - Storage and computing
+  - Metadata standards
+  - Data deposition to [ELIXIR databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
 
 #### Scientific Services
 - [The National Consortium for Sequencing and Personalized Medicine (NorSeq)](https://www.norseq.org/)
