@@ -3,7 +3,7 @@ layout: page
 title: Species occurrence data
 type: cheat_sheet
 search_exclude: false
-contributors: [Michal Torma]
+contributors: [Michal Torma, Nazeefa Fatima]
 page_id: biodiversity
 description: Biodiversity data about species recorded in space and time.
 affiliations: ["Norwegian node of the Global Biodiversity Information Facility (GBIF-NO)"]
@@ -21,16 +21,16 @@ All publishable biodiversity data should follow [Darwin Core](https://dwc.tdwg.o
 This standard supports the following data structures:
 
 #### Occurrence data
-- [How to publish](https://ipt.gbif.org/manual/en/ipt/2.4/occurrence-data)
+- [Learn about how to transform data to occurence data](https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data)
 
 #### Sampling event data
-- [How to publish](https://ipt.gbif.org/manual/en/ipt/2.4/sampling-event-data)
+- [How to transform data to sampling event data](https://ipt.gbif.org/manual/en/ipt/latest/sampling-event-data)
 
 #### Checklist data
-- [How to publish](https://ipt.gbif.org/manual/en/ipt/2.4/checklist-data)
+- [How to prepare data in table structures](https://ipt.gbif.org/manual/en/ipt/latest/checklist-data)
 
 ### Metadata Standards
-#### EML
+#### Ecological Metadata Language (EML)
 Metadata standard used is [EML](https://eml.ecoinformatics.org/). To create metadata for your dataset, you will fill in a form during the IPT dataset publication process.
 
 #### Ontologies
@@ -43,31 +43,32 @@ EML accepts various vocabularies, some examples include:
 
 ### Sources for Reusable Data
 #### [GBIF](https://gbif.org)
-- All published biodiversity data (from different sources) is available through [GBIF](https://gbif.org) portal.  
+- All published biodiversity data, from different sources, is available through [GBIF](https://gbif.org) portal.  
 - [Data user guidelines](https://www.gbif.org/terms/data-user)
 - Identifiers:
   - Filtered datasets are provided with unique DOIs for tracking data use.
-- Access via [web interface](https://gbif.org), it's also possible to use the [GBIF API](https://www.gbif.org/developer/summary) with [R](https://cran.r-project.org/web/packages/rgbif/index.html) or [python](https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client) to retrieve data.
-
+- It is also possible to use the [GBIF API](https://www.gbif.org/developer/summary) with [R](https://cran.r-project.org/web/packages/rgbif/index.html) or [Python](https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client) to retrieve data.
 
 ### Storage and Computing
-Storage is provided by individual IPT (Integrated Publishing Toolkit) providers.
+Storage is provided by individual Integrated Publishing Toolkit (IPT) providers.
 
 ### Data Deposition Repository
-file formats supported by IPT are:
+File formats that are supported by IPT are:
 - Plain text formats
   - [Tab-separated values (TSV)](https://doi.org/10.25504/FAIRsharing.a978c9)
   - [Comma-separated values (CSV)](https://doi.org/10.25504/FAIRsharing.1943d4)
   - Open formats
 - XLSX and XLS
-- SQL databases (e.g. Mariadb, Postgres)
+- SQL databases (e.g. MariaDB, PostgreSQL)
 
 #### GBIF Norway IPT
-- [Contact us](mailto:helpdesk@gbif.no) to get user credentials
-- [IPT url](https://ipt.gbif.no)
-- Post on the [GBIF Norway github issue list](https://github.com/gbif-norway/helpdesk/issues) for general questions about data publication. You can also see questions others have posted here.
+- [GBIF Norway's IPT Homepage](https://ipt.gbif.no)
+- [Contact GBIF](mailto:helpdesk@gbif.no) to get user credentials
+- Post on the [GBIF Norway GitHub issue list](https://github.com/gbif-norway/helpdesk/issues) for general questions about data publication. You can also see questions others have posted here.
 
 ### Useful Links
 <!--Add a list of relevant external/global tools-->
-- In addition to the Norwegian helpdesk github, there is a [global GBIF github issue list](https://github.com/gbif/ipt/issues?q=) for data publication and IPT usage questions
+- In addition to the GBIF Norway HelpDesk at GitHub, there is a [global GBIF GitHub issue list](https://github.com/gbif/ipt/issues?q=) for data publication and IPT usage questions
 - [Darwin core extensions](https://rs.gbif.org/extension/)
+- [Earth BioGenome Project (EBP) Norway](https://www.ebpnor.org/english/)
+- [European Reference Genome Atlas (ERGA)](https://www.erga-biodiversity.eu/)
