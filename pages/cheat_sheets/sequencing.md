@@ -1,11 +1,11 @@
 ---
 layout: page
 type: cheat_sheet
-title: Next generation sequencing data
+title: Sequencing data
 search_exclude: false
 contributors: [Federico Bianchini, Korbinian Bösl, Nazeefa Fatima]
 page_id: sequencing
-description: Next generation sequencing data
+description: Short and long reads sequencing data
 affiliations: ["Norwegian consortium for sequencing and personalized medicine (NorSeq)"]
 sidebar: cheat_sheets
 dsw:
