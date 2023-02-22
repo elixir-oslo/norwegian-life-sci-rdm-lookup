@@ -120,7 +120,7 @@ https://www.forskningsetikk.no/en/guidelines/science-and-technology/guidelines-f
 <!--Add one line description-->
 
 #### RDM Services
-[ELIXIR Norway's HelpDesk](https://elixir.no/helpdesk) can assist you with guidance on:
+[ELIXIR Norway's HelpDesk](https://elixir.no/helpdesk) can assist you.
   - Data management planning
   - Storage and computing
   - Metadata standards
