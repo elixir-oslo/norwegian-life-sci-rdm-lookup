@@ -24,7 +24,7 @@ This standard supports the following data structures:
 - [Learn about how to publish occurence data](https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data)
 
 #### Sampling event data
-- [How to transform data to sampling event data](https://ipt.gbif.org/manual/en/ipt/latest/sampling-event-data)
+- [How to publish sampling event data](https://ipt.gbif.org/manual/en/ipt/latest/sampling-event-data)
 
 #### Checklist data
 - [How to prepare data in table structures](https://ipt.gbif.org/manual/en/ipt/latest/checklist-data)
