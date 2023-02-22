@@ -22,5 +22,5 @@ This work is licensed under a
 
 ## Attribution
 
-We use the [ELIXIR Toolkit Theme](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme) developed by [ELIXIR Belgium](https://github.com/ELIXIR-Belgium)
+We use the [ELIXIR Toolkit Theme](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme) developed by [ELIXIR Belgium](https://github.com/ELIXIR-Belgium) licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
