@@ -21,7 +21,7 @@ All publishable biodiversity data should follow [Darwin Core](https://dwc.tdwg.o
 This standard supports the following data structures:
 
 #### Occurrence data
-- [Learn about how to transform data to occurence data](https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data)
+- [Learn about how to publish occurence data](https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data)
 
 #### Sampling event data
 - [How to transform data to sampling event data](https://ipt.gbif.org/manual/en/ipt/latest/sampling-event-data)
