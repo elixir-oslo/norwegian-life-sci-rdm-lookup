@@ -125,6 +125,7 @@ https://www.forskningsetikk.no/en/guidelines/science-and-technology/guidelines-f
   - Storage and computing
   - Metadata standards
   - Data deposition to [ELIXIR databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
+  - Data analysis for various sequencing methods
 
 #### Scientific Services
 - [The National Consortium for Sequencing and Personalized Medicine (NorSeq)](https://www.norseq.org/)
