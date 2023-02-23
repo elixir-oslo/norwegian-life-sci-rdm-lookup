@@ -7,7 +7,7 @@ topnav_title: ''
 description: "RDM guidance for life scientists in Norway"
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.20.1
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.23.0
 
 dsw_deep_link_prefix: https://elixir-no.ds-wizard.org/projects/create/from-template?selected=
 
