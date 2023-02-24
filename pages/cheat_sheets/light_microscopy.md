@@ -18,8 +18,7 @@ dsw:
 
 
 ### Description
-Light microscopy technologies has been widely adopted to mordern biological and medical research projects. As the field grows, the number of imaging technique, processing method as well as the size of the data increases every day. To avoid chaos in the late stage of project period, the data management of light microscopy data needs to be considered, planed and executed throughout the data life cycle.
-
+Light microscopy technologies are widely adopted in modern biological and medical research projects. As the field grows, the number of imaging techniques, processing methods as well as the size of the data increases. To avoid loss or degradation of data in the late stage of a project period and after the end of the project, data management of light microscopy data needs to be considered, planned and executed throughout the data life-cycle.
 
 ### Type of data/experiments/methods
 
