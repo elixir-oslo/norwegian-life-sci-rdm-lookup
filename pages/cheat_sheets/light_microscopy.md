@@ -4,13 +4,15 @@ type: cheat_sheet
 title: Light microscopy
 search_exclude: false
 contributors: [Xian Hu, Korbinian Bösl]
-page_id: HTS
+page_id: light_microscopy
 description: Data from different light microscopy technologies
 affiliations: ["Norwegian advanced light microscopy imaging network (NALMIN)"]
 sidebar: cheat_sheets
 dsw:
 - name: "Light microscopy"
   uuid: d8594508-6684-4032-ae7e-07ead4ff078d
+related_pages:
+  cheat_sheet: [HTS]
 ---
 
 ## Optical Light Microscopy
