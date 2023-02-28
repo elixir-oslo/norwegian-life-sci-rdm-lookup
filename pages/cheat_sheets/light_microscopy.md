@@ -4,13 +4,15 @@ type: cheat_sheet
 title: Light microscopy
 search_exclude: false
 contributors: [Xian Hu, Korbinian Bösl]
-page_id: HTS
+page_id: light_microscopy
 description: Data from different light microscopy technologies
 affiliations: ["Norwegian advanced light microscopy imaging network (NALMIN)"]
 sidebar: cheat_sheets
 dsw:
 - name: "Light microscopy"
   uuid: d8594508-6684-4032-ae7e-07ead4ff078d
+related_pages:
+  cheat_sheet: [HTS]
 ---
 
 ## Optical Light Microscopy
@@ -18,8 +20,7 @@ dsw:
 
 
 ### Description
-Light microscopy technologies has been widely adopted to mordern biological and medical research projects. As the field grows, the number of imaging technique, processing method as well as the size of the data increases every day. To avoid chaos in the late stage of project period, the data management of light microscopy data needs to be considered, planed and executed throughout the data life cycle.
-
+Light microscopy technologies are widely adopted in modern biological and medical research projects. As the field grows, the number of imaging techniques, processing methods as well as the size of the data increases. To avoid loss or degradation of data in the late stage of a project period and after the end of the project, data management of light microscopy data needs to be considered, planned and executed throughout the data life-cycle.
 
 ### Type of data/experiments/methods
 

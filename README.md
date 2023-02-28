@@ -4,7 +4,9 @@
 </p>
 
 # Norwegian Life Science RDM Lookup
-Norwegian Life Science RDM LookUp is a resource aiming to support your life science research on data management in Norway. It acts as a waypost to help you to find data standards, tools, support services and policies relevant to your life sciences research domain. We guide you to the relevant knowledge that can help you manage data in a Findable, Accessible, Interoperable, and Resuable (FAIR) way. Our primary audience are life scientists in Norway. Part of the [BioMedData project](https://elixir.no/organization/biomeddata), by [ELIXIR Norway](https://elixir.no)
+Norwegian Life Science RDM LookUp is a resource aiming to support your life science research on data management in Norway. It acts as a waypost to help you find data standards, tools, support services and policies relevant to your life sciences research domain. We guide you to the relevant knowledge that can help you manage data in a Findable, Accessible, Interoperable, and Reusable (FAIR) way. Our primary audience are life scientists in Norway. Part of the [BioMedData project](https://elixir.no/organization/biomeddata), by [ELIXIR Norway](https://elixir.no)
+
+## Website: https://elixir.no/rdm-lookup/
 
 [![CC BY 4.0][cc-by-shield]][cc-by] 
 [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
