@@ -3,7 +3,7 @@ layout: page
 type: cheat_sheet
 title: Marine Metagenomics
 search_exclude: false
-contributors: [Espen Åberg]
+contributors: [Espen Åberg, Nazeefa Fatima]
 page_id: marine_metagenomics
 description: Data from marine (meta-) genomics
 affiliations:
@@ -21,33 +21,17 @@ Collection of resources, tools and standards relevant for those interested in an
 
 ## Type of data/experiments/methods
 ### File formats
-#### Mostly used raw file formats
-[FASTQ Sequence and Sequence Quality Format](https://fairsharing.org/bsg-s000229)
- 	- Open Format
+#### Commonly used raw file formats for sequencing data
+- [FASTQ Sequence and Sequence Quality Format](https://doi.org/10.25504/FAIRsharing.r2ts5t)
+- [FASTA](https://fairsharing.org/FAIRsharing.rz4vfg)
+- [FASTQ Original Read Archive (ORA)](https://support-docs.illumina.com/SW/ORA_Format_Specification/Content/SW/ORA/ORAFormatSpecification.htm)
+- [Illumina Binary Base Call](https://www.illumina.com/informatics/sequencing-data-analysis/sequence-file-formats.html)
+- [PacBio legacy basecall File Format (bas.h5/bax.h5)](http://files.pacb.com/software/instrument/2.0.0/bas.h5%20Reference%20Guide.pdf)
+- [PacBio Alignment File Format (cmp.h5)](https://pacbiofileformats.readthedocs.io/en/11.0/legacy/CmpH5Spec.html)
+- [POD5 File Format](https://github.com/nanoporetech/pod5-file-format) for Oxford Nanopore Technology (ONT) data
+- [Fast5](https://bioinformatics.cvr.ac.uk/exploring-the-fast5-format/) for ONT data
 
-[FASTA](https://fairsharing.org/FAIRsharing.rz4vfg)
-	- [FAIRsharing](
- 	- Open Format
-
-
-
-#### Other relevant raw formats
-[Illumina Binary Base Call](https://www.illumina.com/informatics/sequencing-data-analysis/sequence-file-formats.html)
-
-[FASTQ Original Read Archive (ORA)](https://support-docs.illumina.com/SW/ORA_Format_Specification/Content/SW/ORA/ORAFormatSpecification.htm)
-
-[PacBio legacy basecall File Format (bas.h5/bax.h5)](http://files.pacb.com/software/instrument/2.0.0/bas.h5%20Reference%20Guide.pdf)
-
-[PacBio Alignment File Format (cmp.h5)](https://pacbiofileformats.readthedocs.io/en/11.0/legacy/CmpH5Spec.html)
-
-[POD5 File Format](https://github.com/nanoporetech/pod5-file-format)
-- ONT
-
-[Fast5](https://bioinformatics.cvr.ac.uk/exploring-the-fast5-format/)
-- for ONT
-
-
-#### Alignment formats
+#### Alignment Formats
 [Sequence Alignment Map
 (SAM)](http://samtools.github.io/hts-specs/SAMv1.pdf)
 	- [FAIRsharing](https://fairsharing.org/FAIRsharing.k97xzh)
@@ -67,66 +51,65 @@ Collection of resources, tools and standards relevant for those interested in an
 	- [FAIRsharing](https://fairsharing.org/FAIRsharing.rg2vmt)
 	- Open Format
 
-[ENA Sequence Flat File Format (formerly EMBL Sequence Flat File Format)]()
+ENA Sequence Flat File Format (formerly EMBL Sequence Flat File Format)
 	- [FAIRsharing](https://fairsharing.org/FAIRsharing.q9nh66)
-  - Open format
+	- Open format
 
 [Browser Extensible Data Format (BED)](http://genome.cse.ucsc.edu/FAQ/FAQformat.html#format1)
-- [FAIRsharing](https://fairsharing.org/FAIRsharing.mwmbpq)
-- Open format
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.mwmbpq)
+	- Open format
 
 [Generic Feature Format Version 3 (GFF3)](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md)
 	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.dnk0f6)
-  - Open format
+	- Open format
 
 [Gene Transfer Format (GTF)](http://mblab.wustl.edu/GTF22.html)
 	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.sggb1n)
-  - Open format
+	- Open format
 
 [Variant Call Format (VCF)](https://samtools.github.io/hts-specs/VCFv4.3.pdf)
 	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.cfzz0h)
-  - Open format
-
-
+	- Open format
 
 ## Metadata Standards
 #### Standards
-[Minimum Information about any (x) Sequence](https://github.com/GenomicsStandardsConsortium/mixs/)
+- [Minimum Information about any (x) Sequence](https://github.com/GenomicsStandardsConsortium/mixs/) <br>
+The minimum information about any (x) sequence (MIxS) is an overarching framework of sequence metadata
 	- [FAIRsharing entry link](https://fairsharing.org/bsg-s000518)
-	- [CHECKLISTS](https://genomicsstandardsconsortium.github.io/mixs/)
+	- [MixS Checklist](https://genomicsstandardsconsortium.github.io/mixs/)
 
-[Minimum Information about a (Meta)Genome Sequence
+- [Minimum Information about a (Meta)Genome Sequence
 (MIxS - MIGS/MIMS)](https://fairsharing.org/FAIRsharing.va1hck)
 
-[Meta-omics Data and Collection Objects
+- [Meta-omics Data and Collection Objects
 (MOD-CO)](https://www.mod-co.net/wiki/Schema_Representations)
 	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.rvvbCB)
 
-[Genomic Contextual Data Markup Language
+- [Genomic Contextual Data Markup Language
 (GCDML)](https://wiki.gensc.org/index.php?title=GCDML)
 	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.2hh7g7)
 
-[Minimum Information about an Uncultivated Virus Genome
+- [Minimum Information about an Uncultivated Virus Genome
 (MIUViG)](https://www.ncbi.nlm.nih.gov/biosample/docs/packages/MIUVIG.5.0/)
 	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.bd9566)
 
-[Minimum Information Standard for Engineered Organism Experiments
+- [Minimum Information Standard for Engineered Organism Experiments
 (MIEO)](https://www.nature.com/articles/s42003-018-0220-6)
 	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.9fe00b)
 
-[Marine Microbial Biodiversity, Bioinformatics, Biotechnology Checklist
+- [Marine Microbial Biodiversity, Bioinformatics, Biotechnology Checklist
 (Micro B3)](http://www.ebi.ac.uk/ena/submit/microb3-checklist)
    	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.2b3at8)
 
 #### Ontologies
 
-[Environment Ontology (ENVO)](http://environmentontology.org/)
+- [Environment Ontology (ENVO)](http://environmentontology.org/)
 	- [FAIRsharing](https://fairsharing.org/919)
 
-[Metagenome/Microbes Environmental Ontology (MEO)](https://bioportal.bioontology.org/ontologies/MEO)
+- [Metagenome/Microbes Environmental Ontology (MEO)](https://bioportal.bioontology.org/ontologies/MEO)
 	- [FAIRsharing](https://fairsharing.org/bsg-s002785)
 
-[Gene Ontology (GO)](http://www.geneontology.org)
+- [Gene Ontology (GO)](http://www.geneontology.org)
 	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.6xq0ee)
 
 
@@ -162,17 +145,29 @@ Collection of resources, tools and standards relevant for those interested in an
 
 ### Data Deposition Repositories
 
-#### European Nucleotide Archive [(ENA)](https://www.ebi.ac.uk/ena/browser/home)
-- [Standard License](https://www.ebi.ac.uk/ena/browser/about/policies)
-- [identifiers.org](https://registry.identifiers.org/registry/ena.embl#!)
-- [How to submit data](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html)
-- [Embargo](https://ena-docs.readthedocs.io/en/latest/faq/release.html)
+#### European Nucleotide Archive (ENA)
+- [Homepage](https://www.ebi.ac.uk/ena/browser/)
+- [DOI(FAIRsharing)](https://doi.org/10.25504/FAIRsharing.dj8nt8)
+- License: refer to the [Policies page](https://www.ebi.ac.uk/ena/browser/about/policies)
+- Identifiers: [Accession numbers](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/accessions.html)
+- How to submit data:
+  - [General guide on data submission](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html)
+  - [ENA checklists](https://www.ebi.ac.uk/ena/browser/checklists) (i.e. supported metadata standards required for submission)
+- Embargo: possible, set status to [confidential](https://ena-docs.readthedocs.io/en/latest/faq/release/data-availability-policy.html?highlight=confidential) upon submission
+- More general RDM information about ENA on [RDMguide](https://rdm.elixir-belgium.org/ena) (ELIXIR Belgium)
 
 #### World Register of Marine Species [(WoRMS)](http://www.marinespecies.org)
 
 - Standard License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [identifiers.org](https://registry.identifiers.org/registry/worms#!)
 - How to submit data: [Through WoRMS contributing databases](https://www.marinespecies.org/about.php#partners)
+
+### Ethics and Regulations
+<!--Add information about laws and policies in Norway for relevant data types-->
+- [General guidance for research ethics](https://www.forskningsetikk.no/en/guidelines/general-guidelines/)
+- [Guidelines for Research Ethics in Science and Technology](
+https://www.forskningsetikk.no/en/guidelines/science-and-technology/guidelines-for-research-ethics-in-science-and-technology/)
+- [Institutional guidelines](https://rdmkit.elixir-europe.org/no_resources#institutional-policies-on-research-data)
 
 ### Services in Norway
 <!--Add one line description-->
@@ -190,8 +185,7 @@ Collection of resources, tools and standards relevant for those interested in an
 	- [Website Link](https://mmp2.sfb.uit.no/metapipe/)
 
 #### Data management planning:
-- Data Stewardship Wizard.  
-The ELIXIR-NO instance of the [Data Stewardship Wizard](https://elixir-no.ds-wizard.org/) provides support for data management planning for marine metagenomics in Norway. An exemplary Data Management Plan model for marine metagenomics in Norway is available [here](https://elixir-no.ds-wizard.org/projects/create/custom?selected=elixir.no:marinemetagenomics-elixir-norway:0.0.2).
+The ELIXIR-NO instance of the [Data Stewardship Wizard](https://elixir-no.ds-wizard.org/) provides support for data management planning for marine metagenomics in Norway. An exemplary Data Management Plan model for marine metagenomics in Norway is available [here](https://elixir-no.ds-wizard.org/projects/create/custom?selected=elixir.no:marinemetagenomics-elixir-norway:0.0.2). General guidance from RDMkit on [how to write a Data Management Plan](https://rdmkit.elixir-europe.org/data_management_plan)
 
 #### Data storage
 - The Norwegian e-infrastructure for life sciences (NeLS)
@@ -201,11 +195,11 @@ The ELIXIR-NO instance of the [Data Stewardship Wizard](https://elixir-no.ds-wiz
 	- [ELIXIR Norway](https://elixir.no)
 
 #### Bioinformatics
-- ELIXIR Norway offers 	general advice and experimental design consultancy, programming and scripting assistance and support for data analysis on marine metagenomics in Norway.
-- Contact information
-	- [ELIXIR Norway - Helpdesk](mailto:contact@bioinfo.no)
+- ELIXIR Norway offers general advice and experimental design consultancy, programming and scripting assistance and support for data analysis on marine metagenomics in Norway. [ELIXIR Norway's HelpDesk](https://elixir.no/helpdesk) can also assist you on:
+  - Data management planning
+  - Storage and computing
+  - Metadata standards
+  - Data deposition to [ELIXIR databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
 
 ## Useful Links
 [Norwegian tool assembly for marine metagenomics data management](https://rdmkit.elixir-europe.org/marine_metagenomics_assembly.html)
-
-[How to write a Data Management Plan](https://rdmkit.elixir-europe.org/data_management_plan)

@@ -1,7 +1,7 @@
 ---
 layout: page
 type: cheat_sheet
-title: Next generation sequencing data
+title: High Throughput Sequencing
 search_exclude: false
 contributors: [Federico Bianchini, Korbinian Bösl, Nazeefa Fatima]
 page_id: sequencing
@@ -16,17 +16,60 @@ dsw:
 ---
 
 ### Description
+We provide here a collection of resources, tools, and standards relevant for short-read and long-read sequencing data.
 
 ### Type of data/experiments/methods
 <!---When mentioning file format, it would be useful to mention format type -->
 
-#### Sequencing data and alignment data
-- [FASTQ format](https://doi.org/10.25504/FAIRsharing.r2ts5t)
-- [Sequence Alignment Map (SAM) format](https://doi.org/10.25504/FAIRsharing.k97xzh)
-- [Binary Alignment Map (BAM) format](https://doi.org/10.25504/FAIRsharing.hza1ec)
+#### Commonly used raw file formats for sequencing data
+- [FASTQ Sequence and Sequence Quality Format](https://doi.org/10.25504/FAIRsharing.r2ts5t)
+- [FASTA](https://fairsharing.org/FAIRsharing.rz4vfg)
+- [FASTQ Original Read Archive (ORA)](https://support-docs.illumina.com/SW/ORA_Format_Specification/Content/SW/ORA/ORAFormatSpecification.htm)
+- [Illumina Binary Base Call](https://www.illumina.com/informatics/sequencing-data-analysis/sequence-file-formats.html)
+- [PacBio legacy basecall File Format (bas.h5/bax.h5)](http://files.pacb.com/software/instrument/2.0.0/bas.h5%20Reference%20Guide.pdf)
+- [PacBio Alignment File Format (cmp.h5)](https://pacbiofileformats.readthedocs.io/en/11.0/legacy/CmpH5Spec.html)
+- [POD5 File Format](https://github.com/nanoporetech/pod5-file-format) for Oxford Nanopore Technology (ONT) data
+- [Fast5](https://bioinformatics.cvr.ac.uk/exploring-the-fast5-format/) for ONT data
 
-#### Variation data
-- [Variant Call Format (VCF)](https://doi.org/10.25504/FAIRsharing.cfzz0h)
+#### Alignment Formats
+[Sequence Alignment Map
+(SAM)](http://samtools.github.io/hts-specs/SAMv1.pdf)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.k97xzh)
+	- Open Format
+
+[Binary Alignment Map Format
+(BAM)](https://genome.ucsc.edu/FAQ/FAQformat.html#format1)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.hza1ec)
+ 	- Open Format
+
+[Compressed Reference-oriented Alignment Map (CRAM)](https://www.sanger.ac.uk/tool/cram/)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.f846bd)
+	- Open Format
+
+#### Annotation formats
+[GenBank Sequence Format (GB, GBK)](https://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.rg2vmt)
+	- Open Format
+
+[ENA Sequence Flat File Format (formerly EMBL Sequence Flat File Format)]
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.q9nh66)
+	- Open format
+
+[Browser Extensible Data Format (BED)](http://genome.cse.ucsc.edu/FAQ/FAQformat.html#format1)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.mwmbpq)
+	- Open format
+
+[Generic Feature Format Version 3 (GFF3)](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md)
+	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.dnk0f6)
+	- Open format
+
+[Gene Transfer Format (GTF)](http://mblab.wustl.edu/GTF22.html)
+	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.sggb1n)
+	- Open format
+
+[Variant Call Format (VCF)](https://samtools.github.io/hts-specs/VCFv4.3.pdf)
+	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.cfzz0h)
+	- Open format
 
 ### Metadata Standards
 #### [Minimum Information about any (x) Sequence (MIxS)](https://doi.org/10.25504/FAIRsharing.9aa0zp)
@@ -53,7 +96,7 @@ This standard is required for submission of variation data on [EVA](https://www.
 
 ### Storage and Computing
 #### [ELIXIR Norway](https://elixir.no) infrastructures
-- [The Norwegian e-infrastructure for life sciences (NeLS)](https://nels.bioinfo.no)
+- [The Norwegian e-infrastructure for Life Sciences (NeLS)](https://nels.bioinfo.no)
   - Free of charge allocation of 1–10 TB disk space
   - Storing active research data for analysing and processing
   - Granular data sharing with collaborators
@@ -90,14 +133,14 @@ follow [these instructions](https://elixir.no/Services-bak/non-norseq-data) to r
 - License: refer to the [Policies page](https://www.ebi.ac.uk/ena/browser/about/policies)
 - Identifiers: [Accession numbers](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/accessions.html)
 - How to submit data:
-  - [General guide on data submission](https://www.ebi.ac.uk/ena/browser/submit)
+  - [General guide on data submission](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html)
   - [ENA checklists](https://www.ebi.ac.uk/ena/browser/checklists) (i.e. supported metadata standards required for submission)
 - Embargo: possible, set status to [confidential](https://ena-docs.readthedocs.io/en/latest/faq/release/data-availability-policy.html?highlight=confidential) upon submission
 - More general RDM information about ENA on [RDMguide](https://rdm.elixir-belgium.org/ena) (ELIXIR Belgium)
 
 #### European Variation Archive (EVA)
 - [Homepage](https://www.ebi.ac.uk/eva/)
-- [DOI(FAIRsharing)](https://doi.org/10.25504/FAIRsharing.6824pv)
+- [DOI (FAIRsharing)](https://doi.org/10.25504/FAIRsharing.6824pv)
 - License: [EMBL-EBI terms of use](https://www.ebi.ac.uk/about/terms-of-use)
 - Identifiers: accession numbers
 - [Submit data](https://www.ebi.ac.uk/eva/?Submit-Data)
@@ -107,7 +150,7 @@ The date of publication is set by the submitter using the "Hold Date" field of t
 [EVA metadata template](https://www.ebi.ac.uk/eva/files/EVA_Submission_template.V1.1.4.xlsx)
   (see the [help page](https://www.ebi.ac.uk/eva/?Help#submitted-data-held-privately)).
 
-### Ethics and Regulations
+### Ethics and Regulations in Norway
 <!--Add information about laws and policies in Norway for relevant data types-->
 - [General guidance for research ethics](https://www.forskningsetikk.no/en/guidelines/general-guidelines/)
 - [Guidelines for Research Ethics in Science and Technology](
@@ -118,13 +161,12 @@ https://www.forskningsetikk.no/en/guidelines/science-and-technology/guidelines-f
 <!--Add one line description-->
 
 #### RDM Services
-- [ELIXIR helpdesk](https://elixir.no/helpdesk)
-  - Provides assistance with:
-    - Data management planning
-    - Storage and computing
-    - Metadata standards
-    - Data deposition to [ELIXIR databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
-  - Contact: ELIXIR helpdesk
+[ELIXIR Norway's HelpDesk](https://elixir.no/helpdesk) can assist you on:
+  - Data management planning
+  - Storage and computing
+  - Metadata standards
+  - Data deposition to [ELIXIR databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
+  - Data analysis for various sequencing methods
 
 #### Scientific Services
 - [The National Consortium for Sequencing and Personalized Medicine (NorSeq)](https://www.norseq.org/)
