@@ -1,7 +1,7 @@
 ---
 layout: page
 type: cheat_sheet
-title: High Throughput Sequencing
+title: High-Throughput Sequencing
 search_exclude: false
 contributors: [Federico Bianchini, Korbinian Bösl, Nazeefa Fatima]
 page_id: sequencing
