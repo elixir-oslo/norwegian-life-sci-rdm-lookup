@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Species occurrence data
+title: Biodiversity
 type: cheat_sheet
 search_exclude: false
 contributors: [Michal Torma, Nazeefa Fatima]
