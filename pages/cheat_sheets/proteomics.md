@@ -2,7 +2,7 @@
 layout: page
 type: cheat_sheet
 title: Proteomics
-search_exclude: true
+search_exclude: false
 contributors: []
 page_id: proteomics
 description: Mass spectrometry based Proteomics
