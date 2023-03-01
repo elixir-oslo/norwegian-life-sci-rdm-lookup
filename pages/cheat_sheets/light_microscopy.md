@@ -122,7 +122,7 @@ Light microscopy technologies are widely adopted in modern biological and medica
 ### Services in Norway
 <!--Add one line description-->
 #### RDM Services
-- For help with bioimage data management please contact [Elixir Norway](https://elixir.no/helpdesk) or [NALMIN Norway](https://nalmin.no/index.php/data-management/)
+- For help with bioimage data management please contact [ELIXIR Norway](https://elixir.no/helpdesk) or [NALMIN Norway](https://nalmin.no/index.php/data-management/)
 
 #### Scientific Services
 - [The Imaging Facilities of the OuS Institute for Cancer Research](https://ous-research.no/microscopy/)
