@@ -11,6 +11,8 @@ sidebar: cheat_sheets
 dsw:
 - name: "Marine Metagenomics"
   uuid: e4397aab-67e8-4aec-814a-eeb1399ef492
+related_pages:
+    cheat_sheet: [sequencing]
 ---
 
 # Marine Metagenomics

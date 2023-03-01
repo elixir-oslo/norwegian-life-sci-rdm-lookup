@@ -12,7 +12,9 @@ dsw:
 - name: "Non-quantitative next generation sequencing of non-human data"
   uuid: 5363b48a-83a0-4153-bca8-311408e33e97
 - name: "Non-quantitative next generation sequencing of human data"
-  uuid: 27a7fdf2-4b40-4f13-af6f-227b8eb94b48  
+  uuid: 27a7fdf2-4b40-4f13-af6f-227b8eb94b48
+related_pages:
+    cheat_sheet: [marine_metagenomics]  
 ---
 
 ### Description
