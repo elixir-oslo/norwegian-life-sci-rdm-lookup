@@ -1,11 +1,11 @@
 ---
 layout: page
 type: cheat_sheet
-title: Sequencing data
+title: High Throughput Sequencing
 search_exclude: false
 contributors: [Federico Bianchini, Korbinian Bösl, Nazeefa Fatima]
 page_id: sequencing
-description: Short and long reads sequencing data
+description: Next generation sequencing data
 affiliations: ["Norwegian consortium for sequencing and personalized medicine (NorSeq)"]
 sidebar: cheat_sheets
 dsw:
@@ -16,17 +16,60 @@ dsw:
 ---
 
 ### Description
+We provide here a collection of resources, tools, and standards relevant for short-read and long-read sequencing data.
 
 ### Type of data/experiments/methods
 <!---When mentioning file format, it would be useful to mention format type -->
 
-#### Sequencing data and alignment data
-- [FASTQ format](https://doi.org/10.25504/FAIRsharing.r2ts5t)
-- [Sequence Alignment Map (SAM) format](https://doi.org/10.25504/FAIRsharing.k97xzh)
-- [Binary Alignment Map (BAM) format](https://doi.org/10.25504/FAIRsharing.hza1ec)
+#### Commonly used raw file formats for sequencing data
+- [FASTQ Sequence and Sequence Quality Format](https://doi.org/10.25504/FAIRsharing.r2ts5t)
+- [FASTA](https://fairsharing.org/FAIRsharing.rz4vfg)
+- [FASTQ Original Read Archive (ORA)](https://support-docs.illumina.com/SW/ORA_Format_Specification/Content/SW/ORA/ORAFormatSpecification.htm)
+- [Illumina Binary Base Call](https://www.illumina.com/informatics/sequencing-data-analysis/sequence-file-formats.html)
+- [PacBio legacy basecall File Format (bas.h5/bax.h5)](http://files.pacb.com/software/instrument/2.0.0/bas.h5%20Reference%20Guide.pdf)
+- [PacBio Alignment File Format (cmp.h5)](https://pacbiofileformats.readthedocs.io/en/11.0/legacy/CmpH5Spec.html)
+- [POD5 File Format](https://github.com/nanoporetech/pod5-file-format) for Oxford Nanopore Technology (ONT) data
+- [Fast5](https://bioinformatics.cvr.ac.uk/exploring-the-fast5-format/) for ONT data
 
-#### Variation data
-- [Variant Call Format (VCF)](https://doi.org/10.25504/FAIRsharing.cfzz0h)
+#### Alignment Formats
+[Sequence Alignment Map
+(SAM)](http://samtools.github.io/hts-specs/SAMv1.pdf)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.k97xzh)
+	- Open Format
+
+[Binary Alignment Map Format
+(BAM)](https://genome.ucsc.edu/FAQ/FAQformat.html#format1)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.hza1ec)
+ 	- Open Format
+
+[Compressed Reference-oriented Alignment Map (CRAM)](https://www.sanger.ac.uk/tool/cram/)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.f846bd)
+	- Open Format
+
+#### Annotation formats
+[GenBank Sequence Format (GB, GBK)](https://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.rg2vmt)
+	- Open Format
+
+[ENA Sequence Flat File Format (formerly EMBL Sequence Flat File Format)]
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.q9nh66)
+	- Open format
+
+[Browser Extensible Data Format (BED)](http://genome.cse.ucsc.edu/FAQ/FAQformat.html#format1)
+	- [FAIRsharing](https://fairsharing.org/FAIRsharing.mwmbpq)
+	- Open format
+
+[Generic Feature Format Version 3 (GFF3)](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md)
+	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.dnk0f6)
+	- Open format
+
+[Gene Transfer Format (GTF)](http://mblab.wustl.edu/GTF22.html)
+	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.sggb1n)
+	- Open format
+
+[Variant Call Format (VCF)](https://samtools.github.io/hts-specs/VCFv4.3.pdf)
+	- [FAIRsharing](https://doi.org/10.25504/FAIRsharing.cfzz0h)
+	- Open format
 
 ### Metadata Standards
 #### [Minimum Information about any (x) Sequence (MIxS)](https://doi.org/10.25504/FAIRsharing.9aa0zp)
@@ -90,12 +133,10 @@ follow [these instructions](https://elixir.no/Services-bak/non-norseq-data) to r
 - License: refer to the [Policies page](https://www.ebi.ac.uk/ena/browser/about/policies)
 - Identifiers: [Accession numbers](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/accessions.html)
 - How to submit data:
-  - [General guide on data submission](https://www.ebi.ac.uk/ena/browser/submit)
+  - [General guide on data submission](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html)
   - [ENA checklists](https://www.ebi.ac.uk/ena/browser/checklists) (i.e. supported metadata standards required for submission)
-  - [Data submission as a broker](https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html)
-  - [General information how data brokering works](https://rdmkit.elixir-europe.org/data_brokering)  
 - Embargo: possible, set status to [confidential](https://ena-docs.readthedocs.io/en/latest/faq/release/data-availability-policy.html?highlight=confidential) upon submission
-- More general information about ENA on [RDM Guide](https://rdm.elixir-belgium.org/ena) (by ELIXIR Belgium)
+- More general RDM information about ENA on [RDMguide](https://rdm.elixir-belgium.org/ena) (ELIXIR Belgium)
 
 #### European Variation Archive (EVA)
 - [Homepage](https://www.ebi.ac.uk/eva/)
@@ -120,7 +161,7 @@ https://www.forskningsetikk.no/en/guidelines/science-and-technology/guidelines-f
 <!--Add one line description-->
 
 #### RDM Services
-[ELIXIR Norway's HelpDesk](https://elixir.no/helpdesk) can assist you.
+[ELIXIR Norway's HelpDesk](https://elixir.no/helpdesk) can assist you on:
   - Data management planning
   - Storage and computing
   - Metadata standards
