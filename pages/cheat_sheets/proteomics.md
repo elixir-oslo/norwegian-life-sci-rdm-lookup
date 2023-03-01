@@ -2,7 +2,7 @@
 layout: page
 type: cheat_sheet
 title: Proteomics
-search_exclude: true
+search_exclude: false
 contributors: []
 page_id: proteomics
 description: Mass spectrometry based Proteomics
@@ -21,6 +21,7 @@ Proteomics is the ‘large scale study of proteins’. Proteins represent the ac
 #### Mass spectrometry data
 - [mz Markup Language](https://doi.org/10.25504/FAIRsharing.26dmba)
 - Open format
+
 
 - various vendor formats (ABI: T2D, Agilent: MassHunter, Bruker: Compass.d, Bruker: YEP, Bruker: BAF,Bruker: FID, Bruker: TDF, Sciex: WIFF, Shimadzu: LCD, Thermo Scientific: RAW, Waters: UNIFI)
 - proprietary

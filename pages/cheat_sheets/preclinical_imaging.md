@@ -2,7 +2,7 @@
 layout: page
 type: cheat_sheet
 title: Preclinical Imaging
-search_exclude: true
+search_exclude: false
 contributors: [Torill Sjøbakk]
 page_id: pic
 description: Data produced on research animals using imaging techniques like MR, PET/MR, PET/CT.
