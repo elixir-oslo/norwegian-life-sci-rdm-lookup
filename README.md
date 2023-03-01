@@ -10,6 +10,7 @@ Norwegian Life Science RDM LookUp is a resource aiming to support your life scie
 
 [![CC BY 4.0][cc-by-shield]][cc-by] 
 [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7688981.svg)](https://doi.org/10.5281/zenodo.7688981)
 
 ### License
 
@@ -25,4 +26,3 @@ This work is licensed under a
 ## Attribution
 
 We use the [ELIXIR Toolkit Theme](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme) developed by [ELIXIR Belgium](https://github.com/ELIXIR-Belgium) licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
