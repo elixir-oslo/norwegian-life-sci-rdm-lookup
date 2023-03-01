@@ -20,9 +20,9 @@ Proteomics is the ‘large scale study of proteins’. Proteins represent the ac
 ### Type of data/experiments/methods
 #### Mass spectrometry data
 - [mz Markup Language](https://doi.org/10.25504/FAIRsharing.26dmba)
-- Open formats
+- Open format
 
-- various vendor formats (T2D, MassHunter, Compass.d, YEP, BAF, FID, TDF, WIFF, LCD, RAW, UNIFI)
+- various vendor formats (ABI: T2D, Agilent: MassHunter, Bruker: Compass.d, Bruker: YEP, Bruker: BAF,Bruker: FID, Bruker: TDF, Sciex: WIFF, Shimadzu: LCD, Thermo Scientific: RAW, Waters: UNIFI)
 - proprietary
 
 
@@ -39,7 +39,7 @@ Proteomics is the ‘large scale study of proteins’. Proteins represent the ac
 ### Sources for Reusable Data
 #### [Proteomecentral - ProteomeXchange](http://proteomecentral.proteomexchange.org/cgi/GetDataset)
 - Search across multiple repositories ([PRIDE](https://doi.org/10.25504/FAIRsharing.e1byny), [PeptideAtlas](https://doi.org/10.25504/FAIRsharing.dvyrsz), [MassIVE](https://doi.org/10.25504/FAIRsharing.LYsiMd), [JPOST](https://doi.org/10.25504/FAIRsharing.p899f7), [iProX](https://doi.org/10.25504/FAIRsharing.4Sj3vE) and [Panorama](https://doi.org/10.25504/FAIRsharing.uBpQ1q))
-- Usage license depended on respective repository
+- Usage license depends on respective repository
 - Identifiers:
   - [Digital Object Identifier (DOI)](https://doi.org/10.25504/FAIRsharing.hFLKCn)
   - PX Accession number
@@ -47,7 +47,7 @@ Proteomics is the ‘large scale study of proteins’. Proteins represent the ac
 
 ### Storage and Computing
 <!--Add information about e.g. NeLS, update this section when SEEK is deployed for NOR-OS metadata?-->
-Proteomics data collected in Norway can be analyzed by the individual core facilities and stored in [Nels](https://nels.bioinfo.no/pages/user-terms.xhtml), [usegalaxy.no](https://usegalaxy.no) can be used to run [proteomics analysis workflows](https://training.galaxyproject.org/training-material/topics/proteomics/).  
+Proteomics data collected in Norway can be analysed by the individual core facilities and stored in [Nels](https://nels.bioinfo.no/pages/user-terms.xhtml), [usegalaxy.no](https://usegalaxy.no) can be used to run [proteomics analysis workflows](https://training.galaxyproject.org/training-material/topics/proteomics/).  
 
 
 ### Data Deposition Repository
@@ -65,13 +65,13 @@ Proteomics data collected in Norway can be analyzed by the individual core facil
 #### Patient Data
 - Pre-approval for medicinal/health-related research projects from the [Regional Ethics Committee](https://rekportalen.no/#hjem/home) is required
 - Projects handling personal data are assessed at many institutions by [SIKT](https://sikt.no/fylle-ut-meldeskjema-personopplysninger)
-- Otherwise data must be fully anonymized - neither directly or indirectly identifiable to an individual
+- Otherwise, data must be fully anonymized - neither directly or indirectly identifiable to an individual
 
 ### Services in Norway
 <!--Add one line description-->
 [National network of Advanced Proteomics Infrastructure (NAPI)](https://www.napi.uio.no/) is the research infrastructure for proteomics in Norway.  
 NAPI partners include proteomics core facilities in Oslo, Bergen, Trondheim, Tromsø and Ås, as well as research groups with a strong focus on proteomics technology development.
-Research data is managed at individual sites and coordinated at the RI-level.
+Research data is managed at individual sites and coordinated at the research infrastructure level.
 #### RDM Services
 - For help with management of proteomics data please contact your [core facility](https://www.napi.uio.no/about/)
 
