@@ -22,6 +22,7 @@ Proteomics is the ‘large scale study of proteins’. Proteins represent the ac
 - [mz Markup Language](https://doi.org/10.25504/FAIRsharing.26dmba)
 - Open format
 
+
 - various vendor formats (ABI: T2D, Agilent: MassHunter, Bruker: Compass.d, Bruker: YEP, Bruker: BAF,Bruker: FID, Bruker: TDF, Sciex: WIFF, Shimadzu: LCD, Thermo Scientific: RAW, Waters: UNIFI)
 - proprietary
 
