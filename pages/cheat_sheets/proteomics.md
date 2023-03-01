@@ -14,66 +14,75 @@ dsw:
 ---
 
 ### Description
-
+<!--Write about the domain, its purpose/use, and 2-3 lines on data management challenge when it comes to said domain research in Norway-->
+Proteomics is the ‘large scale study of proteins’. Proteins represent the actual functional molecules that regulate the activity and function of cells.  Proteomics enables researchers to analyse the nature and abundance of different proteins within biological samples (e.g. protein complexes, subcellular compartments, whole cells or tissues). Most state of the art proteomics methods are based on high-resolution mass spectrometry instruments with high mass accuracy.
 
 ### Type of data/experiments/methods
-#### Type 1
-- Data name and format e.g. [mzML](https://fairsharing.org/FAIRsharing.26dmba)
-- Open Format
+#### Mass spectrometry data
+- [mz Markup Language](https://doi.org/10.25504/FAIRsharing.26dmba)
+- Open formats
 
-#### Type 2
-- Data name and format e.g. [mzML](https://fairsharing.org/FAIRsharing.26dmba)
-- Open Format
+- various vendor formats (T2D, MassHunter, Compass.d, YEP, BAF, FID, TDF, WIFF, LCD, RAW, UNIFI)
+- proprietary
+
 
 ### Metadata Standards
-#### Standard 1
-- Ontologies
-- Controlled vocabularies
-- FAIRsharing entry link
+#### Standards
+- [Minimum Information About a Proteomics Experiment (MIAPE))](https://doi.org/10.25504/FAIRsharing.8vv5fc)
+
+#### Ontologies
+  - [Sample processing and separations controlled vocabulary (sepCV)](https://doi.org/10.25504/FAIRsharing.5744rq)
+  - [HUPO PSI Mass Spectrometry Controlled Vocabulary (PSI-MS CV)](https://doi.org/10.25504/FAIRsharing.sxh2dp)
+  - [NCBI Taxonomy (NCBITAXON)](https://doi.org/10.25504/FAIRsharing.fj07xj)
+  - [Experimental Factor Ontology (EFO)](https://doi.org/10.25504/FAIRsharing.1gr4tz)
 
 ### Sources for Reusable Data
-#### Source name 1
-- Description e.g. reference genome assembly
-- Standard License
-- Identifiers
-- How to access
+#### [Proteomecentral - ProteomeXchange](http://proteomecentral.proteomexchange.org/cgi/GetDataset)
+- Search across multiple repositories ([PRIDE](https://doi.org/10.25504/FAIRsharing.e1byny), [PeptideAtlas](https://doi.org/10.25504/FAIRsharing.dvyrsz), [MassIVE](https://doi.org/10.25504/FAIRsharing.LYsiMd), [JPOST](https://doi.org/10.25504/FAIRsharing.p899f7), [iProX](https://doi.org/10.25504/FAIRsharing.4Sj3vE) and [Panorama](https://doi.org/10.25504/FAIRsharing.uBpQ1q))
+- Usage license depended on respective repository
+- Identifiers:
+  - [Digital Object Identifier (DOI)](https://doi.org/10.25504/FAIRsharing.hFLKCn)
+  - PX Accession number
+
 
 ### Storage and Computing
-<!--Add information about e.g. NeLS-->
+<!--Add information about e.g. NeLS, update this section when SEEK is deployed for NOR-OS metadata?-->
+Proteomics data collected in Norway can be analyzed by the individual core facilities and stored in [Nels](https://nels.bioinfo.no/pages/user-terms.xhtml), [usegalaxy.no](https://usegalaxy.no) can be used to run [proteomics analysis workflows](https://training.galaxyproject.org/training-material/topics/proteomics/).  
+
 
 ### Data Deposition Repository
+#### [PRIDE](https://doi.org/10.25504/FAIRsharing.e1byny)
+- License: [Creative Commons Public Domain (CC0)](https://creativecommons.org/share-your-work/public-domain/cc0/)
+- Identifiers:
+  - [Digital Object Identifier (DOI)](https://doi.org/10.25504/FAIRsharing.hFLKCn)
+  - PX Accession number
+- [Submission guide](https://www.ebi.ac.uk/pride/markdownpage/submitdatapage)
+- [Embargo for up to publication](https://www.ebi.ac.uk/pride/markdownpage/submitdatapage#post-submission_steps)
 
-#### Repository Name 1
-- Standard License
-- Identifiers
-- How to submit data
-- Embargo
-
-#### Repository Name 2
-- Standard License
-- Identifiers
-- How to submit data
-- Embargo
 
 ### Ethics and Regulations
 <!--Add information about laws and policies in Norway for relevant data types-->
-#### Data Type Name (e.g. Human Data)
-- Reidentifiable
-
-#### Data Type Name (e.g. Biodiversity Data)
-- Regulations
+#### Patient Data
+- Pre-approval for medicinal/health-related research projects from the [Regional Ethics Committee](https://rekportalen.no/#hjem/home) is required
+- Projects handling personal data are assessed at many institutions by [SIKT](https://sikt.no/fylle-ut-meldeskjema-personopplysninger)
+- Otherwise data must be fully anonymized - neither directly or indirectly identifiable to an individual
 
 ### Services in Norway
 <!--Add one line description-->
+[National network of Advanced Proteomics Infrastructure (NAPI)](https://www.napi.uio.no/) is the research infrastructure for proteomics in Norway.  
+NAPI partners include proteomics core facilities in Oslo, Bergen, Trondheim, Tromsø and Ås, as well as research groups with a strong focus on proteomics technology development.
+Research data is managed at individual sites and coordinated at the RI-level.
 #### RDM Services
-- Name
-- Description of services offered
-- Contact Information / Website Link
+- For help with management of proteomics data please contact your [core facility](https://www.napi.uio.no/about/)
 
 #### Scientific Services
-- Name
-- Description of services offered
-- Contact Information / Website Link
+- [Proteomics Core Facilty at Oslo University Hospital](https://ous-research.no/proteomics/)
+- [Proteomics Core Facility at the Department of Biosciences, Faculty of Mathematics and Natural Sciences, UiO](https://www.mn.uio.no/ibv/english/research/sections/bmb/research-groups/enzymology-and-protein-structure-and-function/proteomics-thiede/)
+- [Proteomics Unit at UiB (PROBE) ](https://www.uib.no/en/rg/probe)
+- [Proteomics and Modomics Experimental Core (PROMEC) at NTNU](https://www.ntnu.edu/mh/promec)
+- [MS and Proteomics Core Facility, NMBU](MS and Proteomics Core Facility, NMBU)
+- [Tromsø University Proteomics Platform](Tromsø University Proteomics Platform)
 
 ### Useful Links
 <!--Add a list of relevant external/global tools-->
+- [National network of Advanced Proteomics Infrastructure (NAPI) website](https://www.napi.uio.no/)
