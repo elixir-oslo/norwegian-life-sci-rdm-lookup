@@ -81,8 +81,8 @@ Research data is managed at individual sites and coordinated at the research inf
 - [Proteomics Core Facility at the Department of Biosciences, Faculty of Mathematics and Natural Sciences, UiO](https://www.mn.uio.no/ibv/english/research/sections/bmb/research-groups/enzymology-and-protein-structure-and-function/proteomics-thiede/)
 - [Proteomics Unit at UiB (PROBE) ](https://www.uib.no/en/rg/probe)
 - [Proteomics and Modomics Experimental Core (PROMEC) at NTNU](https://www.ntnu.edu/mh/promec)
-- [MS and Proteomics Core Facility, NMBU](MS and Proteomics Core Facility, NMBU)
-- [Tromsø University Proteomics Platform](Tromsø University Proteomics Platform)
+- [MS and Proteomics Core Facility, NMBU](https://www.nmbu.no/fakultet/kbm/oppdrag/ms_proteomics)
+- [Tromsø University Proteomics Platform](https://en.uit.no/infrastruktur/enhet?p_document_id=669462)
 
 ### Useful Links
 <!--Add a list of relevant external/global tools-->
