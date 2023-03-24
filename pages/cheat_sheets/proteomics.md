@@ -86,4 +86,6 @@ Research data is managed at individual sites and coordinated at the research inf
 
 ### Useful Links
 <!--Add a list of relevant external/global tools-->
+- [RDMkit: Your domain - Proteomics](https://rdmkit.elixir-europe.org/proteomics)
 - [National network of Advanced Proteomics Infrastructure (NAPI) website](https://www.napi.uio.no/)
+
