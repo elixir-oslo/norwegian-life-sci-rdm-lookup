@@ -32,7 +32,7 @@ Data produced on animals using imaging techniques like MR, PET/MR, PET/CT.
 
 ### Storage and Computing
 <!--Add information about e.g. NeLS-->
- See https://rdmkit.elixir-europe.org/xnat_pic_assembly
+ See [RDMkit XNAT-PiC Assemly](https://rdmkit.elixir-europe.org/xnat_pic_assembly)
 
 ### Data Deposition Repository
 
