@@ -5,5 +5,5 @@ subitems:
     url: /cheat_sheets
   - title: About
     url: /about
-  # - title: Contribute
-  #   url: /contribute
+  - title: Contribute
+    url: /contribute
