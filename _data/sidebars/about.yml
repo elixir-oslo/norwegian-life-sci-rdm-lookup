@@ -1,1 +1,5 @@
-
+title: About
+title_url: /about
+subitems:
+  - title: Copyright
+  - url: /copyright
