@@ -59,6 +59,15 @@ defaults:
     layout: "page"
     topnav: topnav
     sidebar: about
+-
+  scope:
+    path: "pages/contribute"
+    type: "pages"
+  values:
+    permalink: /:basename
+    layout: "page"
+    topnav: topnav
+    sidebar: contribute
 
 
 plugins:
