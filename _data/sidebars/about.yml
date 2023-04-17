@@ -1,13 +1,7 @@
-title: About
-title_url: /about
+title: Contribute
+title_url: /contribute
 subitems:
-  - title: Contribute
-    subitems:
-      - title: Contribute
-        url: /contribute
-      - title: Contribute via GitHub
-        url: /github_way
-      - title: Contributors
-        url: /contributors
-  - title: Contact
-    url: /contact
+  - title: Contributors
+  - url: /contributors
+  - title: Contribute via GitHub
+  - url: /contact
