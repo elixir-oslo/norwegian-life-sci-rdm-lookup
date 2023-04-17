@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: How to contribute
 ---
 
 For feedback and/or any query, please don't hesitate to:
