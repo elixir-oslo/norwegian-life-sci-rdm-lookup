@@ -52,7 +52,7 @@ defaults:
     topnav: topnav
 -
   scope:
-    path: "pages/about"
+    path: "pages/contribute"
     type: "pages"
   values:
     permalink: /:basename
