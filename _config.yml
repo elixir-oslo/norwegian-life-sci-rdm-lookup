@@ -53,12 +53,12 @@ defaults:
 -
   scope:
     path: "pages/contribute"
-    type: "pages"
+    type: "contribute"
   values:
     permalink: /:basename
     layout: "page"
-    topnav: topnav
     sidebar: contribute
+    topnav: topnav
 
 
 plugins:
