@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contribute
-permalink: /about/
+permalink: /contribute/
 ---
 ## Funding Acknowledgement
 Life Sciences RDM LookUp is deliverable 4.2 of BioMedData funded under project [295932](https://prosjektbanken.forskningsradet.no/project/FORISS/295932) by the Research Council of Norway.
