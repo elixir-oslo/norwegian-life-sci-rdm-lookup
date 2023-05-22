@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contribute
+sidebar: contribute
 permalink: /contribute/
 ---
 ## Funding Acknowledgement
