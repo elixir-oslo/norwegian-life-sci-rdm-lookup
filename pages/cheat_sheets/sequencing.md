@@ -53,7 +53,7 @@ We provide here a collection of resources, tools, and standards relevant for sho
 	- [FAIRsharing](https://fairsharing.org/FAIRsharing.rg2vmt)
 	- Open Format
 
-[ENA Sequence Flat File Format (formerly EMBL Sequence Flat File Format)]
+[ENA Sequence Flat File Format (formerly EMBL Sequence Flat File Format](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/flat-file-example.html)
 	- [FAIRsharing](https://fairsharing.org/FAIRsharing.q9nh66)
 	- Open format
 
