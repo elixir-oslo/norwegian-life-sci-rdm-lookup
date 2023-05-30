@@ -74,8 +74,7 @@ We provide here a collection of resources, tools, and standards relevant for sho
 	- Open format
 
 ### Metadata Standards
-#### [Minimum Information about any (x) Sequence (MIxS)](https://doi.org/10.25504/FAIRsharing.9aa0zp)
-The minimum information about any (x) sequence (MIxS) is an overarching framework of sequence metadata
+#### The [Minimum Information about any (x) Sequence (MIxS)](https://doi.org/10.25504/FAIRsharing.9aa0zp) is an overarching framework of sequence metadata.
 - Ontologies:
   - [Experimental Factor Ontology (EFO)](https://doi.org/10.25504/FAIRsharing.1gr4tz)
   - [NCBI Taxonomy (NCBITAXON)](https://doi.org/10.25504/FAIRsharing.fj07xj)
@@ -87,11 +86,11 @@ The minimum information about any (x) sequence (MIxS) is an overarching framewor
   - [Chemical Entities of Biological Interest ChEBI)](https://doi.org/10.25504/FAIRsharing.62qk8w)
 
 #### [European Variation Archive metadata template](https://www.ebi.ac.uk/eva/files/EVA_Submission_template.V1.1.4.xlsx)
-This standard is required for submission of variation data on [EVA](https://www.ebi.ac.uk/eva/)
+This standard is required for submission of genetic variant data on [EVA](https://www.ebi.ac.uk/eva/)
 
 ### Sources for Reusable Data
 #### [Ensembl](https://doi.org/10.25504/FAIRsharing.fx0mw7)
-- Ensembl creates, integrates and distributes reference datasets and analysis tools that enable genomics.
+- Ensembl creates, integrates, and distributes reference datasets and analysis tools that enable genomics.
 - Data is open-access and can be downloaded free of charge ([disclaimer](https://www.ensembl.org/info/about/legal/index.html))
 - Identifiers: [Ensembl stable ID](https://www.ensembl.org/Help/Faq?id=488)
 - Free to access, more features with account (username and password)
