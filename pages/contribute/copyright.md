@@ -1,5 +1,6 @@
 ---
 layout: page
+search_exclude: false
 title: Copyright Guidelines
 ---
 
