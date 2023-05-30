@@ -29,8 +29,7 @@ We provide here a collection of resources, tools, and standards relevant for sho
 - [FASTQ Original Read Archive (ORA)](https://support-docs.illumina.com/SW/ORA_Format_Specification/Content/SW/ORA/ORAFormatSpecification.htm)
 - [Illumina Binary Base Call](https://www.illumina.com/informatics/sequencing-data-analysis/sequence-file-formats.html)
 - PacBio platforms generate [PacBio legacy basecall File Format (bas.h5/bax.h5)](http://files.pacb.com/software/instrument/2.0.0/bas.h5%20Reference%20Guide.pdf) and [PacBio Alignment File Format (cmp.h5)](https://pacbiofileformats.readthedocs.io/en/11.0/legacy/CmpH5Spec.html)
-- [POD5 File Format](https://github.com/nanoporetech/pod5-file-format) for Oxford Nanopore Technology (ONT) data
-- [Fast5](https://bioinformatics.cvr.ac.uk/exploring-the-fast5-format/) for ONT data
+- Oxford Nanopore Technology (ONT) platforms generate [POD5 File Format](https://github.com/nanoporetech/pod5-file-format) and [Fast5](https://bioinformatics.cvr.ac.uk/exploring-the-fast5-format/) for nanopore data
 
 #### Alignment Formats
 [Sequence Alignment Map
