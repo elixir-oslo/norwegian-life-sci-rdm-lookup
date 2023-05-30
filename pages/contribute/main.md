@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contribute
+search_exclude: false
 sidebar: contribute
 permalink: /contribute/
 ---
