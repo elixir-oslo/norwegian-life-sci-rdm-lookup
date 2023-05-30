@@ -58,6 +58,7 @@ Light microscopy technologies are widely adopted in modern biological and medica
 ### Metadata Standards
 
 #### [Recommended Metadata for Biological Images (REMBI)](https://fairsharing.org/bsg-s001615)
+- [REMBI article](https://doi.org/10.1038/s41592-021-01166-8): Sarkans, U., Chiu, W., Collinson, L. et al. REMBI: Recommended Metadata for Biological Images—enabling reuse of microscopy data in biology. Nat Methods 18, 1418–1422 (2021)
 - [REMBI reference](https://www.ebi.ac.uk/bioimage-archive/rembi-model-reference/)
 
 #### Ontologies
