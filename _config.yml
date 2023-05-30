@@ -55,7 +55,7 @@ defaults:
     path: "pages/contribute"
     type: "contribute"
   values:
-    permalink: /:basename
+    permalink: /contribute/main
     layout: "page"
     sidebar: contribute
     topnav: topnav
