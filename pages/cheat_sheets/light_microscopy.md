@@ -27,13 +27,13 @@ Light microscopy technologies are widely adopted in modern biological and medica
 #### OME-tiff
 - [OME-tiff](https://doi.org/10.25504/FAIRsharing.cq8tg2)
 - Open Format
-- currently preferred format
+- Currently preferred format
 
 #### OME-NGFF
 - [OME-NGFF](https://fairsharing.org/3887)
 - Open Format
-- upcoming
-- optimized for (cloud) object storage and partial transfer
+- Upcoming
+- Optimized for (cloud) object storage and partial transfer
 
 #### HDF5
 - [HDF5 Library and File format](https://www.hdfgroup.org/solutions/hdf5)
