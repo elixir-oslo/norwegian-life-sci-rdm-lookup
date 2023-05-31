@@ -1,8 +1,8 @@
 ---
+title: Copyright Guidelines
 layout: page
 sidebar: contribute
 search_exclude: false
-title: Copyright Guidelines
 ---
 
 This website aims to be unique source primarily for life sciences audience. Feel free to include quotes and images from other resources if they add value to the page. Please follow the guidelines below if you do so and respect copyright. 
