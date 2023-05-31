@@ -1,5 +1,7 @@
 ---
 title: Contributors
+layout: page
+sidebar: contribute
 custom-editme: _data/CONTRIBUTORS.yaml
 ---
 This initiative is enabled by the BioMedData coordinators
