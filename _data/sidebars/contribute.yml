@@ -1,8 +1,7 @@
 title: About
-title_url: /contribute
 subitems:
   - title: Acknowledgement
-    url: /main  
+    url: /contribute  
   - title: Contributors
     url: /contributors
   - title: How to contribute
