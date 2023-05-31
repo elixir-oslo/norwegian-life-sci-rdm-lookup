@@ -2,10 +2,10 @@ title: About
 title_url: /contribute
 subitems:
   - title: Acknowledgement
-  - url: /main  
+    url: /main  
   - title: Contributors
-  - url: /contributors
+    url: /contributors
   - title: How to contribute
-  - url: /contact
+    url: /contact
   - title: Copyright Guidelines
-  - url: /copyright
+    url: /copyright
