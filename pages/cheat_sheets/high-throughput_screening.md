@@ -41,6 +41,7 @@ Screening data generated in Norway are collected using a large quantity of compo
 - [Minimal information for Chemosensitivity Assays (MICHA)](https://doi.org/10.25504/FAIRsharing.15242c)
 - [Recommended Metadata for Biological Images (REMBI)](https://fairsharing.org/bsg-s001615)
 - [Minimum Information about Flow Cytometry (MIFlowCyt)](https://doi.org/10.25504/FAIRsharing.kcnjj2)
+- [Minimal Information about High Content Screening in Microscopy Experiments (MIHCSME)](https://fairdomhub.org/investigations/575)
 
 #### Ontologies
 - General:
