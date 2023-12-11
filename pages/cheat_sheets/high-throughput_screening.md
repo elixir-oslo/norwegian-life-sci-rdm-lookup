@@ -15,12 +15,12 @@ related_pages:
     cheat_sheet: [light_microscopy]
 ---
 
-### Description
+## Description
 <!--Write about the domain, its purpose/use, and 2-3 lines on data management challenge when it comes to said domain research in Norway-->
 High-throughput screening (HTS) involves automated testing of chemical and/or biological compounds against a target, typically biological. The process is automated through the use of microwell plates and/or microarrays, robotics, liquid handling, data processing, and sensitive detection systems. The detection systems are typically optical plate reader data, imaging data, or flow cytometry data.  
 Screening data generated in Norway are collected using a large quantity of compounds from diverse suppliers that are tested against a variety of targets in many different assay types using various detection methods. Such heterogeneities make unifying HTS data generated in Norway an ongoing challenge.
 
-### Type of data/experiments/methods
+## Type of data/experiments/methods
 #### Plate reader data as text files
 - [Tab-separated values (TSV)](https://doi.org/10.25504/FAIRsharing.a978c9)
 - [Comma-separated values (CSV)](https://doi.org/10.25504/FAIRsharing.1943d4)
@@ -36,7 +36,7 @@ Screening data generated in Norway are collected using a large quantity of compo
 - Open format
 
 
-### Metadata Standards
+## Metadata Standards
 #### Standards
 - [Minimal information for Chemosensitivity Assays (MICHA)](https://doi.org/10.25504/FAIRsharing.15242c)
 - [Recommended Metadata for Biological Images (REMBI)](https://fairsharing.org/bsg-s001615)
@@ -64,7 +64,7 @@ Screening data generated in Norway are collected using a large quantity of compo
   - [Cell Ontology (CL) for cell types](https://doi.org/10.25504/FAIRsharing.j9y503)
 
 
-### Sources for Reusable Data
+## Sources for Reusable Data
 #### [PubChem](https://pubchem.ncbi.nlm.nih.gov/) BioAssay
 - Small-molecule and RNAi screening data
 - [Citation guidelines (No usage license)](https://pubchemdocs.ncbi.nlm.nih.gov/citation-guidelines)
@@ -103,12 +103,12 @@ Screening data generated in Norway are collected using a large quantity of compo
   - Other identifiers: Targets (genes/proteins): Gene IDs/UniProt Protein accession IDs
 - Access possible through [API](https://idr.openmicroscopy.org/about/api.html) and [direct download](https://idr.openmicroscopy.org/about/download.html), you can run [image analysis workflows](https://training.galaxyproject.org/training-material/topics/imaging/) directly on IDR datasets on [usegalaxy.no](https://usegalaxy.no) using the [IDR download tool](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/)
 
-### Storage and Computing
+## Storage and Computing
 <!--Add information about e.g. NeLS, update this section when SEEK is deployed for NOR-OS metadata?-->
 HTS data collected in Norway are analyzed and stored at individual screening sites in NOR-Openscreen.  
 Metadata for screens run in Norway will be compiled into a central database.
 
-### Data Deposition Repository
+## Data Deposition Repository
 #### [PubChem](https://pubchem.ncbi.nlm.nih.gov/) BioAssay
 - [Data submission policy (no license available)](https://pubchemdocs.ncbi.nlm.nih.gov/data-submission-policy)
 - Identifiers:
@@ -127,14 +127,14 @@ Metadata for screens run in Norway will be compiled into a central database.
   - Data sets deposited in ChEMBL are incorporated into PubChem
   - [Check the ChEMBL Loader documentation if your data are suitable for deposition](https://chembl.gitbook.io/chembl-loader/)
 
-### Ethics and Regulations
+## Ethics and Regulations
 <!--Add information about laws and policies in Norway for relevant data types-->
 #### Patient Data
 - Pre-approval for medicinal/health-related research projects from the [Regional Ethics Committee](https://rekportalen.no/#hjem/home) is required
 - Projects handling personal data are assessed at many institutions by [SIKT](https://sikt.no/fylle-ut-meldeskjema-personopplysninger)
 - Otherwise data must be fully anonymized - neither directly or indirectly identifiable to an individual
 
-### Services in Norway
+## Services in Norway
 <!--Add one line description-->
 [NOR-Openscreen](https://openscreen.no) is the research infrastructure for high-throughput screening and bioprospecting in Norway.  
 The four nodes of NOR-Openscreen in Oslo, Bergen, Trondheim, and Tromsø provide various chemical biology services.  
@@ -156,7 +156,7 @@ Research data is managed at individual sites and coordinated at the RI-level.
   - Analytical platform for natural products
   - [Jeanette Andersen](mailto:jeanette.andersen@uit.no) / [Website Link](https://en.uit.no/forskning/forskningsgrupper/gruppe?p_document_id=380005)
 
-### Useful Links
+## Useful Links
 <!--Add a list of relevant external/global tools-->
 - [NOR-Openscreen Website](https://openscreen.no)  
 - [UniChem tool for converting molecule identifiers](https://www.ebi.ac.uk/unichem/)
