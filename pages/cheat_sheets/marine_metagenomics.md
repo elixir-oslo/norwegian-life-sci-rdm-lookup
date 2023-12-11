@@ -15,9 +15,6 @@ related_pages:
     cheat_sheet: [sequencing]
 ---
 
-# Marine Metagenomics
-<!--Example: High-Throughput Screening-->
-
 ## Description
 Collection of resources, tools and standards relevant for those interested in analysing marine (meta-) genomic datasets (e.g. genomes, metagenomes, and transcriptomes).
 
