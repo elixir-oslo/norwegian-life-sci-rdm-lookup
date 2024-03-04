@@ -14,4 +14,6 @@ We provide here a set of information (cheat sheets), for various domains in life
 
 Each cheat sheet is maintained by one of the life science research infrastructures within [BioMedData in Norway](https://elixir.no/biomeddata).
 
+To figure out what is the relevant archive/repository to submit your life sciences data, check out the [Data Submission Wizard](https://www.ebi.ac.uk/submission/) created by European Bioinformatics Institute.
+
 {% include section-navigation-tiles.html type="cheat_sheet" search=true %}
