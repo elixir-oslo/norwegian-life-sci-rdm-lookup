@@ -9,7 +9,7 @@ description: "RDM guidance for life scientists in Norway"
 
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@2.4.0
 
-dsw_deep_link_prefix: https://elixir-no.ds-wizard.org/projects/create/from-template?selected=
+dsw_deep_link_prefix: https://elixir-no.ds-wizard.org/wizard/projects/create?selectedProjectTemplate=
 
 theme_variables:
   theme_color: da366e
