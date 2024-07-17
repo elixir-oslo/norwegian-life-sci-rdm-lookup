@@ -124,7 +124,7 @@ The minimum information about any (x) sequence (MIxS) is an overarching framewor
 
 #### MAR databases
 
-- **Description:** The MAR databases is a collection of manually curated marine microbial contextual and sequence databases, based at the Marine Metagenomics Portal. This was developed as a part of the ELIXIR EXCELERATE project in 2017 and is maintained by The Center for Bioinformatics (SfB) at the UiT The Arctic University of Norway. SfB is hosting the UiT node of ELIXIR Norway. The MarRef, MarDb, MarFun and MarCat contextual databases are built by compiling data from a number of public available sequence, taxonomy and literature databases in a semi-automatic fashion.
+- **Description:** The MAR database is a collection of manually curated marine microbial contextual and sequence databases, based at the Marine Metagenomics Portal. This was developed as a part of the ELIXIR EXCELERATE project in 2017 and is maintained by The Center for Bioinformatics (SfB) at the UiT The Arctic University of Norway. SfB is hosting the UiT node of ELIXIR Norway. The MarRef, MarDb, MarFun and MarCat contextual databases are built by compiling data from a number of public available sequence, taxonomy and literature databases in a semi-automatic fashion.
 - **identifiers.org:** [MarRef](https://registry.identifiers.org/registry/mmp.ref#!), [MarDB](https://registry.identifiers.org/registry/mmp.db#!), [MarFun](https://registry.identifiers.org/registry/mmp.fun#!), [MarCat](https://registry.identifiers.org/registry/mmp.cat#!)
 - **How to access:**
 	- [Homepage](https://mmp2.sfb.uit.no/databases/)
@@ -184,7 +184,7 @@ https://www.forskningsetikk.no/en/guidelines/science-and-technology/guidelines-f
 	- [Website Link](https://mmp2.sfb.uit.no/metapipe/)
 
 #### Data management planning:
-The ELIXIR-NO instance of the [Data Stewardship Wizard](https://elixir-no.ds-wizard.org/) provides support for data management planning for marine metagenomics in Norway. An exemplary Data Management Plan model for marine metagenomics in Norway is available [here](https://elixir-no.ds-wizard.org/projects/create/custom?selected=elixir.no:marinemetagenomics-elixir-norway:0.0.2). General guidance from RDMkit on [how to write a Data Management Plan](https://rdmkit.elixir-europe.org/data_management_plan)
+The ELIXIR-NO instance of the [Data Stewardship Wizard](https://norway.dsw.elixir-europe.org/wizard/) provides support for data management planning for marine metagenomics in Norway. An exemplary Data Management Plan model for marine metagenomics in Norway is available [here](https://norway.dsw.elixir-europe.org/wizard/projects/create?selectedProjectTemplate=e4397aab-67e8-4aec-814a-eeb1399ef492). General guidance from RDMkit on [how to write a Data Management Plan](https://rdmkit.elixir-europe.org/data_management_plan)
 
 #### Data storage
 - The Norwegian e-infrastructure for life sciences (NeLS)
